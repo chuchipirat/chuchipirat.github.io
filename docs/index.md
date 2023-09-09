@@ -5,4 +5,4 @@
 layout: home
 ---
 
-# chuchipirat Helpcenter
+Hier wird dir geholfen.
