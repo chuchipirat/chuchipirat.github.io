@@ -8,6 +8,7 @@ parent: Anlass
 ---
 #todo 
 # Einkaufsliste
+.
 ## Sync
 
 ## Einkaufsliste drucken
