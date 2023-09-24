@@ -5,12 +5,16 @@ nav_exclude: false
 nav_order: 9
 ---
 
-#todo_links
+#todo_image 
+
+{: .placeholder }
+#todo_image Startseite abbilden
+
 Auf der Startseite werden dir die folgenden Dinge angezeigt:
 
 # Nächsten Anlässe
 
-Hier werden alle zukünftigen Anlässe angezeigt, bei welchen du (mit-)kochst. Auch hast du die Möglichkeit, einen neuen anzulegen. Wie du dabei am besten vorgehst, ist unter [[event create]] beschrieben.
+Hier werden alle zukünftigen Anlässe angezeigt, bei welchen du (mit-)kochst. Auch hast du die Möglichkeit, einen neuen anzulegen. Wie du dabei am besten vorgehst, ist unter [Anlass erstellen]({% link docs/event/event/event create.md %}) beschrieben.   {::comment}[[event create]]{:/comment}
 
 # Vergangene Anlässe
 

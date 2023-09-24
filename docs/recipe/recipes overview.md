@@ -6,9 +6,15 @@ parent: Rezepte
 nav_order: 1
 ---
 # Rezeptübersicht
-Rezepte sind der Grundstein eines jeden Menüplans. In der Rezept-Übersicht werden dir alle öffentliche und deine privaten Rezepte angezeigt.
+#todo_languagetool 
+
+In der Rezept-Übersicht werden dir alle öffentliche und deine privaten Rezepte angezeigt.
+
 
 ![Rezept-Übersicht](https://raw.githubusercontent.com/wiki/gcettuzz/chuchipirat/recipe/recipes_overview.png)
+
+https://raw.githubusercontent.com/wiki/gcettuzz/chuchipirat/recipe/recipes_overview.png
+
 
 # Suche
 
@@ -16,9 +22,9 @@ Mit der Suche kannst du aus allen vorhanden Rezepten schnell das gewünschte fin
 
 ## Erweiterte Suche
 
-Mit der _Erweiterten Suche_ kannst du mehr als nur den Text durchsuchen. Sobald du die Schaltfläche anklickst, öffnet sich ein Panel mit diversen Schaltflächen. Je nachdem welche du anklickst, wird das Suchresultat angepasst.
+Mit der _Erweiterten Suche_ kannst du Rezepte nach weiteren Merkmalen durchsuchen. Sobald du die Schaltfläche anklickst, öffnet sich ein Panel mit diversen Schaltflächen. Je nachdem welche du anklickst, wird das Suchresultat angepasst.
 
-![aktivierte erweiterte Suche](https://raw.githubusercontent.com/wiki/gcettuzz/chuchipirat/recipe/recipes_advanced_search.png)
+![aktivierte erweiterte Suche](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/recipe/_images/recipes_advanced_search.png)
 
 ### Einschränkungen
 
@@ -40,7 +46,7 @@ Mit diesem Schalter kannst du dir Rezepte anzeigen lassen, die sich auch drausse
 
 Auf der Karte siehst du folgende Informationen:
 
-![Aufbau Rezeptkarte](https://raw.githubusercontent.com/wiki/gcettuzz/chuchipirat/recipe/recipecard_layout.png)
+![Aufbau Rezeptkarte](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/recipe/_images/recipecard_layout.png)
 
 1. Name des Rezeptes
 2. Bild (falls vorhanden)

@@ -1,3 +1,13 @@
+---
+layout: home
+title: Material
+nav_exclude: false
+nav_order: 2
+has_children: false
+parent: Stammdaten
+---
+# Material
+
 Verschiedene Rezepte benötigen Materialien, die nicht immer in einer Lagerküche vorzufinden sind. Darum kannst du bei den Rezepten benötigtes Material hinterlegen, welches dann auch in die Einkaufsliste oder Materialliste angezeigt wird.
 
 ## Materialtyp
@@ -19,4 +29,6 @@ Der Dialog _Material anlegen_, ermöglicht es dir fehlendes Material anzulegen. 
 
 <kbd> <img src="https://raw.githubusercontent.com/wiki/gcettuzz/chuchipirat/material/create_material.png" alt="Erfassungsmaske neues Material"/> </kbd>
 
-Gib bei der Neuerstellung den Namen und den Materialtyp an. Sobald du auf _Speichern_ klickst, wird das neu erstellte Material im Rezept übernommen.
+Gib bei der Neuerstellung den Namen und den [Materialtyp](#materialtyp) an. Sobald du auf _Speichern_ klickst, wird das neu erstellte Material im Rezept/Menüplan/Einkaufsliste/Materialliste übernommen.
+
+

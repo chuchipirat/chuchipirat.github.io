@@ -6,12 +6,8 @@ nav_exclude: false
 nav_order: 2
 ---
 # Rezeptaufbau
-#todo_infobox
-#todo_link
-
-# Rezept
-
-Die folgende Seite zeigt dir, wie das Rezept im <span style="color:#00bcd4">chuchipirat</span> aufgebaut ist und welche Möglichkeite du von hast.
+#todo_languagetool
+Die folgende Seite zeigt dir, wie das Rezept im chuchipirat aufgebaut ist und welche Möglichkeiten du von hast.
 
 ## Aufbau
 
@@ -33,9 +29,11 @@ Im Zutatenabschnitt siehst du alle benötigten Zutaten sowie deren Mengen (und E
 **Unlogische skalierte Werte?**  
 Werden die Werte skaliert und scheinen diese nicht linear zu sein? Dann wurde bei der entsprechenden Zutat ein abweichender Skalierungsfaktor hinterlegt.
 
-> **❓ Was ist ein Skalierungsfaktor ❓**  
-> Wenn du ein Rezept hochskalierst, werden die Zutaten nicht immer linear skaliert. 
-> Beispiel: Wenn du einen Zopf für 6 Personen bäckst, benötigst du 1 kg Mehl und 1 Ei (zum Bestreichen).  Wenn du nun die doppelte Menge zubereitet (also für 12 Personen) benötigst du 2 kg Mehl, aber es reicht nach wie vor 1 Ei. Denn mit dem einen Ei, kannst du bis zu 3 Zöpfe bestreichen. Darum hat das Ei den Skalierungsfaktor 0,3.
+{: .note-title }
+
+> Was ist ein Skalierungsfaktor?
+> 
+> {% include_relative _includes/scalingfactor.md %}
 
 ### Zubereitung
 
@@ -48,14 +46,20 @@ In diesem Block siehst du, ob du spezielles Material benötigst, um das Rezept z
 ## Funktionen
 
 ### Zu Anlass hinzufügen
+Rufst du die [Rezeptübersicht]({% link docs/recipe/recipes overview.md %}) aus dem Menüplan heraus aus, kannst du das angezeigte Menü auch gleich einer bestimmten Mahlzeit deines Anlasses hinzufügen. Wie das geht ist [hier]({% link docs/event/menueplan/menueplan.md %}) beschrieben. 
 
 ### Skalieren
 
 Die meisten Rezepte sind für 4 Portionen. Du kannst im Rezept über den entsprechenden Button (oder Menüeintrag) das Rezept skalieren. Damit hast du die Möglichkeit, die benötigten Mengen hochzurechnen.
 
-⚠️ Beachte, dass eine Skalierung einige Tücken mit sich bringt. So können die Zubereitungstexte allenfalls nicht mehr stimmen (enthaltene Mengen) und auch die Koch-/Backzeit kann allenfalls variieren.
+{: .important-title }
+
+> 🧐 skalieren ist nicht immer linear
+> 
+> Beachte, dass eine Skalierung einige Tücken mit sich bringt. So können die Zubereitungstexte allenfalls nicht mehr stimmen (enthaltene Mengen) und auch die Koch-/Backzeit kann allenfalls variieren.
 
 ### Eigene Variante erstellen
+Du kannst von einem Rezept eine Anlass-spezifische Variante erstellen. Das kann hilfreich sein, wenn du ein bestehendes Rezept (geringfügig) anpassen willst. Mehr Informationen findest du [hier]({% link docs/recipe/recipe create variant.md %}){::comment}[[recipe create variant]]{:/comment}
 
 ### Druckversion
 
@@ -65,4 +69,5 @@ Die meisten Rezepte sind für 4 Portionen. Du kannst im Rezept über den entspre
 
 Du hast die Möglichkeit, private Rezept wieder zu löschen. Um die Löschung durchzuführen, musst du den Namen des Rezeptes eingeben und die Löschung bestätigen.
 
-⚠️ Achtung: gelöschte Rezepte können nicht wiederhergestellt werden und sind für immer verloren. Löschst du ein Rezept, welches in einem Menüplan eingeplant wurde, wird bei der entsprechenden Mahlzeit ein Hinweis hinterlassen, dass das dazugehörige Rezept gelöscht wurde.
+{: .warning }
+Gelöschte Rezepte können nicht wiederhergestellt werden und sind für immer verloren. Löschst du ein Rezept, welches in einem Menüplan eingeplant wurde, wird bei der entsprechenden Mahlzeit ein Hinweis hinterlassen, dass das dazugehörige Rezept gelöscht wurde.
