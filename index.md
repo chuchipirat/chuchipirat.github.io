@@ -3,11 +3,15 @@ layout: home
 title: Home
 nav_exclude: true
 ---
-#todo_languagetool 
+{::comment}
+  // Link auf ein bestimmter Abschnitt auf einer anderen Seite
+[hier]({% link docs/recipe/recipe create, change.md %}#reihenfolge-der-zutaten-bestimmen)
+{:/comment}
+[comment]: <> Beispiel für einen Link [Anlass erstellen]({% link docs/event/event create.md %})
+
 {: .note }
 Hier folgt in Kürze die aktualisierte Dokumentation zum chuchipirat.
 
-[comment]: <> Beispiel für einen Link [Anlass erstellen]({% link docs/event/event/event create.md %})
 
 Der chuchipirat ist eine Web-Applikation, die Freiwillige in Jugendverbänden in der Planung, Durchführung und Nachbearbeitung von Lagerküchen unterstützt. Das Kochen in grossen Mengen in einem Lager oder Kurs ist gerade in der Vorbereitung aufwendig und erfordert spezifische Kenntnisse, damit nicht nur schmackhaftes, sondern auch Essen in passender Menge serviert werden kann.
 
@@ -19,9 +23,9 @@ Dieses Wiki hilft dir, dich im chuchipirat zurechtzufinden. Du findest hier alle
 
 # Erste Schritte
 
-- Entdecke die  [Startseite]({% link docs/home/home.md %}). Hier kannst du auf deine Anlässe zugreifen oder sehen, was sonst auf dem chuchipirat läuft.
+- Entdecke die [Startseite]({% link docs/home/home.md %}). Hier kannst du auf deine Anlässe zugreifen oder sehen, was sonst auf dem chuchipirat läuft.
   {::comment}[[home]]{:/comment}
-- Lege einen [Anlass]({% link docs/event/event.md %}) an. Falls du bereits Teil eines bestehenden Anlasses bist, kannst du auch gleich im [Menüplan]({% link docs/event/menueplan/menueplan.md %}) mit der Planung beginnen.
+- Lege einen [Anlass]({% link docs/event/event.md %}) an. Falls du bereits Teil eines bestehenden Anlasses bist, kannst du auch gleich im [Menüplan]({% link docs/event/menueplan.md %}) mit der Planung beginnen.
   {::comment}[[event]] [[menueplan]]{:/comment}
 - Ist dein Lieblingsrezept in der [Rezeptübersicht]({% link docs/recipe/recipes overview.md %}) nicht zu finden? Lege ein neues [Rezept]({% link docs/recipe/recipe create, change.md %}) an.
   {::comment}[[recipes overview]] [[recipe create, change]]{:/comment}
@@ -53,15 +57,15 @@ Rezepte sind der Grundstein des chuchipirat.
 {::comment}[[event]]{:/comment}
 Im Anlass findet die Planung statt.
 
-- [Anlass erstellen]({% link docs/event/event/event create.md %})
+- [Anlass erstellen]({% link docs/event/event create.md %})
   {::comment}[[event create]]{:/comment}
-- [Menüplan]({% link docs/event/menueplan/menueplan.md %})
+- [Menüplan]({% link docs/event/menueplan.md %})
   {::comment}[[menueplan]]{:/comment}
-- [Gruppengrösse definieren]({% link docs/event/groupConfiguration/groupconfiguration.md %})
+- [Gruppengrösse definieren]({% link docs/event/groupconfiguration.md %})
   {::comment}[[groupconfiguration]]{:/comment}
-- [Verwendete Rezepte]({% link docs/event/usedRecipes/used recipes.md %})
+- [Verwendete Rezepte]({% link docs/event/used recipes.md %})
   {::comment}[[used recipes]]{:/comment}
-- [Materialliste]({% link docs/event/materialList/materiallist.md %})
+- [Materialliste]({% link docs/event/materiallist.md %})
   {::comment}[[materiallist]]{:/comment}
 
 ### [Profil]({% link docs/profil/profil.md %})

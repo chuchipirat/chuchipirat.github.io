@@ -6,25 +6,29 @@ parent: Rezepte
 nav_order: 1
 ---
 # Rezeptübersicht
-#todo_languagetool 
+{: .no_toc }
+## Inhalt
+{: .no_toc .text-delta }
 
-In der Rezept-Übersicht werden dir alle öffentliche und deine privaten Rezepte angezeigt.
+- TOC
+{:toc}
+
+---
 
 
-![Rezept-Übersicht](https://raw.githubusercontent.com/wiki/gcettuzz/chuchipirat/recipe/recipes_overview.png)
+In der Rezeptübersicht werden dir alle öffentliche und deine privaten Rezepte angezeigt.
 
-https://raw.githubusercontent.com/wiki/gcettuzz/chuchipirat/recipe/recipes_overview.png
-
+![Rezeptübersicht](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/recipe/_images/recipes_overview.png?raw=true)
 
 # Suche
 
-Mit der Suche kannst du aus allen vorhanden Rezepten schnell das gewünschte finden. Gibt im Textfeld dein Suchbegriff ein und das Resultat wird entsprechend angepasst. Bei der Textsuche werden neben dem Name des Rezeptes auch die Tags durchsucht.
+Mit der Suche kannst du aus allen vorhanden Rezepten schnell das gewünschte finden. Gibt im Textfeld dein Suchbegriff ein und das Resultat wird entsprechend angepasst. Bei der Textsuche werden neben dem Namen des Rezeptes auch die Tags durchsucht.
 
 ## Erweiterte Suche
 
-Mit der _Erweiterten Suche_ kannst du Rezepte nach weiteren Merkmalen durchsuchen. Sobald du die Schaltfläche anklickst, öffnet sich ein Panel mit diversen Schaltflächen. Je nachdem welche du anklickst, wird das Suchresultat angepasst.
+Mit der _Erweiterten Suche_ kannst du Rezepte nach weiteren Merkmalen durchsuchen. Sobald du die Schaltfläche anklickst, öffnet sich ein Panel mit diversen Schaltflächen. Je nachdem, welche du anklickst, wird das Suchresultat angepasst.
 
-![aktivierte erweiterte Suche](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/recipe/_images/recipes_advanced_search.png)
+![erweiterte Suche](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/recipe/_images/recipes_advanced_search.png?raw=true)
 
 ### Einschränkungen
 
@@ -36,7 +40,7 @@ Klickst du auf eine der Schaltflächen, werden nur Rezepte angezeigt, welche fü
 
 ### Menütyp
 
-Suchst du nach einer passenden Beilage oder nach einem Zvieri? Mit der Einschränkung nach Menütyp, kannst du dich inspirieren lassen.
+Suchst du nach einer passenden Beilage oder nach einem Zvieri? Mit der Einschränkung nach Menütyp kannst du dich inspirieren lassen.
 
 ### Geeignet für Outdoor-Küche
 
@@ -46,11 +50,11 @@ Mit diesem Schalter kannst du dir Rezepte anzeigen lassen, die sich auch drausse
 
 Auf der Karte siehst du folgende Informationen:
 
-![Aufbau Rezeptkarte](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/recipe/_images/recipecard_layout.png)
+![Rezeptübersicht](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/recipe/_images/recipecard_layout.png?raw=true)
 
 1. Name des Rezeptes
 2. Bild (falls vorhanden)
-3. Hinweis Privates Rezept
+3. Hinweis privates Rezept
 4. Quelle (woher stammt das Rezept)
 5. Informationen zu Unverträglichkeiten und Diäten (falls vorhanden)
 6. Durchschnittliche Bewertung des Rezeptes

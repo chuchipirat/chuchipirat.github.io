@@ -7,6 +7,14 @@ has_children: false
 parent: Stammdaten
 ---
 # Material
+{: .no_toc }
+## Inhalt
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
+
+---
 
 Verschiedene Rezepte benötigen Materialien, die nicht immer in einer Lagerküche vorzufinden sind. Darum kannst du bei den Rezepten benötigtes Material hinterlegen, welches dann auch in die Einkaufsliste oder Materialliste angezeigt wird.
 
@@ -31,4 +39,7 @@ Der Dialog _Material anlegen_, ermöglicht es dir fehlendes Material anzulegen. 
 
 Gib bei der Neuerstellung den Namen und den [Materialtyp](#materialtyp) an. Sobald du auf _Speichern_ klickst, wird das neu erstellte Material im Rezept/Menüplan/Einkaufsliste/Materialliste übernommen.
 
-
+{: .note-title }
+> Nicht sicher?
+>
+>Keine Sorge. Die neu erfassten Materialien werden von den Community-Leadern gegengeprüft um sicherzustellen, dass die gewählten Einstellungen für dich und andere nicht zu bösen Überraschungen führt. 

@@ -8,7 +8,15 @@ parent: Anlass
 ---
 #todo 
 # Einkaufsliste
-.
+{: .no_toc }
+## Inhalt
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
+
+---
+
 ## Sync
 
 ## Einkaufsliste drucken

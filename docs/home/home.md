@@ -4,6 +4,15 @@ title: Startseite
 nav_exclude: false
 nav_order: 9
 ---
+# Startbildschirm
+{: .no_toc }
+## Inhalt
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
+
+---
 
 #todo_image 
 
@@ -14,7 +23,7 @@ Auf der Startseite werden dir die folgenden Dinge angezeigt:
 
 # Nächsten Anlässe
 
-Hier werden alle zukünftigen Anlässe angezeigt, bei welchen du (mit-)kochst. Auch hast du die Möglichkeit, einen neuen anzulegen. Wie du dabei am besten vorgehst, ist unter [Anlass erstellen]({% link docs/event/event/event create.md %}) beschrieben.   {::comment}[[event create]]{:/comment}
+Hier werden alle zukünftigen Anlässe angezeigt, bei welchen du (mit-)kochst. Auch hast du die Möglichkeit, einen neuen anzulegen. Wie du dabei am besten vorgehst, ist unter [Anlass erstellen]({% link docs/event/event create.md %}) beschrieben.   {::comment}[[event create]]{:/comment}
 
 # Vergangene Anlässe
 

@@ -6,7 +6,15 @@ nav_exclude: false
 nav_order: 2
 ---
 # Rezeptaufbau
-#todo_languagetool
+{: .no_toc }
+## Inhalt
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
+
+---
+
 Die folgende Seite zeigt dir, wie das Rezept im chuchipirat aufgebaut ist und welche Möglichkeiten du von hast.
 
 ## Aufbau
@@ -24,7 +32,7 @@ Im Abschnitt _Tipps & Tags_ siehst du Hinweise/Tipps. Die Tags werden bei der Su
 
 ### Zutaten
 
-Im Zutatenabschnitt siehst du alle benötigten Zutaten sowie deren Mengen (und Einheiten). Wurde das Rezept skaliert siehst du die original- sowie die skalierten Mengen.
+Im Zutatenabschnitt siehst du alle benötigten Zutaten sowie deren Mengen (und Einheiten). Wurde das Rezept, skaliert siehst du die original- sowie die skalierten Mengen.
 
 **Unlogische skalierte Werte?**  
 Werden die Werte skaliert und scheinen diese nicht linear zu sein? Dann wurde bei der entsprechenden Zutat ein abweichender Skalierungsfaktor hinterlegt.
@@ -46,7 +54,7 @@ In diesem Block siehst du, ob du spezielles Material benötigst, um das Rezept z
 ## Funktionen
 
 ### Zu Anlass hinzufügen
-Rufst du die [Rezeptübersicht]({% link docs/recipe/recipes overview.md %}) aus dem Menüplan heraus aus, kannst du das angezeigte Menü auch gleich einer bestimmten Mahlzeit deines Anlasses hinzufügen. Wie das geht ist [hier]({% link docs/event/menueplan/menueplan.md %}) beschrieben. 
+Rufst du die [Rezeptübersicht]({% link docs/recipe/recipes overview.md %}) aus dem Menüplan heraus aus, kannst du das angezeigte Menü auch gleich einer bestimmten Mahlzeit deines Anlasses hinzufügen. Wie das geht, ist [hier]({% link docs/event/menueplan.md %}) beschrieben. 
 
 ### Skalieren
 
@@ -67,7 +75,7 @@ Du kannst von einem Rezept eine Anlass-spezifische Variante erstellen. Das kann 
 
 ### Rezept löschen
 
-Du hast die Möglichkeit, private Rezept wieder zu löschen. Um die Löschung durchzuführen, musst du den Namen des Rezeptes eingeben und die Löschung bestätigen.
+Du hast die Möglichkeit, private Rezept zu löschen. Um die Löschung durchzuführen, musst du den Namen des Rezeptes eingeben und die Löschung bestätigen.
 
 {: .warning }
 Gelöschte Rezepte können nicht wiederhergestellt werden und sind für immer verloren. Löschst du ein Rezept, welches in einem Menüplan eingeplant wurde, wird bei der entsprechenden Mahlzeit ein Hinweis hinterlassen, dass das dazugehörige Rezept gelöscht wurde.
