@@ -28,8 +28,8 @@ Im Abschnitt mit dem Namen siehst du bei öffentlichen Rezepten ein Rating. Du k
 ### Informationen
 
 Im Abschnitt Informationen siehst du grundlegende Information wie die Zeit für die Zubereitung, die Quelle sowie die Diät-Infos. Die Diät-Infos werden automatisch ermittelt anhand der benötigten Zutaten.
-Im Abschnitt _Tipps & Tags_ siehst du Hinweise/Tipps. Die Tags werden bei der Suche in der [[recipes overview]] berücksichtigt.
-
+Im Abschnitt _Tipps & Tags_ siehst du Hinweise/Tipps. Die Tags werden bei der Suche in der [Rezeptübersicht]({% link docs/recipe/recipes overview.md %}) berücksichtigt.
+{::comment}[[recipes overview]]{:/comment}
 ### Zutaten
 
 Im Zutatenabschnitt siehst du alle benötigten Zutaten sowie deren Mengen (und Einheiten). Wurde das Rezept, skaliert siehst du die original- sowie die skalierten Mengen.
@@ -55,10 +55,19 @@ In diesem Block siehst du, ob du spezielles Material benötigst, um das Rezept z
 
 ### Zu Anlass hinzufügen
 Rufst du die [Rezeptübersicht]({% link docs/recipe/recipes overview.md %}) aus dem Menüplan heraus aus, kannst du das angezeigte Menü auch gleich einer bestimmten Mahlzeit deines Anlasses hinzufügen. Wie das geht, ist [hier]({% link docs/event/menueplan.md %}) beschrieben. 
-
+{::comment}[[recipes overview]][[menueplan]]{:/comment}
 ### Skalieren
 
 Die meisten Rezepte sind für 4 Portionen. Du kannst im Rezept über den entsprechenden Button (oder Menüeintrag) das Rezept skalieren. Damit hast du die Möglichkeit, die benötigten Mengen hochzurechnen.
+
+Beim Skalieren hast du die Möglichkeit, Einheiten umrechnen zu lassen. So wird zum Beispiel versucht, die Menge in Ess- und Teelöffeln in das metrische System umzurechnen. Dies ist vor allem dann praktisch, wenn du nicht 45 Esslöffel Öl abmessen, sondern einfach 675 ml in einen Messbecher abfüllen möchtest.
+
+{: .note-title }
+
+> Wie funktioniert das?
+> 
+>  Mit Lebensmittel ist eine Einkaufseinheit hinterlegt. Der chuchipirat versucht nun Anhand der Mengenumrechnung die Menge in die Einkaufseinheit umzurechnen. Dafür bedient er sich der hinterlegten [Mengenumrechnungen]({% link docs/masterdata/unitconversion.md %}).
+{::comment}[[unitconversion]]{:/comment}
 
 {: .important-title }
 
@@ -71,7 +80,8 @@ Du kannst von einem Rezept eine Anlass-spezifische Variante erstellen. Das kann 
 
 ### Druckversion
 
-Über diese Funktion kannst du das Rezept als PDF herunterladen. Möchtest du alle Rezepte, welche du in deinem Menüplan hast als PDF herunterladen? Im Abschnitt [[recipe print]] ist beschrieben, wie das geht.
+Über diese Funktion kannst du das Rezept als PDF herunterladen. Möchtest du alle Rezepte, welche du in deinem Menüplan hast als PDF herunterladen? Im Abschnitt [Verwendete Rezepte]({% link docs/event/used recipes.md %}) ist beschrieben, wie das geht.
+{::comment}[[used recipes]]{:/comment}
 
 ### Rezept löschen
 

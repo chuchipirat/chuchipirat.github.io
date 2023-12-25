@@ -31,11 +31,6 @@ Zuerst werden die Eckdaten deines Anlasses benötigt.
 {: .note }
 > Du kannst alle Daten jederzeit wieder ändern.
 
-
-```
-![Anlass erstellen - Informationen](https://raw.githubusercontent.com/wiki/gcettuzz/chuchipirat/event/create_event_information.png)
-```
-
 ![Anlass erstellen](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/event/_images/create_event_information.png?raw=true)
 
 Du siehst folgende Felder:
@@ -78,11 +73,9 @@ Bevor du zum nächsten Schritt gelangst, werden deine Eingaben geprüft. Dabei w
 
 In diesem Schritt hinterlegst du, für welche Ernährungsgruppen du planst. Als Vorschlag werden dir Gruppen _Fleisch_ und _Vegetarisch_ erstellt. Sowie die Unverträglichkeitsgruppen _ohne Unverträglichkeit_, _Laktoseintoleranz_ und _Glutenunverträglichkeit_. Du hast die Möglichkeit weitere Ernährungsgruppen und Unverträglichkeiten zu erfassen oder die vorgeschlagenen zu löschen. Wenn du mit diesen Gruppen arbeitest, hast du im [Menüplan]({% link docs/event/menueplan.md %}) die Möglichkeit die geplanten Rezepte mit einer Ernährungsgruppe und/oder Intoleranz zu verknüpfen. So kannst du auch kurz vor dem Anlass die Gruppengrösse anpassen und die Rezepte sind entsprechend der (Teil-)Gruppen richtig skaliert. {::comment}[[menueplan]]{:/comment}
 
-```
-![Anlass erstellen - Informationen](https://raw.githubusercontent.com/wiki/gcettuzz/chuchipirat/event/create_event_groupConfig.png)
-```
 
-![Informationen zur Mengenberechnung](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/ event/_images/create_event_groupConfig.png?raw=true)
+![Informationen zur Mengenberechnung](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/event/_images/create_event_groupConfig.png?raw=true)
+
 
 {: .highlight }
 Falls dir das mit den Gruppen zu kompliziert ist, kannst du deine Gruppengrösse auch einfach im ersten Feld hinterlegen und alle anderen leer lassen.

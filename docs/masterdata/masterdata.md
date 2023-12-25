@@ -20,7 +20,7 @@ has_children: true
 Im chuchipirat triffst du auf verschiedene Stammdaten. Diese sind nötig, damit die Applikation funktioniert. Details zu den verschiedenen Daten findest du auf der entsprechenden Seiten.
 
 * [Produkte]({% link docs/masterdata/products.md %})  
-  Der Grundbaustein eines jeden Rezeptes. Das Produkt stellt dabei immer ein Lebensmittel dar. {::comment}[[products]]{:/comment}
+  Der Grundbaustein eines jeden Rezeptes. Das Produkt stellt dabei immer ein Lebensmittel dar. {::comment}[[docs/masterdata/products]]{:/comment}
 * [Material]({% link docs/masterdata/material.md %})  
   Manchmal braucht man für ein Rezept zusätzliches Material. 
 
