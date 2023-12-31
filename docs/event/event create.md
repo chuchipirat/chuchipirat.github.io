@@ -36,7 +36,7 @@ Zuerst werden die Eckdaten deines Anlasses benötigt.
 Du siehst folgende Felder:
 
 - **Name \***  
-  Der Name deines Anlasses. Dieser vereinfacht die Wiedererkennung, eines bestimmten Anlasses, sobald du mehrere Anlässe planst. Hier ein paar Beispiele wie ein Anlass heissen kann: _Sola 2023, GLK A 2022, Pfila 23, Leiterweekend 23_.
+  Der Name deines Anlasses. Dieser vereinfacht die Wiedererkennung, eines bestimmten Anlasses, sobald du mehrere Anlässe planst. Hier ein paar Beispiele wie ein Anlass heissen kann: _Sola 2024, GLK A 2022, Pfila 24, Leiterweekend 24_.
 - **Motto**  
   Falls dein Anlass ein Motto hat, kannst du diese in diesem Feld festhalten. Die Information hat keine steuernde Wirkung im chuchipirat. Heisst: es spielt keine Rolle, ob du dieses Feld pflegst oder nicht. Dies dient lediglich, falls du dich erinnern willst, was an diesem Anlass das Motto war. 
 - **Ort**  

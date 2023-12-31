@@ -6,7 +6,6 @@ has_children: false
 nav_order: 5
 parent: Anlass
 ---
-#todo 
 # Einkaufsliste
 {: .no_toc }
 ## Inhalt
@@ -19,7 +18,7 @@ parent: Anlass
 Im Reiter Einkaufsliste kannst du dir automatisch Einkaufslisten generieren lassen. Dabei wird anhand der geplanten Menüs im Menüplan die Mengen der genutzten Produkte zusammengetragen und in einer Einkaufsliste aufgelistet. Sortiert nach den Abteilungen, in denen du die Artikel im Laden findest.
 
 ## Einkaufsliste erstellen
-Um eine neue Einkaufsliste zu erstellen, klicke auf den Button `Neue Liste erstellen`. Im nächsten Dialogfenster wählst du die Menüs, die du für die Generierung der Einkaufsliste berücksichtigen möchtest.
+Um eine neue Einkaufsliste zu erstellen, klicke auf den Button `Neue Liste`. Im nächsten Dialogfenster wählst du die Menüs, die du für die Generierung der Einkaufsliste berücksichtigen möchtest.
 
 ![Menüauswahl für die Erstellung einer Einkaufsliste](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/event/_images/shoppingList_choose_menue.png?raw=true)
 _Auswahl der Menüs._
@@ -33,7 +32,7 @@ Sobald du die Auswahl bestätigt hast, kannst du der Liste einen Namen geben.
 
 ### Wie wird die Einkaufsliste generiert?
 Für die Generierung der Liste werden alle Rezepte der gewählten Menüs berücksichtigt. Die Rezepte werden auf die hinterlegten Anzahl-Portionen skaliert. Die skalierten Mengen werden dann in der Liste aufgenommen und nach Produkt und Einheit gruppiert und zusammen summiert. Wenn die Zwiebeln zum Beispiel in mehreren Rezepten vorkommen, werden alle Mengen zusammengefügt und in der Einkaufsliste als eine Position angezeigt. Wo immer möglich werden die Mengen in die «Einkaufseinheit» umgerechnet.
-Bei den Materialien werden nur die Materialien vom Typ [Gebrauchsmaterial]({% link docs/masterdata/material.md %}#gebrauchsmaterial) in die Einkaufsliste aufgenommen. Die anderen landen in der [Materialliste]({% link docs/event/materiallist.md %}). Selbstverständlich hast du die Möglichkeit, ein Material vom Typ Gebrauchsmaterial manuell in die Einkaufsliste hinzuzufügen.
+Bei den Materialien werden nur die Materialien vom Typ [Gebrauchsmaterial]({% link docs/masterdata/material.md %}#gebrauchsmaterial) automatisch in die Einkaufsliste aufgenommen. Die anderen landen in der [Materialliste]({% link docs/event/materiallist.md %}). Selbstverständlich hast du die Möglichkeit, ein Material vom Typ Gebrauchsmaterial manuell in die Einkaufsliste hinzuzufügen.
   {::comment}[[material]][[materiallist]]{:/comment}
 
 {: .important-title } 
@@ -42,13 +41,13 @@ Bei den Materialien werden nur die Materialien vom Typ [Gebrauchsmaterial]({% li
 > Wenn ein Produkt in verschiedenen Rezepten mit unterschiedlichen Einheiten hinterlegt wird und diese nicht ineinander konvertiert werden können, werden diese in der Einkaufsliste nicht auf eine Position reduziert. Wenn ein Rezept beispielsweise 4 Rüebli benötigt und ein anderes 200 g, so können diese beiden unterschiedliche Einheiten (Stück und g) nicht vereinheitlicht werden.
 
 ## Produkte hinzufügen
-Um einzelne Produkte hinzuzufügen, klicke auf die Schaltfläche `Artikel hinzufügen`. Im nächsten Fenster kannst du das gewünschte Produkt auswählen. Du kannst auch eine Menge und Einheit hinterlegen. Wenn es bereits einen Eintrag in der Einkaufsliste mit diesem Produkt und Einheit gibt, frag dich der chuchipirat, ob du die neue Menge dazuzählen oder den bestehenden Listeneintrag mit der neuen Menge überschreiben willst.
+Um einzelne Produkte hinzuzufügen, klicke auf die Schaltfläche `Artikel hinzufügen`. Im nächsten Fenster kannst du das gewünschte Produkt auswählen. Du kannst auch eine Menge und Einheit hinterlegen. Wenn es bereits einen Eintrag in der Einkaufsliste mit diesem Produkt und Einheit gibt, wird der chuchipirat dich fragen, ob du die neue Menge dazuzählen oder den bestehenden Listeneintrag mit der neuen Menge überschreiben möchtest.
 
 ## Liste aktualisieren
 Wenn du nach der Erstellung der Liste etwas am Menüplan änderst, kann es sein, dass die Mengen und Artikel in der Einkaufsliste nicht mehr stimmen. Der chuchipirat warnt dich mit einer Meldung, dass eine Aktualisierung notwendig ist.
 
 ![Warnung, dass Einkaufsliste aktualisiert werden muss. ](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/event/_images/shoppingList_refresh_needed.png?raw=true)
-Warnung, dass Einkaufsliste aktualisiert werden muss_
+Warnung, dass die Einkaufsliste aktualisiert werden muss._
 
 Klicke dafür auf den Button `Aktualisieren`. Wenn du in der zu aktualisierenden Liste manuell hinzugefügte Artikel hast, fragt dich der chuchipirat, ob du diese Einträge behalten möchtest oder ob diese mit der Aktualisierung gelöscht werden sollen. Wähle hierfür den entsprechenden Button. Das System berechnet danach die Einkaufsliste anhand des Menüplans neu.
 ## Positionen löschen/ändern
@@ -61,7 +60,7 @@ Wenn du nun einkaufen gehst, hast du zwei Möglichkeiten. Du kannst die Liste al
 > Damit das Live-Einkaufen funktioniert, muss das entsprechende Gerät auch mit dem Internet verbunden sein.
 
 ### Produktnachverfolgung
-Wenn du im Laden stehst und dich fragst, warum ein bestimmtes Produkt auf der Einkaufsliste steht, kannst du mit der Produktnachverfolgung auf einfache Weise Herausfinden, wie es den Weg auf die Einkaufsliste geschafft hat. Klicke dafür auf die 3 vertikalen Punkte und wähle im Kontextmenü den Eintrag `Woher stammt dieses Produkt?` aus. Der chuchipirat listet dir nun jedes Rezept und Menü aus, das dieses Produkt verwendet.
+Wenn du im Laden stehst und dich fragst, warum ein bestimmtes Produkt auf der Einkaufsliste steht, kannst du mit der Produktnachverfolgung auf einfache Weise herausfinden, wie es den Weg auf die Einkaufsliste geschafft hat. Klicke dafür auf die 3 vertikalen Punkte und wähle im Kontextmenü den Eintrag `Woher stammt dieses Produkt?` aus. Der chuchipirat listet dir nun jedes Rezept und Menü aus, das dieses Produkt verwendet.
 
 ### Einkaufsliste drucken
 Um die Einkaufsliste als PDF zu exportieren, wähle die Liste und klicke auf den Button `Druckversion`.
