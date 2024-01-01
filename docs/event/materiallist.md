@@ -42,13 +42,18 @@ Die Materialien vom Typ [«Verbrauchsmaterial»]({% link docs/masterdata/materia
 
 Um einzelne Materialien hinzuzufügen, klicke auf die Schaltfläche `Material hinzufügen`. Im nächsten Fenster kannst du das benötigte Material auswählen. Falls es das gewünschte Material bisher nicht gibt, kannst du auch ein neues anlegen.
 
+## Listenname ändern
+Du kannst den Namen der Liste ändern, indem du neben dem Listeneintrag auf den Bleistift klickst und den Namen nach Belieben änderst.
+## Liste löschen
+Um eine generierte Liste zu löschen, klicke auf das Abfalleimer-Symbol. Beachte, dass gelöschte Listen nicht wiederhergestellt werden können. Falls du eine Liste versehentlich löschst, musst du sie neu erstellen.
+
 ## Liste aktualisieren  
 
 Wenn du nach der Erstellung der Liste etwas am Menüplan änderst, kann es sein, dass die Mengen und Materialien in der Materialliste nicht mehr stimmen. Der chuchipirat warnt dich mit einer Meldung, dass eine Aktualisierung notwendig ist.
 
 
 ![Warnung, dass Materialliste aktualisiert werden muss. ](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/event/_images/materialList_refresh_needed.png?raw=true)
-Warnung, dass die Einkaufsliste aktualisiert werden muss._
+_Warnung, dass die Einkaufsliste aktualisiert werden muss._
 
 Klicke dazu auf den Button `Aktualisieren`. Wenn du in der zu aktualisierenden Liste manuell hinzugefügte Materialien hast, fragt dich der chuchipirat, ob du diese Einträge behalten möchtest oder ob diese mit der Aktualisierung gelöscht werden sollen. Wähle hierfür den entsprechenden Button. Das System berechnet danach die Materialliste anhand des Menüplans neu.
 
