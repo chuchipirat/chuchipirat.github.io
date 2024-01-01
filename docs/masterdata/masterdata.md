@@ -23,5 +23,6 @@ Im chuchipirat triffst du auf verschiedene Stammdaten. Diese sind nötig, damit 
   Der Grundbaustein eines jeden Rezeptes. Das Produkt stellt dabei immer ein Lebensmittel dar. {::comment}[[docs/masterdata/products]]{:/comment}
 * [Material]({% link docs/masterdata/material.md %})  
   Manchmal braucht man für ein Rezept zusätzliches Material. 
+    {::comment}[[material]]{:/comment}
 
 
