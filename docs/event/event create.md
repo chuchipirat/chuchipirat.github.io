@@ -5,11 +5,6 @@ nav_exclude: false
 parent: Anlass
 nav_order: 1
 ---
-
-#todo_links
-#todo_languagetool 
-#todo_image 
-
 # Anlass erstellen
 {: .no_toc }
 
@@ -21,12 +16,11 @@ nav_order: 1
 
 ---
 
-Einen neuen Anlass erstellst du über den [Startbildschirm]({% link docs/home/home.md %}). Klicke dafür auf die den Button *Anlass erstellen*.
-  {::comment}[[home]] {:/comment}
+Um einen neuen Anlass zu erstellen, navigiere zum [Startbildschirm]({% link docs/home/home.md %}) und klicke auf den Button `Anlass erstellen`.
+{::comment}[[home]] {:/comment}
 
 ## Informationen zum Anlass
-
-Zuerst werden die Eckdaten deines Anlasses benötigt.
+Beginne mit der Eingabe der grundlegenden Informationen für deinen Anlass.
 
 {: .note }
 > Du kannst alle Daten jederzeit wieder ändern.
@@ -46,54 +40,50 @@ Du siehst folgende Felder:
   Falls du nur einen eintägigen Anlass planst, gib im Von- und Bis-Datum den gleichen Wert ein.
   {::comment}[[menueplan]]{:/comment}
 
-Alle Felder mit einem Stern (\*) sind Pflichtfelder. Du kannst den Anlass erst erstellen, wenn die Werte hinterlegt sind und keine inhaltlichen Fehler festgestellt werden.
+Alle Felder mit einem Stern (\*) sind Pflichtfelder. Der Anlass kann erst erstellt werden, wenn alle Werte eingetragen sind und keine inhaltlichen Fehler festgestellt werden.
 
 ### Küchenmannschaft
-
-In diesem Abschnitt kannst du weitere Personen, hinzufügen, welche mit dir die Planung durchführen. Nur Personen, die in diesem Abschnitt hinterlegt sind, können diesen Anlass sehen und bearbeiten
-
+In diesem Abschnitt fügst du Personen hinzu, die die Planung mit dir durchführen. Nur diese Personen können den Anlass sehen und bearbeiten.
 
 {: .highlight-title }
 > Person hinzufügen
 >
->Beachte, dass nur Personen hinzugefügt werden können, die bereits einen chuchipirat-User besitzen.
-
-
+>Beachte, dass nur Personen mit einem vorhandenen chuchipirat-Benutzer hinzugefügt werden können.
 
 ### Prüfung der eingegeben Daten
 
 Bevor du zum nächsten Schritt gelangst, werden deine Eingaben geprüft. Dabei werden folgende Eingaben überprüft:
 
-- Alle Mussfelder wurden ausgefüllt.
-- Bei den Daten ist jeweils ein Von- und Bis Datum eingegeben.
-- Das Von- Datum ist kleiner oder gleich das Bis-Datum.
-- Bei mehreren Datumseinträge wird geprüft, dass sich die einzelnen Zeitabschnitte nicht überschneiden.
+- Alle Pflichtfelder sind ausgefüllt.
+- Die Daten haben gültige Von- und Bis-Datumsangaben.
+- Bei mehreren Datumseinträgen überlappen sich die Zeitabschnitte nicht.
 
 ## Informationen zur Mengenberechnung
-
-In diesem Schritt hinterlegst du, für welche Ernährungsgruppen du planst. Als Vorschlag werden dir Gruppen _Fleisch_ und _Vegetarisch_ erstellt. Sowie die Unverträglichkeitsgruppen _ohne Unverträglichkeit_, _Laktoseintoleranz_ und _Glutenunverträglichkeit_. Du hast die Möglichkeit weitere Ernährungsgruppen und Unverträglichkeiten zu erfassen oder die vorgeschlagenen zu löschen. Wenn du mit diesen Gruppen arbeitest, hast du im [Menüplan]({% link docs/event/menueplan.md %}) die Möglichkeit die geplanten Rezepte mit einer Ernährungsgruppe und/oder Intoleranz zu verknüpfen. So kannst du auch kurz vor dem Anlass die Gruppengrösse anpassen und die Rezepte sind entsprechend der (Teil-)Gruppen richtig skaliert. {::comment}[[menueplan]]{:/comment}
+In diesem Schritt legst du fest, für welche Ernährungsgruppen du planst. Standardmässig gibt es Gruppen wie _Fleisch_, _Vegetarisch_, _ohne Unverträglichkeit_, _Laktoseintoleranz_ und _Glutenunverträglichkeit_. Du kannst weitere Gruppen hinzufügen oder die vorgeschlagenen löschen.
+Wenn du mit Gruppen arbeitest, kannst du im [Menüplan]({% link docs/event/menueplan.md %}) die Rezepte mit Gruppen und/oder Intoleranzen verknüpfen, um kurz vor dem Anlass die Gruppengrösse anzupassen.
+{::comment}[[menueplan]]{:/comment}
 
 
 ![Informationen zur Mengenberechnung](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/event/_images/create_event_groupConfig.png?raw=true)
 
 
 {: .highlight }
-Falls dir das mit den Gruppen zu kompliziert ist, kannst du deine Gruppengrösse auch einfach im ersten Feld hinterlegen und alle anderen leer lassen.
+Wenn dir das mit den Gruppen zu kompliziert erscheint, kannst du einfach die Gruppengrösse im ersten Feld hinterlegen und die anderen Felder leer lassen.
 
 {: .note-title }
 
 > Anzahl Portionen
 >
->Die Anzahl Portionen, die du hier eingibst, sind die Grundlage für die Mengenberechnung. Keine Sorge: du kannst die Portionen jederzeit anpassen. Die Mengenberechnung wird automatisch bei jeder Änderung neu durchgeführt.
+>Die hier eingetragene Anzahl Portionen bildet die Grundlage für die Mengenberechnung. Du kannst die Portionen jederzeit anpassen. Die Mengenberechnung wird automatisch bei jeder Änderung aktualisiert.
 
-In der letzten Zeile und Spalte werden die Werte summiert. Dies gibt dir einen Anhaltspunkt, ob die eingegebenen Werte mit deiner Gruppengrösse übereinstimmen können.
+In der letzten Zeile und Spalte werden die Werte summiert, um dir einen Überblick über die Gesamtanzahl der Portionen zu geben.
 
 ### Neue Ernährungs- oder Unverträglichkeitsgruppe erstellen
 
-Um eine neue Gruppe zu erstellen, klicke auf das Plus (*+*) in den Gruppenüberschriften respektive auf den Button *+ Unverträglichkeit*. Gib der Gruppe einen passenden Namen und bestätige mit *OK*.
+Um eine neue Gruppe zu erstellen, klicke auf das Plus (`+`) in den Gruppenüberschriften oder den Button `+ Unverträglichkeit`. Gib der Gruppe einen passenden Namen und bestätige mit `OK`.
 
 ## Ernährungs- oder Unverträglichkeitsgruppe umbenennen oder löschen
 
 Um eine Gruppe zu ändern/löschen, klicke auf die 3 vertikalen Punkte und wähle den entsprechenden Eintrag aus dem Menü.
 
-Mit einem Klick auf Weiter gelangst du zum [Menüplan]({% link docs/event/menueplan.md %}).   {::comment}[[menueplan]]{:/comment}
+Mit einem Klick auf `Weiter` gelangst du zum [Menüplan]({% link docs/event/menueplan.md %}).   {::comment}[[menueplan]]{:/comment}

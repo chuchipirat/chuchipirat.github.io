@@ -5,8 +5,6 @@ nav_exclude: false
 nav_order: 4
 has_children: true
 ---
-#todo_languagetool 
-
 # Stammdaten
 {: .no_toc }
 ## Inhalt
@@ -17,12 +15,10 @@ has_children: true
 
 ---
 
-Im chuchipirat triffst du auf verschiedene Stammdaten. Diese sind nötig, damit die Applikation funktioniert. Details zu den verschiedenen Daten findest du auf der entsprechenden Seiten.
+Im chuchipirat triffst du auf verschiedene Stammdaten, die für das reibungslose Funktionieren der Applikation notwendig sind. Weitere Details zu den verschiedenen Daten findest du auf den entsprechenden Seiten.
 
-* [Produkte]({% link docs/masterdata/products.md %})  
-  Der Grundbaustein eines jeden Rezeptes. Das Produkt stellt dabei immer ein Lebensmittel dar. {::comment}[[docs/masterdata/products]]{:/comment}
-* [Material]({% link docs/masterdata/material.md %})  
-  Manchmal braucht man für ein Rezept zusätzliches Material. 
-    {::comment}[[material]]{:/comment}
-
-
+* **[Produkte]({% link docs/masterdata/products.md %}):** Der Grundbaustein eines jeden Rezeptes. Hierbei repräsentiert das Produkt immer ein Lebensmittel.{::comment}[[docs/masterdata/products]]{:/comment}
+  
+* **[Material]({% link docs/masterdata/material.md %}):** Manchmal benötigt man für ein Rezept zusätzliches Material. {::comment}[[material]]{:/comment}
+  
+* **[Einheitenumrechung]({% link docs/masterdata/unitconversion.md %}):** Hier wird die gesamte Magie für die Umrechnung von Produkten und Einheiten hinterlegt. {::comment}[[unitconversion]]{:/comment}

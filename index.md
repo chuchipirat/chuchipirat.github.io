@@ -3,11 +3,7 @@ layout: home
 title: Home
 nav_exclude: true
 ---
-{::comment}
-  // Link auf ein bestimmter Abschnitt auf einer anderen Seite
-[hier]({% link docs/recipe/recipe create, change.md %}#reihenfolge-der-zutaten-bestimmen)
-{:/comment}
-[comment]: <> Beispiel für einen Link [Anlass erstellen]({% link docs/event/event create.md %})
+#todo 
 
 {: .note }
 Hier folgt in Kürze die aktualisierte Dokumentation zum chuchipirat.

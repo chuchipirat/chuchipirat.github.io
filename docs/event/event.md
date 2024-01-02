@@ -3,9 +3,8 @@ layout: home
 title: Anlass
 nav_exclude: false
 has_children: true
-nav_order: 2
+nav_order: 3
 ---
-#todo_links #todo_languagetool 
 # Anlass
 {: .no_toc }
 ## Inhalt
@@ -15,22 +14,22 @@ nav_order: 2
 {:toc}
 
 ---
+Der Anlass bildet das Herzstück deiner Planung und bietet verschiedene Funktionen:
 
-Der Anlass ist Dreh und Angelpunkt deiner Planung. In diesem werden die folgenden Funktionen zur Verfügung gestellt:
+ * **[Menüplan]({% link docs/event/menueplan.md %}):** Hier planst du, wann welches Rezept für wen zubereitet wird.
 
-- [Menüplan]({% link docs/event/menueplan.md %})  
-- [Einstellungen Mengenberechnung]({% link docs/event/groupconfiguration.md %})
-- [verwendete Rezepte]({% link docs/event/used recipes.md %})
-- [Einkaufsliste]({% link docs/event/shoppinglist.md %})
-- [Materialliste]({% link docs/event/materiallist.md %})
-- [Infos zum Anlass]({% link docs/event/event settings.md %})
+- **[Einstellungen Mengenberechnung]({% link docs/event/groupconfiguration.md %}):** Definiere hier die Gruppengrösse und -zusammenstellung deines Anlasses.
+
+- **[Verwendete Rezepte]({% link docs/event/used recipes.md %}):** Generiere hier alle Rezepte in der richtigen Skalierung, die du für deinen Anlass geplant hast.
+
+- **[Einkaufsliste]({% link docs/event/shoppinglist.md %}):** Erst hier die Einkaufsliste auf Knopfdruck basierend auf den geplanten Rezepten.
+
+- **[Materialliste]({% link docs/event/materiallist.md %}):** Erhalte eine Liste aller Materialien, die du für die Zubereitung der Rezepte benötigst.
+
+- **[Einstellungen zum Anlass]({% link docs/event/event settings.md %}):** Hier kannst du den Namen, die Personen, die mit dir kochen, und die Daten hinterlegen.
   {::comment}[[menueplan]] [[groupconfiguration]] [[used recipes]] [[shoppinglist]] [[materiallist]][[event settings]]{:/comment}
 
-Der Anlass kann dabei ein Lager, ein Kurs, ein Weekend oder ein einzelner Tag sein. Du bestimmst wie dieser aussiehst, wie viele Mahlzeiten du planst und wie viele Portionen du zubereiten wirst.
+Ein Anlass kann ein Lager, ein Kurs, ein Weekend oder ein einzelner Tag sein. Du bestimmst, wie er aussieht, wie viele Mahlzeiten geplant sind und wie viele Portionen zubereitet werden sollen.
 
-Zu einem bereits angelegten Anlass gelingst du über den [Startbildschirm]({% link docs/home/home.md %}). Möchtest du einen neuen Anlass anlegen, klicke auf dem Startbildschirm auf den Button *Anlass erstellen*.
-
-## Anlass erstellen
-Wie du einen Anlass erstellen kannst, ist [hier]({% link docs/event/event create.md %}) beschrieben.
-
-  {::comment}[[home]] [[event create]]{:/comment}
+Um zu einem bereits angelegten Anlass zu gelangen, gehe zum [Startbildschirm]({% link docs/home/home.md %}). Wenn du einen neuen Anlass erstellen möchtest, klicke auf dem Startbildschirm auf den Button `Anlass erstellen`.
+{::comment}[[home]] [[event create]]{:/comment}

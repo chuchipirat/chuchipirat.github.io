@@ -6,8 +6,6 @@ has_children: false
 nav_order: 4
 parent: Anlass
 ---
-#todo 
-
 # Verwendete Rezepte
 {: .no_toc }
 ## Inhalt
