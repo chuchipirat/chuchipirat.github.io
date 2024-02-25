@@ -32,8 +32,8 @@ Sobald du die Auswahl bestätigt hast, kannst du der Liste einen Namen geben.
 
 ### Wie wird die Einkaufsliste generiert?
 Für die Generierung der Liste werden alle Rezepte der gewählten Menüs berücksichtigt. Die Rezepte werden auf die hinterlegten Anzahl-Portionen skaliert. Die skalierten Mengen werden dann in der Liste aufgenommen und nach Produkt und Einheit gruppiert und zusammen summiert. Wenn die Zwiebeln zum Beispiel in mehreren Rezepten vorkommen, werden alle Mengen zusammengefügt und in der Einkaufsliste als eine Position angezeigt. Wo immer möglich werden die Mengen in die «Einkaufseinheit» umgerechnet.
-Bei den Materialien werden nur die Materialien vom Typ [Gebrauchsmaterial]({% link docs/masterdata/material.md %}#gebrauchsmaterial) automatisch in die Einkaufsliste aufgenommen. Die anderen landen in der [Materialliste]({% link docs/event/materiallist.md %}). Selbstverständlich hast du die Möglichkeit, ein Material vom Typ Gebrauchsmaterial manuell in die Einkaufsliste hinzuzufügen.
-  {::comment}[[material]][[materiallist]]{:/comment}
+Bei den Materialien werden nur die Materialien vom Typ [Gebrauchsmaterial]({% link docs/masterdata/materials.md %}#gebrauchsmaterial) automatisch in die Einkaufsliste aufgenommen. Die anderen landen in der [Materialliste]({% link docs/event/materiallist.md %}). Selbstverständlich hast du die Möglichkeit, ein Material vom Typ Gebrauchsmaterial manuell in die Einkaufsliste hinzuzufügen.
+  {::comment}[[materials]][[materiallist]]{:/comment}
 
 {: .important-title } 
 > 🧐 Wieso kommen einzelne Artikel mehrmals in der Liste vor? 

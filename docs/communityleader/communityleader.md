@@ -3,10 +3,10 @@ layout: home
 title: Admin
 nav_exclude: true
 has_children: true
-nav_order: 9
+nav_order: 8
 ---
 #todo_links #todo_languagetool 
-# Admin-Einstellungen
+# Community-Leaders
 {: .no_toc }
 ## Inhalt
 {: .no_toc .text-delta }
@@ -15,5 +15,4 @@ nav_order: 9
 {:toc}
 
 ---
-{: .important }
->Die folgenden Einstellungen sind für die System-Admins.
+Die folgenden Einstellungen sind für die Community-leaders.

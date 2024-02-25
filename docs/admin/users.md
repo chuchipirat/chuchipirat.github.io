@@ -6,7 +6,7 @@ has_children: true
 nav_order: 9
 ---
 #todo_links #todo_languagetool 
-# Admin-Einstellungen
+# User-Liste
 {: .no_toc }
 ## Inhalt
 {: .no_toc .text-delta }
@@ -15,5 +15,7 @@ nav_order: 9
 {:toc}
 
 ---
+
 {: .important }
 >Die folgenden Einstellungen sind für die System-Admins.
+

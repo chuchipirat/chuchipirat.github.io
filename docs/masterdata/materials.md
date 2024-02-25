@@ -1,12 +1,12 @@
 ---
 layout: home
-title: Material
+title: Materialien
 nav_exclude: false
 nav_order: 2
 has_children: false
 parent: Stammdaten
 ---
-# Material
+# Materialien
 {: .no_toc }
 ## Inhalt
 {: .no_toc .text-delta }

@@ -103,6 +103,6 @@ Abschnitte werden auch auf der PDF-Version angezeigt. Einen Abschnitt fügst du 
 Benötigt dein Rezept spezielles Material? Backpapier, ein Spritzbeutel oder Gonfiglässer? Hier kannst du das Material hinterlegen. Wähle hierfür aus dem Dropdown das gewünschte Material. Falls sinnvoll, kannst du auch eine Menge hinterlegen.
 
 {: .note }
-Du kannst im Dropdownfeld suchen, in dem du deinen Begriff eingibst. Die Auswahl wird automatisch angepasst mit den Materialien, die deinem Suchbegriff entsprechen. Falls das gewünschte Material noch nicht existiert, kannst du [ein neues Material anlegen]({% link docs/masterdata/material.md %})  {::comment}[[material]]{:/comment}
+Du kannst im Dropdownfeld suchen, in dem du deinen Begriff eingibst. Die Auswahl wird automatisch angepasst mit den Materialien, die deinem Suchbegriff entsprechen. Falls das gewünschte Material noch nicht existiert, kannst du [ein neues Material anlegen]({% link docs/masterdata/materials.md %})  {::comment}[[materials]]{:/comment}
 
 

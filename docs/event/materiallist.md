@@ -16,9 +16,9 @@ parent: Anlass
 
 ---
 Mit der Funktion Materialliste kannst du dir eine Liste aller Materialien zusammenstellen, die du für deinen Anlass benötigst. Dies kann nützlich sein, wenn du spezielles Material von zu Hause mitnehmen möchtest, um sicherzustellen, dass du alle benötigten Materialien für deine Rezepte hast.
-Wenn du dir eine Liste generieren lässt, werden alle Materialien vom Typ [«Gebrauchsmaterial»]({% link docs/masterdata/material.md %}#gebrauchsmaterial) in die Liste aufgenommen für die Rezepte, die du eingeplant hast (einzeln hinzugefügte Produkte im Menüplan werden ebenfalls berücksichtigt). Dazu hast du die Möglichkeit, weitere Materialien von Hand hinzuzufügen.
+Wenn du dir eine Liste generieren lässt, werden alle Materialien vom Typ [«Gebrauchsmaterial»]({% link docs/masterdata/materials.md %}#gebrauchsmaterial) in die Liste aufgenommen für die Rezepte, die du eingeplant hast (einzeln hinzugefügte Produkte im Menüplan werden ebenfalls berücksichtigt). Dazu hast du die Möglichkeit, weitere Materialien von Hand hinzuzufügen.
 Du kannst so viele Materiallisten erstellen, wie du magst.
-{::comment}[[material]][[materiallist]]{:/comment}
+{::comment}[[materials]][[materiallist]]{:/comment}
 ## Materialliste erstellen
 Um eine neue Materialliste zu erstellen, klicke auf den Button `neue Liste`. Im nächsten Dialogfenster wählst du die Menüs, die du für die Generierung der Liste berücksichtigen möchtest.
 
@@ -36,8 +36,8 @@ Sobald du die Auswahl bestätigt hast, kannst du der Liste einen Namen geben.
 
 Für die Generierung der Liste werden alle Rezepte der gewählten Menüs berücksichtigt. Die Rezepte werden auf die hinterlegten Anzahl-Portionen skaliert. Die skalierten Mengen werden dann in der Liste aufgenommen. Dabei werden nur Materialien vom Typ «Gebrauchsmaterial» berücksichtigt. Wenn ein Material in mehreren Rezepten vorkommt, wird jeweils verglichen, welches Rezept wie viele Stücke von diesem Material benötigt. Es wird jeweils die Maximal-Anzahl übernommen. Anders als in der Einkaufsliste werden die Mengen nicht summiert, sondern der Eintrag mit der grösseren Menge wird in die Liste übernommen. Die Überlegung dahinter ist, dass Materialien wiederverwendet werden können und daher nur für die Zubereitung eines bestimmten Rezepts in der angegebenen Anzahl erforderlich sind. 
 
-Die Materialien vom Typ [«Verbrauchsmaterial»]({% link docs/masterdata/material.md %}#verbrauchsmaterial) landen standardmässig in der [Einkaufsliste]({% link docs/event/shoppinglist.md %}). Du hast die Möglichkeit, weitere Materialien (unabhängig vom Typ) manuell zur Liste hinzuzufügen. 
-  {::comment}[[shoppinglist]][[material]]{:/comment}
+Die Materialien vom Typ [«Verbrauchsmaterial»]({% link docs/masterdata/materials.md %}#verbrauchsmaterial) landen standardmässig in der [Einkaufsliste]({% link docs/event/shoppinglist.md %}). Du hast die Möglichkeit, weitere Materialien (unabhängig vom Typ) manuell zur Liste hinzuzufügen. 
+  {::comment}[[shoppinglist]][[materials]]{:/comment}
 ## Material zur Liste hinzufügen
 
 Um einzelne Materialien hinzuzufügen, klicke auf die Schaltfläche `Material hinzufügen`. Im nächsten Fenster kannst du das benötigte Material auswählen. Falls es das gewünschte Material bisher nicht gibt, kannst du auch ein neues anlegen.

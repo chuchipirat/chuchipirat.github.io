@@ -37,11 +37,13 @@ Damit ein Rezept veröffentlicht wird, müssen die folgenden Punkte erfüllt sei
 Unternimm folgende Schritte, um ein eigenes Rezept zu veröffentlichen.
 
 1. Öffne dein Rezept über die [Rezeptübersicht]({% link docs/recipe/recipes overview.md %}). {::comment}[[recipes overview]]{:/comment}
-2. Klicke auf den Button *Rezept veröffentlichen*. 
+2. Klicke auf den Button `Rezept veröffentlichen`. 
 3. Wenn du magst, kann du der Person, die das Rezept prüft (Community-Leader) eine Nachricht hinterlassen.
-4. Klicke auf den Button *ok*
+4. Klicke auf den Button `Rezept für Review einreichen`.
 
 Du kannst jederzeit den aktuellen Status deiner Rezeptveröffentlichung einsehen. Siehe dafür in deinen [Anträgen]({% link docs/request/requests.md %}) nach. {::comment}[[requests]]{:/comment}
+
+![Dialog Rezept veröffentlichen](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/recipe/_images/recipe_publish_request.png?raw=true)
 
 # Ablauf Rezeptveröffentlichung
 
