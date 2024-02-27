@@ -52,14 +52,14 @@ Der wichtigste Punkt ist, dass du Fehler möglichst genau beschreibst. Die Perso
 
 Die Browser-Logs sind in den Entwickler-Tools des Browsers zu finden. Je nach Betriebssystem und Browser unterscheidet sich das Vorgehen minim. Nachfolgend sind Anleitungen, wie du die Log-Konsole zu den gängigsten Browsern öffnest. Sobald die Konsole geöffnet ist, kannst du einen Rechtsklick in der Konsole ausführen und aus dem Kontextmenü den Eintrag "Speichern unter" (oder so ähnlich) wählen. Sende diese Datei zusammen mit deiner Fehlerbeschreibung.
 
-![geöffnete Entwicklerkonsole](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/others/_images/dev_tools.png?raw=true)
+![geöffnete Entwicklerkonsole](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/others/_images/dev_tools.png?raw=true) 
 _geöffnete Entwicklerkonsole_
 
-![Log-Konsole](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/others/_images/console_log.png?raw=true)
+![Log-Konsole](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/others/_images/console_log.png?raw=true) 
 _Log-Konsole_
 ## Zusätzliche Informationen für eine detaillierte Fehlermeldung:
 
-Um eine effiziente Fehlerbehebung zu ermöglichen, wäre es hilfreich, folgende Informationen bereitzustellen:
+Um eine effi. iente Fehlerbehebung zu ermöglichen, wäre es hilfreich, folgende Informationen bereitzustellen:
 
 - **Betriebssystem:** Teile uns bitte mit, welches Betriebssystem du verwendest (z.B., Windows 10, macOS Big Sur, Linux).
     

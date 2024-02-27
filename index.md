@@ -4,8 +4,9 @@ title: Home
 nav_exclude: true
 ---
 
-![Logo](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/others/_images/logo_16_9.png?raw=true)
 
+
+<p align="center"> <img src="https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/others/_images/logo_16_9.png?raw=true" alt="Logo" style="border:0;"> </p>
 
 Der chuchipirat ist eine Web-Applikation, die Freiwillige in Jugendverbänden in der Planung, Durchführung und Nachbearbeitung von Lagerküchen unterstützt. Das Kochen in grossen Mengen in einem Lager oder Kurs ist gerade in der Vorbereitung aufwendig und erfordert spezifische Kenntnisse, damit nicht nur schmackhaftes, sondern auch Essen in passender Menge serviert werden kann.
 
