@@ -26,11 +26,11 @@ Nach der Veröffentlichung deines Rezeptes kannst du dieses nicht mehr anpassen.
 
 Damit ein Rezept veröffentlicht wird, müssen die folgenden Punkte erfüllt sein:
 
-- Die Quelle des Rezeptes muss angegeben sein.
-- Die Quelle muss von einer bekannten und anerkannten Rezeptplattform (Betty Bossi, Swissmilk usw.) oder von einem Kochbuch stammen.
-- Die Zubereitungsschritte müssen logisch aufgebaut und verständlich sein.
-- Die verwendeten Mengen entsprechen einer Normalportion.
-- Dieses Rezept gibt es in der öffentlichen Rezeptsammlung bisher nicht.
+- **Quellenangabe erforderlich:** Das Rezept muss eine genaue Quellenangabe haben, vorzugsweise von bekannten Plattformen wie Betty Bossi oder aus einem Kochbuch.
+- **Klare Zubereitungsschritte:** Die Anleitung muss logisch strukturiert und einfach verständlich sein.
+- **Flexible Mengenangaben:** Die Zubereitungsschritte sollten keine festen Mengenangaben enthalten, um eine problemlose Anpassung der Portionen zu ermöglichen.
+- **Gepflegte Rezeptattribute:** Alle relevanten Attribute wie Menütyp und Dauer müssen sorgfältig gepflegt sein.
+- **Einzigartiges Rezept:** Das Rezept sollte bisher nicht in der öffentlichen Sammlung vorhanden sein.
 
 # Eigenes Rezept veröffentlichen
 

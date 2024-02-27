@@ -19,7 +19,7 @@ has_children: true
 Bei einem Antrag handelt es sich um etwas das geprüft wird. Es gibt aktuelle folgende Anträge:
 
 * [Rezept veröffentlichen]({% link docs/recipe/recipe publish.md %})
-* Fehler im Rezept melden
+* [Fehler im Rezept melden]({% link docs/recipe/recipe report bug.md %})
 
 # Übersicht
 In der Übersicht siehst du alle deine Anträge und in welchem Status sich diese befinden.
