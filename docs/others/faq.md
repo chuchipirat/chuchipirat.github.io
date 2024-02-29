@@ -7,6 +7,7 @@ has_children: true
 nav_order: 8
 ---
 # FAQ - Häufige Fragen
+# FAQ - Häufige Fragen
 {: .no_toc }
 ## Inhalt
 {: .no_toc .text-delta }
