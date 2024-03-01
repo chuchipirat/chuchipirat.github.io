@@ -47,6 +47,14 @@ Suchst du nach einer passenden Beilage oder nach einem Zvieri? Mit der Einschrä
 
 Mit diesem Schalter kannst du dir Rezepte anzeigen lassen, die sich auch draussen zubereiten lassen (zum Beispiel wird hier kein Ofen benötigt).
 
+### Rezepttyp
+
+Hier kannst du bestimmen, welche Art von Rezepten angezeigt werden. Willst du nur die öffentlichen oder bloss deine Privaten? Beachte, dass die Schaltfläche `Variante` nur im Menüplan angezeigt wird.
+
+### Nur meine Rezepte anzeigen
+
+Aktivierst du diesen Schalter, werden dir nur Rezepte angezeigt, die von dir erfasst wurden.
+
 ## Aufbau Karte
 
 Auf der Karte siehst du folgende Informationen:
