@@ -14,12 +14,10 @@ nav_order: 1
 
 ---
 
-#todo_image 
-
-{: .placeholder }
-#todo_image Startseite abbilden
 
 Auf der Startseite erwarten dich verschiedene nützliche Informationen und Funktionen:
+
+![Home-Bildschirm](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/home/_images/home.png?raw=true)
 
 # Nächsten Anlässe
 
@@ -29,7 +27,7 @@ Hier siehst du alle kommenden Veranstaltungen, bei denen du (mit-)kochen wirst. 
 
 Ein Klick auf den Link `Vergangene Anlässe` zeigt dir alle Events an, an denen du teilgenommen hast, die jedoch bereits in der Vergangenheit liegen.
 
-# Die neuste Rezepte
+# Die neusten Rezepte
 
 Entdecke eine Auswahl der aktuellsten öffentlichen Rezepte direkt auf der Startseite.
 

@@ -4,6 +4,7 @@ title: Admin
 nav_exclude: true
 has_children: true
 nav_order: 9
+search_exclude: true
 ---
 #todo_links #todo_languagetool 
 # Admin-Einstellungen
