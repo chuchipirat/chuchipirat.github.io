@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Rezept Fehler melden
+permalink: recipe/report_mistake
 nav_exclude: false
 parent: Rezepte
 nav_order: 9

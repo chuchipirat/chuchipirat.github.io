@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Anlass Einstellungen
+permalink: event/settings
 nav_exclude: false
 parent: Anlass
 nav_order: 2

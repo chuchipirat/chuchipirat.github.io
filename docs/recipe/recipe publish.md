@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Rezept veröffentlichen
+permalink: recipe/publish
 nav_exclude: false
 parent: Rezepte
 nav_order: 7

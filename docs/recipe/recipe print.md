@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Rezept drucken
+permalink: recipe/print
 nav_exclude: false
 parent: Rezepte
 nav_order: 6

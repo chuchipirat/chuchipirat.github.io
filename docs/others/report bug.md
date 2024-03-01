@@ -4,6 +4,7 @@ title: Fehler in der App melden
 parent: FAQ
 nav_exclude: false
 nav_order: 8
+permalink: faq/report_bug
 ---
 # Fehler in der App melden
 {: .no_toc }

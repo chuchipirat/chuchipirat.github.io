@@ -3,7 +3,8 @@ layout: page
 title: Release Notes
 nav_exclude: false
 nav_order: 9
-has_children:
+has_children: 
+permalink: release_notes
 ---
 {: .no_toc }
 ## Inhalt

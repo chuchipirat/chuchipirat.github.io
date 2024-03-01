@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Rezeptaufbau
+permalink: recipe/structure
 parent: Rezepte
 nav_exclude: false
 nav_order: 2

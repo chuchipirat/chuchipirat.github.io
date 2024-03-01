@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Anlass erstellen
+permalink: event/create
 nav_exclude: false
 parent: Anlass
 nav_order: 1
