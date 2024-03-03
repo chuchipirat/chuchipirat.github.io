@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Rezeptvariante erstellen
-permalink: recipe/create_variant
+permalink: docs/recipe/create_variant
 nav_exclude: false
 parent: Rezepte
 nav_order: 4

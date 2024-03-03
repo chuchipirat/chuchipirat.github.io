@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Verwendete Rezepte
-permalink: event/used_recipes
+permalink: docs/event/used_recipes
 nav_exclude: false
 has_children: false
 nav_order: 4

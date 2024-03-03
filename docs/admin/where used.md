@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Verfolgungsnachweis
-permalink: /admin/where_used
+permalink: docs/admin/where_used
 nav_exclude: 
 parent: System
 search_exclude: true

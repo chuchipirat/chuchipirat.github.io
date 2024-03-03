@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Rezept anlegen/ändern
-permalink: recipe/create_edit
+permalink: docs/recipe/create_edit
 nav_exclude: false
 parent: Rezepte
 nav_order: 3
