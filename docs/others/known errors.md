@@ -21,8 +21,21 @@ Die folgenden Fehler sind bekannt, und werden zeitnah behoben. Durchgestrichene 
 
 # Fehler aka. Bugs 🐞
 
+*	Fehlerhafte Absprünge bei der Benutzung des Hilfebuttons (oben rechts). 
+*	Diverse sprachliche Fehler.
+*	Rezept: Gelöschte Materialien und Produkte erscheinen nach dem Speichern wieder.
+*	Rezept: Leere Zubereitungsschritte werden zwar nicht angezeigt, aber die Nummerierung der Position wird fortgeführt.
+*	Rezept PDF: Fehlerhafte Nummerierung der Zubereitungsschritte.
+*	Rezept-Suche: Das Löschen vom Suchbegriff funktioniert nicht. 
+*	Antrag: Unterschiedliche Wording Antrag vs. Anfrage. 
+*	Antrag: Mail-Link bei Kommentar führt auf falsche Seite. 
+*	Gruppenkonfiguration: Die 0 kann nicht gelöscht werden. Die Werte müssen zum Beispiel als 05 eingegeben werden. 
+*	Menüplan: Im Tab des Browsers wird die URL statt des Namen angezeigt.
+*	Menüplan: Fehlerhafte Skalierung beim erstmaligen Öffnen eines Rezeptes aus dem Menüplan.
+*	Menüplan: Drag-and-drop funktioniert beim Verschieben ganzer Mahlzeitenreihen nicht richtig. 
+*	Neuregistrierung. Fehler bei der Neuregistrierung
+*	Profil: Das eigene Profil kann nicht bearbeitet werden. 
 
-- aktuell keine
 
 # Erledigte Fehler 🔫
 * ~~Dialog «Rezept freigeben» unter Anträge. Rezept wird nicht geöffnet bei Klick auf Rezeptname.~~
