@@ -29,7 +29,7 @@ Möchtest du im Menüplan mehr oder weniger Spalten (Tage) haben, passt du die V
 Du kannst ein Bild über die entsprechenden Buttons `+Bild hinzufügen` und `Bild löschen` hochladen oder ändern.
 
 ## Personen zum Anlass hinzufügen/löschen
-Wenn weitere Personen auf diesen Anlass im chuchipirat zugreifen sollen, füge sie im Abschnitt _Küchenmannschaft_ hinzu. Ebenso kannst du Personen den Zugriff entziehen, indem du sie aus der Mannschaft entfernst.
+Wenn weitere Personen auf diesen Anlass im chuchipirat zugreifen sollen, füge sie im Abschnitt _Küchen-Crew_ hinzu. Ebenso kannst du Personen den Zugriff entziehen, indem du sie aus der Crew entfernst.
 
 {: .highlight-title }
 > Person hinzufügen

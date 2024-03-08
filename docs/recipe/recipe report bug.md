@@ -34,9 +34,9 @@ Folge diesen Schritten, um einen Fehler im Rezept zu melden:
 3. Beschreibe möglichst genau, was in dem Rezept falsch ist. Ein Community-Leader wird dein Anliegen überprüfen.
 4. Klicke auf den Button `Fehler melden`.
 
-Du kannst jederzeit den aktuellen Status deiner Anfrage einsehen. Siehe dafür in deinen [Anträgen]({% link docs/request/requests.md %}) nach. {::comment}[[requests]]{:/comment}
+Du kannst jederzeit den aktuellen Status deines Antrages einsehen. Siehe dafür in deinen [Anträgen]({% link docs/request/requests.md %}) nach. {::comment}[[requests]]{:/comment}
 
 # Ablauf Prüfung
 
-Die Community-Leader überprüfen deine Meldung. Wird der Fehler anerkannt, wird das Rezept korrigiert, und deine Anfrage wird als *erledigt* markiert. Falls bei der Prüfung des Rezepts Fragen auftauchen, meldet sich die Person per E-Mail bei dir.
+Die Community-Leader überprüfen deine Meldung. Wird der Fehler anerkannt, wird das Rezept korrigiert, und dein Antrag wird als *erledigt* markiert. Falls bei der Prüfung des Rezepts Fragen auftauchen, meldet sich die Person per E-Mail bei dir.
 

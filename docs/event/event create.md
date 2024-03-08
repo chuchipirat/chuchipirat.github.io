@@ -43,7 +43,7 @@ Du siehst folgende Felder:
 
 Alle Felder mit einem Stern (\*) sind Pflichtfelder. Der Anlass kann erst erstellt werden, wenn alle Werte eingetragen sind und keine inhaltlichen Fehler festgestellt werden.
 
-### Küchenmannschaft
+### Küchen-Crew
 In diesem Abschnitt fügst du Personen hinzu, die die Planung mit dir durchführen. Nur diese Personen können den Anlass sehen und bearbeiten.
 
 {: .highlight-title }
