@@ -43,8 +43,8 @@ Bei den Materialien werden nur die Materialien vom Typ [Gebrauchsmaterial]({% li
 ## Produkte hinzufügen
 Um einzelne Produkte hinzuzufügen, klicke auf die Schaltfläche `Artikel hinzufügen`. Im nächsten Fenster kannst du das gewünschte Produkt auswählen. Du kannst auch eine Menge und Einheit hinterlegen. Wenn es bereits einen Eintrag in der Einkaufsliste mit diesem Produkt und Einheit gibt, wird der chuchipirat dich fragen, ob du die neue Menge dazuzählen oder den bestehenden Listeneintrag mit der neuen Menge überschreiben möchtest.
 
-## Listenname ändern
-Du kannst den Namen der Liste ändern, indem du neben dem Listeneintrag auf den Bleistift klickst und den Namen nach Belieben änderst.
+## Liste ändern
+Du kannst den Namen der Liste und die ausgewählten Menüs ändern, indem du neben dem Listeneintrag auf den Bleistift klickst und den Namen und/oder die ausgwählten Menüs nach Belieben änderst.
 ## Liste löschen
 Um eine generierte Liste zu löschen, klicke auf das Abfalleimer-Symbol. Beachte, dass gelöschte Listen nicht wiederhergestellt werden können. Falls du eine Liste versehentlich löschst, musst du sie neu erstellen.
 

@@ -42,8 +42,8 @@ Die Materialien vom Typ [«Verbrauchsmaterial»]({% link docs/masterdata/materia
 
 Um einzelne Materialien hinzuzufügen, klicke auf die Schaltfläche `Material hinzufügen`. Im nächsten Fenster kannst du das benötigte Material auswählen. Falls es das gewünschte Material bisher nicht gibt, kannst du auch ein neues anlegen.
 
-## Listenname ändern
-Du kannst den Namen der Liste ändern, indem du neben dem Listeneintrag auf den Bleistift klickst und den Namen nach Belieben änderst.
+## Liste ändern
+Du kannst den Namen der Liste und die ausgewählten Menüs ändern, indem du neben dem Listeneintrag auf den Bleistift klickst und den Namen und/oder die ausgwählten Menüs nach Belieben änderst.
 ## Liste löschen
 Um eine generierte Liste zu löschen, klicke auf das Abfalleimer-Symbol. Beachte, dass gelöschte Listen nicht wiederhergestellt werden können. Falls du eine Liste versehentlich löschst, musst du sie neu erstellen.
 

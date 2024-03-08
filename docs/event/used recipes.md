@@ -32,8 +32,8 @@ _Auswahl der Menüs._
 Nach der Bestätigung deiner Auswahl kannst du der Liste einen Namen geben.
 ## Wie wird die Rezeptliste generiert?
 Anhand der ausgewählten Menüs werden die den Menüs zugeordneten Rezepte auf die hinterlegte Anzahl Portionen skaliert und aufbereitet. Die Liste ordnet dann alle Rezepte in der korrekten zeitlichen Reihenfolge an. 
-## Listenname ändern
-Du kannst den Namen der Liste ändern, indem du neben dem Listeneintrag auf den Bleistift klickst und den Namen nach Belieben änderst.
+## Liste ändern
+Du kannst den Namen der Liste und die ausgewählten Menüs ändern, indem du neben dem Listeneintrag auf den Bleistift klickst und den Namen und/oder die ausgwählten Menüs nach Belieben änderst.
 ## Rezeptliste löschen
 Um eine generierte Liste zu löschen, klicke auf das Abfalleimer-Symbol. Beachte, dass gelöschte Listen nicht wiederhergestellt werden können. Falls du eine Liste versehentlich löschst, musst du sie neu erstellen.
 ## Rezeptliste aktualisieren
