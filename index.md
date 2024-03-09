@@ -32,8 +32,8 @@ Dieses Wiki hilft dir, dich im chuchipirat zurechtzufinden. Du findest hier alle
   {::comment}[[recipes overview]] [[recipe create, change]]{:/comment}
 - Ist dein privates Rezept so gut, dass du es der gesamten Community zur Verfügung stellen möchtest? Dann lass das [Rezept veröffentlichen]({% link docs/recipe/recipe publish.md %}).
   {::comment}[[recipe publish]]{:/comment}
-- Zu guter Letzt kannst du auch dein [Profil]({% link docs/profil/profil.md %}) pflegen. Hinterlege ein Foto und/oder ein Motto. So wirkt das Ganze gleich viel sympathischer.
-  {::comment}[[profil]]{:/comment}
+- Zu guter Letzt kannst du auch dein [Profil]({% link docs/user/profile.md %}) pflegen. Hinterlege ein Foto und/oder ein Motto. So wirkt das Ganze gleich viel sympathischer.
+  {::comment}[[profile]]{:/comment}
 
 Nachfolgend eine Übersicht der verschiedenen Objekte (du findest diese auch im Navigationspanel):
 
@@ -69,9 +69,10 @@ Im Anlass findet die Planung statt.
 - [Materialliste]({% link docs/event/materiallist.md %})
   {::comment}[[materiallist]]{:/comment}
 
-### [Profil]({% link docs/profil/profil.md %})
+### [Profil]({% link docs/user/profile.md %})
 
-{::comment}[[profil]]{:/comment}
+{::comment}[[profile]]{:/comment}
 Dein Zuhause. Hier hast du Zugriff auf dein Profil.
 
--
+* [Profil einsehen/bearbeiten](({% link docs/user/profile.md %})
+* [E-Mail-Adresse und/oder Passwort ändern](({% link docs/user/email password change.md %})

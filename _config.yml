@@ -159,8 +159,8 @@ callouts:
   warning:
     title: Achtung!
     color: red
-  placeholder:
-    title: ☠️ Platzhalter ☠️
+  intern:
+    title: ☠️ intern ☠️
     color: grey-dk
 
 # Google Analytics Tracking (optional)

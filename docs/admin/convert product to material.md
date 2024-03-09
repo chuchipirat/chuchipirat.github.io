@@ -1,12 +1,13 @@
 ---
 layout: home
 title: Verfolgungsnachweis
-permalink: docs/admin/where_used
+permalink: docs/admin/convert_product_to_material
 nav_exclude: 
 parent: System
 search_exclude: true
 ---
-# Verfolgungsnachweis
+# Produkt zu Material umwandeln
+
 {: .no_toc }
 
 ## Inhalt
@@ -23,10 +24,9 @@ search_exclude: true
 >
 >Diese Seite ist für die Community-Leader\*innen und System-Admins.
 
+xxxx
 
-Der Verfolgungsnachweis ermöglicht es, Rezepte, Produkte und Materialien in der Datenbank zu überprüfen. Dies ist wichtig, um festzustellen, ob ein bestimmtes Objekt gelöscht werden darf oder nicht.
-
-![Screen Verfolgungsnachweis](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/admin/_images/where_used.png?raw=true)
+![Produkt zu Material umwandeln](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/admin/_images/convert_product_to_material.png?raw=true)
 
 ### Vorgehensweise
 

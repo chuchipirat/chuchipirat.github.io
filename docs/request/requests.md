@@ -28,5 +28,3 @@ In der Übersicht siehst du alle deine Anträge und in welchem Status sich diese
 
 {: .placeholder }
 #todo_image Status-Übersicht.... mit weniger Testfällen sondern "echetem Rezept und User"
-
-#todo

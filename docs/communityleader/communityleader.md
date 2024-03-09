@@ -1,11 +1,10 @@
 ---
 layout: home
-title: Admin
+title: Community-Leader*in
 nav_exclude: true
 has_children: true
 nav_order: 8
 ---
-#todo_links #todo_languagetool 
 # Community-Leaders
 {: .no_toc }
 ## Inhalt
@@ -15,4 +14,15 @@ nav_order: 8
 {:toc}
 
 ---
-Die folgenden Einstellungen sind für die Community-leaders.
+
+{: .intern-title }
+
+> ☠️ Admin-Bereich ☠️
+>
+>Diese Seite sind für die Community-Leader\*innen und System-Admins.
+
+Die folgenden Seiten sind für die Community-Leader\*innen.
+
+* [Antrag für Rezeptfreigabe behandeln]({% link docs/communityleader/handleRecipeRequest.md %})
+
+{::comment}[[handleRecipeRequest]]{:/comment}
