@@ -24,5 +24,6 @@ nav_order: 8
 Die folgenden Seiten sind für die Community-Leader\*innen.
 
 * [Antrag für Rezeptfreigabe behandeln]({% link docs/communityleader/handleRecipeRequest.md %})
+* [Diverse Systemeinstellungen]({% link docs/admin/system.md %})
 
-{::comment}[[handleRecipeRequest]]{:/comment}
+{::comment}[[handleRecipeRequest]][[system]]{:/comment}
