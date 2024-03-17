@@ -4,6 +4,7 @@ title: Rezepte
 nav_exclude: false
 nav_order: 2
 has_children: true
+description: Rezepte sind der Grundstein jedes Menüplans. Erfahre mehr über Rezepttypen. Privat, Öffentlich und Varianten.
 ---
 # Rezepte
 {: .no_toc }
