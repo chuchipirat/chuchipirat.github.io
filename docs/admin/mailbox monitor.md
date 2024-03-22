@@ -23,7 +23,7 @@ search_exclude: true
 >
 >Diese Seite ist für System-Admins.
 
-Der Mailbox-Monitor zeigt alle E-Mails an, die über den chuchipirat versendet wurden.
+Die Seite Jobs ermöglicht es diverse Jobs auszuführen.
 
 {: .note }
 > Beachte, dass Nachrichten rund um die Authentifizierung von Google Firebase versendet werden und daher im Monitor nicht erscheinen.

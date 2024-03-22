@@ -43,7 +43,9 @@ Folgende zusätzliche Funktionalitäten bietet dir die Seite _System_ als Admin:
 * [Mail-Konsole]({% link docs/admin/mailconsole.md %})
 * [Mailbox Monitor]({% link docs/admin/mailbox monitor.md %}): Übersicht über alle versendeten E-Mails.
 * [Cloud Functions Monitor]({% link docs/admin/cloud fx overview.md %}): Übersicht über alle ausgeführten Cloud Functions
+* [Jobs]({% link docs/admin/jobs.md %}): Reparatur-Jobs ausführen
 
 
-  {::comment}[[globalsettings]][[mailconsole]][[mailbox monitor]][[cloud fx overview]]{:/comment}
+
+  {::comment}[[globalsettings]][[mailconsole]][[mailbox monitor]][[cloud fx overview]][[jobs]]{:/comment}
 

@@ -74,5 +74,5 @@ Im Anlass findet die Planung statt.
 {::comment}[[profile]]{:/comment}
 Dein Zuhause. Hier hast du Zugriff auf dein Profil.
 
-* [Profil einsehen/bearbeiten](({% link docs/user/profile.md %})
-* [E-Mail-Adresse und/oder Passwort ändern](({% link docs/user/email password change.md %})
+* [Profil einsehen/bearbeiten]({% link docs/user/profile.md %})
+* [E-Mail-Adresse und/oder Passwort ändern]({% link docs/user/email password change.md %})
