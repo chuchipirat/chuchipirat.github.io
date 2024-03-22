@@ -36,6 +36,9 @@ Wenn weitere Personen auf diesen Anlass im chuchipirat zugreifen sollen, füge s
 >
 >Beachte, dass nur Personen mit einem vorhandenen chuchipirat-Benutzer hinzugefügt werden können.
 
+## Quittung
+Wenn du bereits einen Betrag gespendet und eine Quittung angefordert hast, kannst du diese jederzeit erneut erhalten. Klicke einfach oben rechts auf den Button `Quittung`, um das PDF herunterzuladen.
+
 ## Anlass löschen
 Möchtest du den Anlass komplett löschen, verwende den Button `Anlass löschen`. Dabei werden alle mit dem Anlass verbundenen Daten gelöscht (Menüplan, Einkaufs- und Materialliste, anlassspezifische Rezeptvarianten).
 

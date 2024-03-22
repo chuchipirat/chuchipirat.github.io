@@ -83,8 +83,16 @@ In der letzten Zeile und Spalte werden die Werte summiert, um dir einen Überbli
 
 Um eine neue Gruppe zu erstellen, klicke auf das Plus (`+`) in den Gruppenüberschriften oder den Button `+ Unverträglichkeit`. Gib der Gruppe einen passenden Namen und bestätige mit `OK`.
 
-## Ernährungs- oder Unverträglichkeitsgruppe umbenennen oder löschen
+### Ernährungs- oder Unverträglichkeitsgruppe umbenennen oder löschen
 
 Um eine Gruppe zu ändern/löschen, klicke auf die 3 vertikalen Punkte und wähle den entsprechenden Eintrag aus dem Menü.
+
+## Abschluss
+
+Auf der nächsten Seite findest du einen Twint-QR-Code. Wenn es dein Anlassbudget zulässt, würden wir uns über eine kleine Spende freuen, um die laufenden Kosten zu decken und die Weiterentwicklung der App zu unterstützen. Dein Beitrag hilft uns dabei, das Angebot weiterhin kostenlos anzubieten.
+
+{: .note }
+
+> Falls du eine Quittung möchtest, schreib uns einfach eine E-Mail. Wir senden dir gerne eine Quittung als PDF zu. Bitte beachte, dass dies einige Tage dauern kann. Sobald die Quittung einmal generiert wurde, kannst du sie im Anlass unter der [Registerkarte]({% link docs/event/event settings.md %}#quittung) `Info zum Anlass` jederzeit erneut herunterladen.
 
 Mit einem Klick auf `Weiter` gelangst du zum [Menüplan]({% link docs/event/menueplan.md %}).   {::comment}[[menueplan]]{:/comment}
