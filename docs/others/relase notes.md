@@ -26,4 +26,7 @@ Vielen Dank für deine Unterstützung und dein [Feedback](mailto:hallo@chuchipir
 # 1.0.0
 * Bereitstellung der App - Go-live 🎉
 
+## 1.0.1
+* Diverse Bugfixes und Layout-Anpassungen
+
 
