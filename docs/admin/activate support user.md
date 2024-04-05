@@ -35,5 +35,11 @@ Auch als Community-Leader\*in oder Admin hast du keinen Zugriff auf die Anlässe
 3. Falls das angegebene Ereignis nicht existiert, erhältst du eine entsprechende Fehlermeldung.
 4. Logge dich mit dem Support-User ein. Damit kannst du nun auf das angegebene Ereignis zugreifen.
 
+{: .highlight-title }
+> 💡Tipp
+> 
+> Falls du die UID des Anlasses nicht kennst, kannst du auch in der [User-Übersicht]({% link docs/admin/users.md %}) die alle Anlässe anzeigen lassen, bei denen eine Person mitgekocht hat.
+  {::comment}[[users]]{:/comment}
+  
 {: .note }
 > Beachte: Die Berechtigung für den Support-User wird automatisch um 01:00 Uhr zurückgesetzt. Solltest du danach erneut darauf zugreifen müssen, wiederhole einfach die Schritte 1–4.

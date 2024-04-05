@@ -25,6 +25,10 @@ search_exclude: true
 
 Die User-Liste zeigt alle Benutzer\*innen an, die ein Konto bei chuchipirat haben. Du kannst das Suchfeld verwenden, um nach einem bestimmten Eintrag zu suchen.
 
+# Anlässe eines Users
+
+Bei geöffnetem Dialog, kannst du auf den Button `Beteiligte Anlässe lesen` klicken, um eine Liste aller Anlässe zu erhalten, bei denen die Person mitgekocht hat.
+
 # Berechtigungen anpassen
 
 1. Klicke auf die Schaltfläche `Öffnen` neben dem gewünschten Benutzer in der Tabelle.

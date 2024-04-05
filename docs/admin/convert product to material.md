@@ -24,7 +24,6 @@ search_exclude: true
 >
 >Diese Seite ist für die Community-Leader\*innen und System-Admins.
 
-xxxx
 
 ![Produkt zu Material umwandeln](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/admin/_images/convert_product_to_material.png?raw=true)
 
