@@ -19,7 +19,7 @@ Hier findest du detaillierte Informationen zu den neuesten Versionen unserer Anw
 
 In den nachfolgenden Abschnitten kannst du die Veröffentlichungshistorie durchgehen, um zu erfahren, welche neuen Features, Verbesserungen und Fehlerkorrekturen in jeder Version enthalten sind. Wir empfehlen, regelmässig einen Blick auf die Release Notes zu werfen, um stets auf dem neuesten Stand zu bleiben und das Beste aus dem chuchipirat herauszuholen.
 
-Vielen Dank für deine Unterstützung und dein [Feedback](mailto:hallo@chuchipirat.ch?subject=Mein%20Feedback%zum%chuchipirat) – sie sind für uns von unschätzbarem Wert, um den chuchipirat zu einer noch besseren Erfahrung für dich zu machen!
+Vielen Dank für deine Unterstützung und dein [Feedback](mailto:hallo@chuchipirat.ch?subject=Mein%20Feedback%20zum%20chuchipirat) – sie sind für uns von unschätzbarem Wert, um den chuchipirat zu einer noch besseren Erfahrung für dich zu machen!
 
 ---
 

@@ -6,7 +6,7 @@ nav_exclude: true
 
 
 
-<p align="center"> <img src="https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/others/_images/logo_16_9.png?raw=true" alt="Logo" style="border:0;"> </p>
+<div style="text-align: center;"> <img src="https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/others/_images/logo_16_9.png?raw=true" alt="Logo" style="border:0;"> </div>
 
 # Wie können wir helfen?
 
