@@ -19,7 +19,7 @@ nav_order: 3
 Die folgende Seite zeigt dir auf, was du achten sollst, wenn du ein neues Rezept anlegst oder ein bestehendes änderst.
 
 {: .note }
-Du kannst nur eigenen Rezepte ändern, die nicht veröffentlicht wurde. Falls du bei einem veröffentlichten Rezept einen Fehler gefunden hast, ist [hier]({% link docs/recipe/recipe report bug.md %}) beschrieben, wie du vorgehen kannst.  {::comment}[[recipe report bug]]{:/comment}
+Du kannst nur eigenen Rezepte ändern, die nicht veröffentlicht wurde. Falls du bei einem veröffentlichten Rezept einen Fehler gefunden hast, ist [hier]({% link docs/recipe/recipe_report_bug.md %}) beschrieben, wie du vorgehen kannst.  {::comment}[[recipe_report_bug]]{:/comment}
 
 ## Titel und Bildquelle
 
@@ -44,10 +44,10 @@ Wenn du ein Bild einfügen möchtest, kannst du folgendermassen vorgehen.
 
 Gibt in diesem Abschnitt die Quelle und die Zeiten an, welche für die Zubereitung benötigt werden (in Minuten). Falls die Quelle keine Internetseite ist, sondern ein Buch, gibt den Buchtitel und die Seitenzahl an.
 
-Unter Menütyp kannst du angeben, wofür sich das Rezept eignet. Ist es ideal für das Frühstück und/oder vielleicht doch Zvieri/Znüni? Mit dem Schalter _Geeignet für Outdoor-Küche_ gibst du an, ob das Rezept auch unter vereinfachten Küchenverhältnissen (beispielsweise in einem Zeltlager) kochbar ist. Mit diesen Angaben kann in der erweiterten Suche der [Rezeptübersicht]({% link docs/recipe/recipes overview.md %}) das passende Rezept schneller gefunden werden.  {::comment}[[recipes overview]]{:/comment}
+Unter Menütyp kannst du angeben, wofür sich das Rezept eignet. Ist es ideal für das Frühstück und/oder vielleicht doch Zvieri/Znüni? Mit dem Schalter _Geeignet für Outdoor-Küche_ gibst du an, ob das Rezept auch unter vereinfachten Küchenverhältnissen (beispielsweise in einem Zeltlager) kochbar ist. Mit diesen Angaben kann in der erweiterten Suche der [Rezeptübersicht]({% link docs/recipe/recipes_overview.md %}) das passende Rezept schneller gefunden werden.  {::comment}[[recipes_overview]]{:/comment}
 
 {: .highlight }
-💡 Bitte beachte: Möchtest du das [Rezept veröffentlichen]({% link docs/recipe/recipe publish.md %}) musst du eine gültige Quelle angeben.  {::comment}[[recipe publish]]{:/comment}
+💡 Bitte beachte: Möchtest du das [Rezept veröffentlichen]({% link docs/recipe/recipe_publish.md %}) musst du eine gültige Quelle angeben.  {::comment}[[recipe_publish]]{:/comment}
 
 {: .note-title }
 
@@ -90,7 +90,7 @@ Du hast die Möglichkeit, die Skalierungsfaktoren einzublenden. Sobald diese ein
 
 Im Abschnitt Zubereitung kannst du beschreiben, welche einzelnen Schritte nötig sind, um das Rezept zuzubereiten. Damit kannst du die Kochbücher und zu Hause lasen. Diese Angaben werden auf die PDF-Version des Rezeptes sowie auf im Abschnitt _Verwendete Rezepte_ im Menüplan angezeigt.
 
-Auch hier hast du über die 3 vertikalen Punkte ⋮ , die gewählte Position zu löschen, eine neue Position oder Abschnitt einzufügen. Die Positionen können ebenfalls mittels Drag and Drop verschoben werden. Wie das geht, ist im Abschnitt [Reihenfolge der Zutaten bestimmen]({% link docs/recipe/recipe create, change.md %}#reihenfolge-der-zutaten-bestimmen) beschrieben.
+Auch hier hast du über die 3 vertikalen Punkte ⋮ , die gewählte Position zu löschen, eine neue Position oder Abschnitt einzufügen. Die Positionen können ebenfalls mittels Drag and Drop verschoben werden. Wie das geht, ist im Abschnitt [Reihenfolge der Zutaten bestimmen]({% link docs/recipe/recipe_create_change.md %}#reihenfolge-der-zutaten-bestimmen) beschrieben.
 
 ## Abschnitt
 

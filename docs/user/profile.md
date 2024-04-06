@@ -45,10 +45,10 @@ Um ein Foto hinzuzufügen, klicke auf den Button `Anpassen`. Danach wähle ein F
 Bitte beachte, dass es einige Minuten dauern kann, bis das Foto überall auf chuchipirat korrekt angezeigt wird.
 
 # Email-Adresse ändern
-Wie du die Email-Adresse ändern kannst, ist [hier]({% link docs/user/email password change.md %}) beschrieben. 
- {::comment}[[email password change]]{:/comment}
+Wie du die Email-Adresse ändern kannst, ist [hier]({% link docs/user/email_password_change.md %}) beschrieben. 
+ {::comment}[[email_password_change]]{:/comment}
 
 # Passwort ändern
-Wie du das Passwort  ändern kannst, ist [hier]({% link docs/user/email password change.md %}) beschrieben. 
-{::comment}[[email password change]]{:/comment}
+Wie du das Passwort  ändern kannst, ist [hier]({% link docs/user/email_password_change.md %}) beschrieben. 
+{::comment}[[email_password_change]]{:/comment}
 

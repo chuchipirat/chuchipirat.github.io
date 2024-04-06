@@ -29,8 +29,8 @@ Im Abschnitt mit dem Namen siehst du bei öffentlichen Rezepten ein Rating. Du k
 ### Informationen
 
 Im Abschnitt Informationen siehst du grundlegende Information wie die Zeit für die Zubereitung, die Quelle sowie die Diät-Infos. Die Diät-Infos werden automatisch ermittelt anhand der benötigten Zutaten.
-Im Abschnitt _Tipps & Tags_ siehst du Hinweise/Tipps. Die Tags werden bei der Suche in der [Rezeptübersicht]({% link docs/recipe/recipes overview.md %}) berücksichtigt.
-{::comment}[[recipes overview]]{:/comment}
+Im Abschnitt _Tipps & Tags_ siehst du Hinweise/Tipps. Die Tags werden bei der Suche in der [Rezeptübersicht]({% link docs/recipe/recipes_overview.md %}) berücksichtigt.
+{::comment}[[recipes_overview]]{:/comment}
 ### Zutaten
 
 Im Zutatenabschnitt siehst du alle benötigten Zutaten sowie deren Mengen (und Einheiten). Wurde das Rezept, skaliert siehst du die original- sowie die skalierten Mengen.
@@ -55,8 +55,8 @@ In diesem Block siehst du, ob du spezielles Material benötigst, um das Rezept z
 ## Funktionen
 
 ### Zu Anlass hinzufügen
-Rufst du die [Rezeptübersicht]({% link docs/recipe/recipes overview.md %}) aus dem Menüplan heraus aus, kannst du das angezeigte Menü auch gleich einer bestimmten Mahlzeit deines Anlasses hinzufügen. Wie das geht, ist [hier]({% link docs/event/menueplan.md %}) beschrieben. 
-{::comment}[[recipes overview]][[menueplan]]{:/comment}
+Rufst du die [Rezeptübersicht]({% link docs/recipe/recipes_overview.md %}) aus dem Menüplan heraus aus, kannst du das angezeigte Menü auch gleich einer bestimmten Mahlzeit deines Anlasses hinzufügen. Wie das geht, ist [hier]({% link docs/event/menueplan.md %}) beschrieben. 
+{::comment}[[recipes_overview]][[menueplan]]{:/comment}
 ### Skalieren
 
 Die meisten Rezepte sind für 4 Portionen. Du kannst im Rezept über den entsprechenden Button (oder Menüeintrag) das Rezept skalieren. Damit hast du die Möglichkeit, die benötigten Mengen hochzurechnen.
@@ -77,12 +77,12 @@ Beim Skalieren hast du die Möglichkeit, Einheiten umrechnen zu lassen. So wird 
 > Beachte, dass eine Skalierung einige Tücken mit sich bringt. So können die Zubereitungstexte allenfalls nicht mehr stimmen (enthaltene Mengen) und auch die Koch-/Backzeit kann allenfalls variieren.
 
 ### Eigene Variante erstellen
-Du kannst von einem Rezept eine Anlass-spezifische Variante erstellen. Das kann hilfreich sein, wenn du ein bestehendes Rezept (geringfügig) anpassen willst. Mehr Informationen findest du [hier]({% link docs/recipe/recipe create variant.md %}){::comment}[[recipe create variant]]{:/comment}
+Du kannst von einem Rezept eine Anlass-spezifische Variante erstellen. Das kann hilfreich sein, wenn du ein bestehendes Rezept (geringfügig) anpassen willst. Mehr Informationen findest du [hier]({% link docs/recipe/recipe_create_variant.md %}){::comment}[[recipe_create_variant]]{:/comment}
 
 ### Druckversion
 
-Über diese Funktion kannst du das Rezept als PDF herunterladen. Möchtest du alle Rezepte, welche du in deinem Menüplan hast als PDF herunterladen? Im Abschnitt [Verwendete Rezepte]({% link docs/event/used recipes.md %}) ist beschrieben, wie das geht.
-{::comment}[[used recipes]]{:/comment}
+Über diese Funktion kannst du das Rezept als PDF herunterladen. Möchtest du alle Rezepte, welche du in deinem Menüplan hast als PDF herunterladen? Im Abschnitt [Verwendete Rezepte]({% link docs/event/used_recipes.md %}) ist beschrieben, wie das geht.
+{::comment}[[used_recipes]]{:/comment}
 
 ### Rezept löschen
 

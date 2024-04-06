@@ -36,10 +36,10 @@ Du kannst die Zutatenliste komplett anpassen. So kannst du einzelne Zutaten entf
 
 > Reihenfolge anpassen
 > 
-> Wie du die Reihenfolge der Zutaten anpassen kannst, ist [hier]({% link docs/recipe/recipe create, change.md %}#reihenfolge-der-zutaten-bestimmen) beschrieben.
+> Wie du die Reihenfolge der Zutaten anpassen kannst, ist [hier]({% link docs/recipe/recipe_create_change.md %}#reihenfolge-der-zutaten-bestimmen) beschrieben.
 
 
-  {::comment}[[recipe create, change]]{:/comment}
+  {::comment}[[recipe_create_change]]{:/comment}
 
 **Zubereitungsschritte**  
 Auch die Zubereitungsschritte kannst du wie die Zutaten frei anpassen.

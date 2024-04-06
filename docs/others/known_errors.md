@@ -21,7 +21,7 @@ Die folgenden Fehler sind bekannt, und werden zeitnah behoben. Durchgestrichene 
 
 # Fehler aka. Bugs 🐞
 
-* Falls du Fehler rund um Listen hast: Falls diese Listen vor dem 8. März 	2024 angelegt wurde, bitte die Listen löschen und neu anlegen. Aufgrund eines Bugfixes, musste die Struktur angepasst werden. Diese ist mit den "alten" Listen inkompatibel.
+* keine
 
 
 # Erledigte Fehler 🔫 

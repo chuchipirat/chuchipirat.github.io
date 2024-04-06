@@ -29,7 +29,7 @@ Fehler können passieren, auch in öffentlichen Rezepten. Wenn du denkst, dass d
 
 Folge diesen Schritten, um einen Fehler im Rezept zu melden:
 
-1. Öffne dein Rezept über die [Rezeptübersicht]({% link docs/recipe/recipes overview.md %}). {::comment}[[recipes overview]]{:/comment}
+1. Öffne dein Rezept über die [Rezeptübersicht]({% link docs/recipe/recipes_overview.md %}). {::comment}[[recipes_overview]]{:/comment}
 2. Klicke auf den Button `Fehler melden`. Je nach Bildschirmgrösse kann sich dieser auch in der Buttonreihe unter den drei vertikalen Punkten verstecken.
 3. Beschreibe möglichst genau, was in dem Rezept falsch ist. Ein Community-Leader wird dein Anliegen überprüfen.
 4. Klicke auf den Button `Fehler melden`.

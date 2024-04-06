@@ -37,7 +37,7 @@ Damit ein Rezept veröffentlicht wird, müssen die folgenden Punkte erfüllt sei
 
 Unternimm folgende Schritte, um ein eigenes Rezept zu veröffentlichen.
 
-1. Öffne dein Rezept über die [Rezeptübersicht]({% link docs/recipe/recipes overview.md %}). {::comment}[[recipes overview]]{:/comment}
+1. Öffne dein Rezept über die [Rezeptübersicht]({% link docs/recipe/recipes_overview.md %}). {::comment}[[recipes_overview]]{:/comment}
 2. Klicke auf den Button `Rezept veröffentlichen`. 
 3. Wenn du magst, kann du der Person, die das Rezept prüft (Community-Leader) eine Nachricht hinterlassen.
 4. Klicke auf den Button `Rezept für Review einreichen`.

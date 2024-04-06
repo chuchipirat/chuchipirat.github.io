@@ -24,8 +24,8 @@ _leerer Menüplan_
 ## Struktur
 
 #### Tage
-Für jeden Tag, den du bei der Erstellung angegeben hast, wird eine Spalte im Menüplan angezeigt. Die Anpassung der Tage erfolgt in den [Infos zum Anlass]({% link docs/event/event settings.md %}).
-{::comment}[[event settings]]{:/comment}
+Für jeden Tag, den du bei der Erstellung angegeben hast, wird eine Spalte im Menüplan angezeigt. Die Anpassung der Tage erfolgt in den [Infos zum Anlass]({% link docs/event/event_settings.md %}).
+{::comment}[[event_settings]]{:/comment}
 #### Mahlzeit
 Eine Mahlzeit definiert eine bestimmte Essenszeit, standardmässig *Zmorgen*, *Zmittag* und *Znacht*. Du kannst Mahlzeiten [hinzufügen](#mahlzeit-hinzufügen), [löschen](#mahlzeit-l%C3%B6schen), [verschieben](#mahlzeit-verschieben) oder [umbenennen](#mahlzeit-umbenennen).
 #### Menü
@@ -35,7 +35,7 @@ Ein Menü ist eine Sammlung von Rezepten, die an einem Tag zu einer bestimmten M
 
 ### Rezepte hinzufügen
 Um ein Rezept im Menüplan hinzuzufügen, kannst du auf die Schaltfläche `Rezept Hinzufügen +` klicken. Es öffnet sich die Rezeptübersicht, in der dir alle öffentlichen Rezepte, deine privaten Rezepte sowie die Rezeptvarianten dieses Anlasses angezeigt werden. 
-Falls du Rezepte suchen willst, kannst du dies, indem du einen Suchbegriff eingibst oder du die `Erweiterte Suche` aktivierst. Mehr dazu findest du [hier]({% link docs/recipe/recipes overview.md %}#suche). In der Rezeptübersicht kannst du ein Rezept über das Plus-Symbol dem Menü hinzufügen. Wenn du das Rezept vorher anschauen willst, kannst du das Rezept öffnen und von dort aus über den Button `+Zu Anlass hinzufügen` hinzufügen.
+Falls du Rezepte suchen willst, kannst du dies, indem du einen Suchbegriff eingibst oder du die `Erweiterte Suche` aktivierst. Mehr dazu findest du [hier]({% link docs/recipe/recipes_overview.md %}#suche). In der Rezeptübersicht kannst du ein Rezept über das Plus-Symbol dem Menü hinzufügen. Wenn du das Rezept vorher anschauen willst, kannst du das Rezept öffnen und von dort aus über den Button `+Zu Anlass hinzufügen` hinzufügen.
 
 Als Nächstes wirst du gefragt, in welchen Menüs du das Rezept aufnehmen möchtest. Falls du das Rezept an mehreren Tagen/Mahlzeiten planen möchtest, kannst du weitere Menüs anwählen.
 
@@ -70,7 +70,7 @@ Ziehe ein geplantes Rezept mittels Drag-and-drop in ein anderes Menü.
 Klicke neben dem Menünamen auf die 3 Punkte und wähle `Menü bearbeiten`. Klicke auf das Abfalleimer-Symbol, um ein Rezept aus dem Menü zu löschen.
 
 {: .highlight }
-Wird ein [Rezept gänzlich gelöscht]({% link docs/recipe/recipe structure.md %}#rezept-l%C3%B6schen) (also nicht nur aus dem Menüplan raus), werden in allen Menüplänen die Verknüpfung entfernt. Dabei wird ein Text hinterlassen, damit du siehst, dass das Rezept nicht mehr existiert.
+Wird ein [Rezept gänzlich gelöscht]({% link docs/recipe/recipe_structure.md %}#rezept-l%C3%B6schen) (also nicht nur aus dem Menüplan raus), werden in allen Menüplänen die Verknüpfung entfernt. Dabei wird ein Text hinterlassen, damit du siehst, dass das Rezept nicht mehr existiert.
 
 ![Gelöschtes Rezept im Menüplan](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/event/_images/menueplan_deleted_recipe.png?raw=true)
 _Vermerk im Menü, dass das Rezept Tomatenrisotto gelöscht wurde._
@@ -130,7 +130,7 @@ Wenn du eine Mahlzeit löschen willst, kannst du dies indem du in der Mahlzeiten
 Du kannst an verschiedenen Stellen eine Notiz erfassen. Die kann hilfreich sein, um zum Beispiel die Menüverantwortung, einen Geburtstag oder andere hilfreiche Informationen im Menüplan festzuhalten.
 
 
-![Überschrift mit Notiz](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/event/_images/menueplan_header_with_note.png?raw=true){: width="500px"}  
+![Überschrift mit Notiz](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/event/_images/menueplan_header_with_note.png?raw=true){: width="500"}  
 _Notiz in einer Tagesüberschrift._
 ### Notiz hinzufügen
 Um eine neue Notiz zu erstellen, klicke in der Menükarte oder auf der Spaltenüberschrift auf die 3 Punkte und wähle den Eintrag `Notiz hinzufügen` aus dem Kontextmenü. Gib deine gewünschte Notiz ein und bestätige mit `OK`.

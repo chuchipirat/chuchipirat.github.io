@@ -28,10 +28,10 @@ Dieses Wiki hilft dir, dich im chuchipirat zurechtzufinden. Du findest hier alle
   {::comment}[[home]]{:/comment}
 - Lege einen [Anlass]({% link docs/event/event.md %}) an. Falls du bereits Teil eines bestehenden Anlasses bist, kannst du auch gleich im [Menüplan]({% link docs/event/menueplan.md %}) mit der Planung beginnen.
   {::comment}[[event]] [[menueplan]]{:/comment}
-- Ist dein Lieblingsrezept in der [Rezeptübersicht]({% link docs/recipe/recipes overview.md %}) nicht zu finden? Lege ein neues [Rezept]({% link docs/recipe/recipe create, change.md %}) an.
-  {::comment}[[recipes overview]] [[recipe create, change]]{:/comment}
-- Ist dein privates Rezept so gut, dass du es der gesamten Community zur Verfügung stellen möchtest? Dann lass das [Rezept veröffentlichen]({% link docs/recipe/recipe publish.md %}).
-  {::comment}[[recipe publish]]{:/comment}
+- Ist dein Lieblingsrezept in der [Rezeptübersicht]({% link docs/recipe/recipes_overview.md %}) nicht zu finden? Lege ein neues [Rezept]({% link docs/recipe/recipe_create_change.md %}) an.
+  {::comment}[[recipes_overview]] [[recipe_create_change]]{:/comment}
+- Ist dein privates Rezept so gut, dass du es der gesamten Community zur Verfügung stellen möchtest? Dann lass das [Rezept veröffentlichen]({% link docs/recipe/recipe_publish.md %}).
+  {::comment}[[recipe_publish]]{:/comment}
 - Zu guter Letzt kannst du auch dein [Profil]({% link docs/user/profile.md %}) pflegen. Hinterlege ein Foto und/oder ein Motto. So wirkt das Ganze gleich viel sympathischer.
   {::comment}[[profile]]{:/comment}
 
@@ -42,30 +42,30 @@ Nachfolgend eine Übersicht der verschiedenen Objekte (du findest diese auch im 
 {::comment}[[recipe]]{:/comment}
 Rezepte sind der Grundstein des chuchipirat.
 
-- [Rezept grundlegender Aufbau]({% link docs/recipe/recipe structure.md %})
-  {::comment}[[recipe structure]]{:/comment}
-- [Rezept suchen]({% link docs/recipe/recipes overview.md %})
-  {::comment}[[recipes overview]]{:/comment}
-- [Rezept anlegen/ändern]({% link docs/recipe/recipe create, change.md %})
-  {::comment}[[recipe create, change]]{:/comment}
-- [Rezept der Community zur Verfügung stellen]({% link docs/recipe/recipe publish.md %})
-  {::comment}[[recipe publish]]{:/comment}
-- [Fehler im Rezept melden]({% link docs/recipe/recipe report bug.md %})
-  {::comment}[[recipe report bug]]{:/comment}
+- [Rezept grundlegender Aufbau]({% link docs/recipe/recipe_structure.md %})
+  {::comment}[[recipe_structure]]{:/comment}
+- [Rezept suchen]({% link docs/recipe/recipes_overview.md %})
+  {::comment}[[recipes_overview]]{:/comment}
+- [Rezept anlegen/ändern]({% link docs/recipe/recipe_create_change.md %})
+  {::comment}[[recipe_create_change]]{:/comment}
+- [Rezept der Community zur Verfügung stellen]({% link docs/recipe/recipe_publish.md %})
+  {::comment}[[recipe_publish]]{:/comment}
+- [Fehler im Rezept melden]({% link docs/recipe/recipe_report_bug.md %})
+  {::comment}[[recipe_report_bug]]{:/comment}
 
 ### [Anlass]({% link docs/event/event.md %})
 
 {::comment}[[event]]{:/comment}
 Im Anlass findet die Planung statt.
 
-- [Anlass erstellen]({% link docs/event/event create.md %})
-  {::comment}[[event create]]{:/comment}
+- [Anlass erstellen]({% link docs/event/event_create.md %})
+  {::comment}[[event_create]]{:/comment}
 - [Menüplan]({% link docs/event/menueplan.md %})
   {::comment}[[menueplan]]{:/comment}
 - [Gruppengrösse definieren]({% link docs/event/groupconfiguration.md %})
   {::comment}[[groupconfiguration]]{:/comment}
-- [Verwendete Rezepte]({% link docs/event/used recipes.md %})
-  {::comment}[[used recipes]]{:/comment}
+- [Verwendete Rezepte]({% link docs/event/used_recipes.md %})
+  {::comment}[[used_recipes]]{:/comment}
 - [Materialliste]({% link docs/event/materiallist.md %})
   {::comment}[[materiallist]]{:/comment}
 
@@ -75,4 +75,4 @@ Im Anlass findet die Planung statt.
 Dein Zuhause. Hier hast du Zugriff auf dein Profil.
 
 * [Profil einsehen/bearbeiten]({% link docs/user/profile.md %})
-* [E-Mail-Adresse und/oder Passwort ändern]({% link docs/user/email password change.md %})
+* [E-Mail-Adresse und/oder Passwort ändern]({% link docs/user/email_password_change.md %})

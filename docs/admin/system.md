@@ -26,27 +26,27 @@ search_exclude: true
 
 Folgende Funktionalitäten bietet dir die Seite _System_ als Community-Leader\*in:
 
-* [Verfolgungsnachweis]({% link docs/admin/where used.md %}): Finden von Produkten, Materialien in Rezepten, quer durch die gesamte Applikation.
-* [Übersicht Rezepte]({% link docs/admin/recipe overview.md %}): Übersicht aller Rezepte, privat wie öffentlich.
-* [Übersicht Anlässe]({% link docs/admin/event overview.md %}): Übersicht aller erfassten Anlässe.
-* [Übersicht Feed-Einträge]({% link docs/admin/feed overview.md %}): Übersicht aller generierten Feed-Einträgen.
-* [Produkte zusammenführen]({% link docs/admin/merge products.md %}): Gleiche Produkte zu einem zusammenführen
-* [Produkt in Material umwandeln]({% link docs/admin/convert product to material.md %}): Ein Produkt in ein Material umwanden und alle betroffenen Objekte entsprechen anpassen.
-* [Support-User aktivieren]({% link docs/admin/activate support user.md %}): Den Support-User einem Anlass hinzuzufügen, um Support leisten zu können.
+* [Verfolgungsnachweis]({% link docs/admin/where_used.md %}): Finden von Produkten, Materialien in Rezepten, quer durch die gesamte Applikation.
+* [Übersicht Rezepte]({% link docs/admin/recipe_overview.md %}): Übersicht aller Rezepte, privat wie öffentlich.
+* [Übersicht Anlässe]({% link docs/admin/event_overview.md %}): Übersicht aller erfassten Anlässe.
+* [Übersicht Feed-Einträge]({% link docs/admin/feed_overview.md %}): Übersicht aller generierten Feed-Einträgen.
+* [Produkte zusammenführen]({% link docs/admin/merge_products.md %}): Gleiche Produkte zu einem zusammenführen
+* [Produkt in Material umwandeln]({% link docs/admin/convert_product_to_material.md %}): Ein Produkt in ein Material umwanden und alle betroffenen Objekte entsprechen anpassen.
+* [Support-User aktivieren]({% link docs/admin/activate_support_user.md %}): Den Support-User einem Anlass hinzuzufügen, um Support leisten zu können.
 
-  {::comment}[[where used]][[recipe overview]][[event overview]][[feed overview]][[convert product to material]][[activate support user]][[merge products]]{:/comment}
+  {::comment}[[where_used]][[recipe_overview]][[event_overview]][[feed_overview]][[convert_product_to_material]][[activate_support_user]][[merge_products]]{:/comment}
 
 ## Admin
 
 Folgende zusätzliche Funktionalitäten bietet dir die Seite _System_ als Admin:
 
-* [Globale Einstellungen]({% link docs/admin/globalsettings.md %})
-* [Mail-Konsole]({% link docs/admin/mailconsole.md %})
-* [Mailbox Monitor]({% link docs/admin/mailbox monitor.md %}): Übersicht über alle versendeten E-Mails.
-* [Cloud Functions Monitor]({% link docs/admin/cloud fx overview.md %}): Übersicht über alle ausgeführten Cloud Functions
+* [Globale Einstellungen]({% link docs/admin/globalsettings.md %}): Möglichkeit den chuchipirat in den Wartungsmodus zu stellen und Neuanmeldungen zu verhindern.
+* [Mail-Konsole]({% link docs/admin/mailconsole.md %}): E-Mails an Benutzer\*innen versenden
+* [Mailbox Monitor]({% link docs/admin/mailbox_monitor.md %}): Übersicht über alle versendeten E-Mails.
+* [Cloud Functions Monitor]({% link docs/admin/cloud_fx_overview.md %}): Übersicht über alle ausgeführten Cloud Functions
 * [Jobs]({% link docs/admin/jobs.md %}): Reparatur-Jobs ausführen
 
 
 
-  {::comment}[[globalsettings]][[mailconsole]][[mailbox monitor]][[cloud fx overview]][[jobs]]{:/comment}
+  {::comment}[[globalsettings]][[mailconsole]][[mailbox_monitor]][[cloud_fx_overview]][[jobs]]{:/comment}
 

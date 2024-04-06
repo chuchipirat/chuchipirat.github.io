@@ -93,6 +93,6 @@ Auf der nächsten Seite findest du einen Twint-QR-Code. Wenn es dein Anlassbudge
 
 {: .note }
 
-> Falls du eine Quittung möchtest, schreib uns einfach eine E-Mail. Wir senden dir gerne eine Quittung als PDF zu. Bitte beachte, dass dies einige Tage dauern kann. Sobald die Quittung einmal generiert wurde, kannst du sie im Anlass unter der [Registerkarte]({% link docs/event/event settings.md %}#quittung) `Info zum Anlass` jederzeit erneut herunterladen.
+> Falls du eine Quittung möchtest, schreib uns einfach eine E-Mail. Wir senden dir gerne eine Quittung als PDF zu. Bitte beachte, dass dies einige Tage dauern kann. Sobald die Quittung einmal generiert wurde, kannst du sie im Anlass unter der [Registerkarte]({% link docs/event/event_settings.md %}#quittung) `Info zum Anlass` jederzeit erneut herunterladen.
 
 Mit einem Klick auf `Weiter` gelangst du zum [Menüplan]({% link docs/event/menueplan.md %}).   {::comment}[[menueplan]]{:/comment}

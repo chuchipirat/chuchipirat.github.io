@@ -21,7 +21,7 @@ Auf der Startseite erwarten dich verschiedene nützliche Informationen und Funkt
 
 # Nächsten Anlässe
 
-Hier siehst du alle kommenden Veranstaltungen, bei denen du (mit-)kochen wirst. Wenn du einen neuen Anlass erstellen möchtest, erfährst du in der Anleitung [Anlass erstellen]({% link docs/event/event create.md %}), wie du am besten vorgehst.
+Hier siehst du alle kommenden Veranstaltungen, bei denen du (mit-)kochen wirst. Wenn du einen neuen Anlass erstellen möchtest, erfährst du in der Anleitung [Anlass erstellen]({% link docs/event/event_create.md %}), wie du am besten vorgehst.
 
 # Vergangene Anlässe
 

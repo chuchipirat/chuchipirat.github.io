@@ -26,5 +26,5 @@ Je nachdem, ob du das Rezept skaliert geöffnet hast oder nicht, werden auch die
 
 # Mehrere Rezepte exportieren
 
-Willst du alle Rezepte, die du in einem Anlass eingeplant hast, exportieren, nutze bitte die Funktion [Verwendete Rezepte]({% link docs/event/used recipes.md %}) im Menüplan.
-  {::comment}[[used recipes]]{:/comment}
+Willst du alle Rezepte, die du in einem Anlass eingeplant hast, exportieren, nutze bitte die Funktion [Verwendete Rezepte]({% link docs/event/used_recipes.md %}) im Menüplan.
+  {::comment}[[used_recipes]]{:/comment}
