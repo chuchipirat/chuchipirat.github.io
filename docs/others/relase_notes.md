@@ -26,6 +26,14 @@ Vielen Dank für deine Unterstützung und dein [Feedback](mailto:hallo@chuchipir
 # 1.0.0
 * Bereitstellung der App - Go-live 🎉
 
+## 1.0.2
+* Erweiterung des klickbaren Bereich im Navigationsmenü.
+* Korrektur eines Fehlers im Menüplan (Produkt = `undefined`) und Anpassung des Korrekturprogramm, um ein Produkt zu einem Material umzuwandeln.
+* Korrektur der Cloud-FX um den Text eines Produktes in allen Objekten nachzuziehen. 
+* Korrektur um die Quittung einer Spende zu generieren.
+* Neues Korrekturprogramm, um falsch erfasste Materialien in Produkte umzuwandeln.
+* Neues Korrekturprogramm, um doppelte Materialien zusammenzuführen. 
+
 ## 1.0.1
 * Diverse Bugfixes und Layout-Anpassungen
 

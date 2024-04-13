@@ -30,11 +30,11 @@ Folgende Funktionalitäten bietet dir die Seite _System_ als Community-Leader\*i
 * [Übersicht Rezepte]({% link docs/admin/recipe_overview.md %}): Übersicht aller Rezepte, privat wie öffentlich.
 * [Übersicht Anlässe]({% link docs/admin/event_overview.md %}): Übersicht aller erfassten Anlässe.
 * [Übersicht Feed-Einträge]({% link docs/admin/feed_overview.md %}): Übersicht aller generierten Feed-Einträgen.
-* [Produkte zusammenführen]({% link docs/admin/merge_products.md %}): Gleiche Produkte zu einem zusammenführen
-* [Produkt in Material umwandeln]({% link docs/admin/convert_product_to_material.md %}): Ein Produkt in ein Material umwanden und alle betroffenen Objekte entsprechen anpassen.
-* [Support-User aktivieren]({% link docs/admin/activate_support_user.md %}): Den Support-User einem Anlass hinzuzufügen, um Support leisten zu können.
-
-  {::comment}[[where_used]][[recipe_overview]][[event_overview]][[feed_overview]][[convert_product_to_material]][[activate_support_user]][[merge_products]]{:/comment}
+* [Items zusammenführen]({% link docs/admin/merge_items.md %}): Gleiche Produkte oder Materialien zu einem zusammenführen
+* [Items umwandeln]({% link docs/admin/convert_items.md %}): Ein Produkt in ein Material umwanden und alle betroffenen Objekte entsprechen anpassen.
+* [Support-User aktivieren]({% link docs/admin/activate_support_user.md %}): Den Support-User einem Anlass hinzuzufügen, um Support leisten zu können.  
+ 
+ {::comment}[[where_used]][[recipe_overview]][[event_overview]][[feed_overview]][[convert_items]][[activate_support_user]][[merge_items]]{:/comment}
 
 ## Admin
 
@@ -44,9 +44,7 @@ Folgende zusätzliche Funktionalitäten bietet dir die Seite _System_ als Admin:
 * [Mail-Konsole]({% link docs/admin/mailconsole.md %}): E-Mails an Benutzer\*innen versenden
 * [Mailbox Monitor]({% link docs/admin/mailbox_monitor.md %}): Übersicht über alle versendeten E-Mails.
 * [Cloud Functions Monitor]({% link docs/admin/cloud_fx_overview.md %}): Übersicht über alle ausgeführten Cloud Functions
-* [Jobs]({% link docs/admin/jobs.md %}): Reparatur-Jobs ausführen
+* [Jobs]({% link docs/admin/jobs.md %}): Reparatur-Jobs ausführen. 
 
-
-
-  {::comment}[[globalsettings]][[mailconsole]][[mailbox_monitor]][[cloud_fx_overview]][[jobs]]{:/comment}
+{::comment}[[globalsettings]][[mailconsole]][[mailbox_monitor]][[cloud_fx_overview]][[jobs]]{:/comment}
 
