@@ -4,7 +4,7 @@ title: Passwort zurücksetzen
 nav_exclude: false
 has_children: false
 nav_order: 6
-parent: user
+parent: Profilseite
 toc: true
 ---
 # Passwort zurücksetzen

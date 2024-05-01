@@ -24,16 +24,23 @@ search_exclude: true
 >Diese Seite ist für die Community-Leader\*innen und System-Admins.
 
 
-Die Rezeptübersicht listet alle öffentlichen und privaten Rezepte auf. 
+Die Anlassübersicht listet alle erfassten Anlässe auf. 
 
 ![Rezept-Übersicht](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/admin/_images/recipe_overview.png?raw=true)
 
 
 ## Ansicht
 
-Die Ansicht zeigt standardmässig alle öffentlichen Rezepte. Über die Radiobuttons, kannst du dir auch die privaten oder alle (private und öffentliche kombiniert) anzeigen lassen. 
+Standardmäßig werden alle Anlässe in dieser Ansicht angezeigt. Hier kannst du anhand des Anlassnamens und der Person die eindeutige Benutzer-ID (UID) herausfinden, um gegebenenfalls den [Support-Benutzer]({% link docs/admin/activate_support_user.md %}) zu aktivieren.
+
+  {::comment}[[activate_support_user]]{:/comment}
+## Quittung erstellen
+
+Um für einen Anlass eine Quittung zu erstellen, klicke auf den entsprechenden Anlass und öffne das Kontextmenü, das sich ganz rechts befindet (durch Klicken auf die drei vertikalen Punkte). Wähle die Option `Quittung erstellen`.
+
+![Quittung erstellen](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/admin/_images/event_receipt.png?raw=true)
 
 
-## Rezept-Ansicht
+Gib das Datum und den Betrag ein und klicke auf `Erstellen`. Es wird ein PDF generiert, das du dem\*der Spender\*in zur Verfügung stellen kannst. Ab diesem Zeitpunkt hat auch die gesamte Küchenmannschaft die Möglichkeit, die Quittung in der [Anlass-Einstellungen]({% link docs/event/event_settings.md %}) selbstständig herunterzuladen.
 
-Mit einem Klick auf den Eintrag öffnet sich eine kurze Zusammenfassung des Rezeptes. Von dort aus hast du über den Button `Rezept öffnen` die Möglichkeit, das entsprechende Rezept zu öffnen.
+  {::comment}[[event_settings]]{:/comment}
