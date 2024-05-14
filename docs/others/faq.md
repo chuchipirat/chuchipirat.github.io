@@ -37,6 +37,32 @@ Wir empfehlen, die angegebenen Mengen pro Rezept nicht anzupassen, sondern allen
 
 </details>
 
+## Fragen um die Funktionsweise der App
+
+<details  markdown="block">
+  <summary style="color:#006064">
+    Wieso wird die Zeit nicht angepasst, wenn das Rezept skaliert wird?
+  </summary>
+  
+Wir haben viel darüber nachgedacht, wie wir Zubereitungszeiten skalieren können, aber bisher keine passende Lösung gefunden. Die Zeit, die für das Kochen benötigt wird, hängt von verschiedenen Faktoren ab, wie der Art der Zubereitung, der Anzahl der Personen, die kochen, und der verfügbaren Ausrüstung. Die Kochzeit ist nicht überall gleich. Während die Zubereitungszeit für Pasta in etwa 11 Minuten beträgt, ist die Zubereitung von Gerichten wie Omeletten, die pro Portion gekocht werden, unterschiedlich. Auch die Zubereitungsdauer variiert. Zum Beispiel dauert es genauso lange, einen Teig mit einer Teigmaschine für 20 Personen herzustellen wie für 4 Personen (vorausgesetzt, die Maschine kann das bewältigen). Das Schälen von Rüebli hingegen dauert proportional zur Menge. Es ist also nicht möglich, die Zubereitungszeiten global zu skalieren. Anstatt ungenaue Informationen anzuzeigen, zeigen wir lieber die Zeit an, die für die Originalmengen im Rezept benötigt wird.
+
+</details>
+  
+<details  markdown="block">
+  <summary style="color:#006064">
+    Wieso gibt es bestimmte Einheiten nicht?
+  </summary>
+  
+Die Einheit Stück, Dose oder Tafel gibt es im chuchipirat nicht. Grund dafür ist, dass diese zum einen nicht aussagekräftig genug sind oder keinen Mehrwert bringen.
+
+**Stück**  
+Die Einheit Stück bringt im Rezept oder auf der Einkaufsliste keinen Mehrwert. 4 x Rüebli ist gleich wie 4 Stück Rüebli. Deswegen wurde auf diese Einheit verzichtet.
+
+**Dose**  
+Eine Dose ist je nach Hersteller/Verkäufer*in nicht gleich gross. Dies birgt ein gewisses Risiko, dass das Rezept mit zu wenig oder zu viel dieses Lebensmittel zubereitet wird. 
+
+</details>
+
 ## Fragen rund um die App
 
 

@@ -24,9 +24,23 @@ Vielen Dank für deine Unterstützung und dein [Feedback](mailto:hallo@chuchipir
 ---
 
 # 1.0.0
+Go-live: 25.03.2024
 * Bereitstellung der App - Go-live 🎉
 
+## 1.0.3 
+Go-live: 04.05.2024
+* Passwort vergessen Link wird nun bei Falscheingabe des Passwortes angezeigt.
+* Möglichkeit deine Notiz in einem Menü über das Kontextmenü zu löschen
+* Bei der Abmeldung aus dem chuchipirat, wird das Navigationsmenü nicht mehr angezeigt.
+* Neuer Menüeintrag `Spenden`. Damit kann jederzeit der Twintcode aufgerufen werden. 
+* Fehler im Menüplan, bei dem Hinzufügen von Produkten/Materialien wurde behoben.
+* Auf dem Startbildschirm werden nun mehr Feedeinträge angezeigt.
+* Links in der Fusszeile gehen alle in einem neuen Tab auf. 
+* Möglichkeit Systemmeldungen zu setzen (Admin-Bereich).
+* Beim erfassen eines neuen Produktes wird geprüft, ob es ähnlich klingende Produkte gibt. Eine Liste mit möglichen Übereinstimmungen wird angezeigt um Doubletten zu vermeiden.
+
 ## 1.0.2
+Go-live: 15.04.2024
 * Erweiterung des klickbaren Bereich im Navigationsmenü.
 * Korrektur eines Fehlers im Menüplan (Produkt = `undefined`) und Anpassung des Korrekturprogramm, um ein Produkt zu einem Material umzuwandeln.
 * Korrektur der Cloud-FX um den Text eines Produktes in allen Objekten nachzuziehen. 
@@ -35,6 +49,7 @@ Vielen Dank für deine Unterstützung und dein [Feedback](mailto:hallo@chuchipir
 * Neues Korrekturprogramm, um doppelte Materialien zusammenzuführen. 
 
 ## 1.0.1
+Go-Live: 27.03.2024
 * Diverse Bugfixes und Layout-Anpassungen
 
 

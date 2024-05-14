@@ -2,10 +2,11 @@
 layout: page
 title: Bekannte Fehler
 permalink: /known_errors
-nav_exclude: false
+nav_exclude: true
 has_children: false
 nav_order: 8
 parent: FAQ
+search_exclude: true
 ---
 # Bekannte Fehler
 {: .no_toc }

@@ -31,6 +31,14 @@ Im Abschnitt mit dem Namen siehst du bei öffentlichen Rezepten ein Rating. Du k
 Im Abschnitt Informationen siehst du grundlegende Information wie die Zeit für die Zubereitung, die Quelle sowie die Diät-Infos. Die Diät-Infos werden automatisch ermittelt anhand der benötigten Zutaten.
 Im Abschnitt _Tipps & Tags_ siehst du Hinweise/Tipps. Die Tags werden bei der Suche in der [Rezeptübersicht]({% link docs/recipe/recipes_overview.md %}) berücksichtigt.
 {::comment}[[recipes_overview]]{:/comment}
+
+{: .highlight-title }
+
+> Wieso wird die Zeit nicht angepasst, wenn das Rezept skaliert wird?
+> 
+> Wir haben viel darüber nachgedacht, wie wir Zubereitungszeiten skalieren können, aber bisher keine passende Lösung gefunden. Die Zeit, die für das Kochen benötigt wird, hängt von verschiedenen Faktoren ab, wie der Art der Zubereitung, der Anzahl der Personen, die kochen, und der verfügbaren Ausrüstung. Die Kochzeit ist nicht überall gleich. Während die Zubereitungszeit für Pasta in etwa 11 Minuten beträgt, ist die Zubereitung von Gerichten wie Omeletten, die pro Portion gekocht werden, unterschiedlich. Auch die Zubereitungsdauer variiert. Zum Beispiel dauert es genauso lange, einen Teig mit einer Teigmaschine für 20 Personen herzustellen wie für 4 Personen (vorausgesetzt, die Maschine kann das bewältigen). Das Schälen von Rüebli hingegen dauert proportional zur Menge. Es ist also nicht möglich, die Zubereitungszeiten global zu skalieren. Anstatt ungenaue Informationen anzuzeigen, zeigen wir lieber die Zeit an, die für die Originalmengen im Rezept benötigt wird.
+
+
 ### Zutaten
 
 Im Zutatenabschnitt siehst du alle benötigten Zutaten sowie deren Mengen (und Einheiten). Wurde das Rezept, skaliert siehst du die original- sowie die skalierten Mengen.
