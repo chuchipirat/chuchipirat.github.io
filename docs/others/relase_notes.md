@@ -27,6 +27,20 @@ Vielen Dank für deine Unterstützung und dein [Feedback](mailto:hallo@chuchipir
 Go-live: 25.03.2024
 * Bereitstellung der App - Go-live 🎉
 
+## 1.0.4
+Go-live: 24.11.2024
+* Bugfix [#153](https://github.com/gcettuzz/chuchipirat/issues/153): Im Navigationsmenü, war bei dem Eintrag «Anlässe» nur das Icon als Link klickbar. Der Link wurde nun auf das ganze Listenelement erweitert.
+* Bugfix [#155](https://github.com/gcettuzz/chuchipirat/issues/155): Wurde bei einem gespeicherten Rezept nachträglich die Menge eines Materials gelöscht, führte dies unter Umständen zu einem Fehler. 
+* Bugfix [#156](https://github.com/gcettuzz/chuchipirat/issues/156): Das Profil konnte ohne Anzeigenamen gespeichert werden. Das führte beim Erstellen einer Rezeptvariante zu einem Fehler. 
+* Bugfix [#161](https://github.com/gcettuzz/chuchipirat/issues/161): Fehler bei der Skalierung von Zutaten mit einem Skalierungsfaktor ungleich 1. Die Formel für die Skalierung von Zutaten wurden angepasst.  
+* Bugfix [#167](https://github.com/gcettuzz/chuchipirat/issues/167): Fehler bei der Anzeige der Total Portionen im Dialog _Für wen planst du das Rezept ein?_, falls eine Einplanung geändert wird und eine Ernährungsgruppe vorausgewählt ist. 
+* Bugfix [#164](https://github.com/gcettuzz/chuchipirat/issues/164): Mehr Feature als Bug 😉. Ist die Postion im Rezept beispielsweise in TL und die produktspezifische Umrechnung in TL wird bei erfolgloser Umrechnung noch versucht, die Position in EL umzurechnen und danach nochmals in das metrische System umzurechnen. 
+* Bugfix [#166](https://github.com/gcettuzz/chuchipirat/issues/166): Der Seitenumbruch beim Export der Einkaufsliste führte unter gewissen Umständen zu leeren Seiten. Dieser Fix behebt dies.
+* Bugfix [#172](https://github.com/gcettuzz/chuchipirat/issues/172): Registriert sich eine Person neu beim chuchipirat, werden die Einstellungen und Statistikdaten erst erzeugt, wenn die E-Mail-Adresse durch die Person bestätigt wurde. 
+* Bugfix [#175](https://github.com/gcettuzz/chuchipirat/issues/175): Rezeptvarianten, die im Menüplan erstellt wurden, konnten durch den\*die Autor\*in geändert werden. Dies wurde geändert, dass alle Crew-Mitglieder Rezeptvarianten auch ändern können.
+* Bugfix [#178](https://github.com/gcettuzz/chuchipirat/issues/178): Beim Hinzufügen  von Produkten zum Menüplan, wurde teilweise die falsche Einheit übernommen.
+* Bugfix [#181](https://github.com/gcettuzz/chuchipirat/issues/181): Beim Hochladen von Bildern, kam es teilweise zu Fehlern. Wird nun ein Bild hochgeladen (Anlass oder Userprofil), wird neu eine Sanduhr angezeigt bis das Hochladen erfolgreich war. 
+ 
 ## 1.0.3 
 Go-live: 04.05.2024
 * Passwort vergessen Link wird nun bei Falscheingabe des Passwortes angezeigt.
