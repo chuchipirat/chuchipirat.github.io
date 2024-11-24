@@ -1,0 +1,15 @@
+{
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": [
+    "_site/",
+    "_posts/",
+    "_layouts/",
+    "_includes/"
+  ],
+  "spellcheck": false,
+  "spellcheckDictionary": [
+    "comment",
+    "comment",
+    "einesehen"
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "f92a290e07d1beca",
+    "type": "split",
+    "children": [
+      {
+        "id": "059dd66f779735c6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a44cb85e0378f284",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Neuer Tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "332ba22053edafb8",
+    "type": "split",
+    "children": [
+      {
+        "id": "805bd6e3bbb41375",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f62a5d6b240b18b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Dateiexplorer"
+            }
+          },
+          {
+            "id": "5439df3a1a413f90",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "over",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Suchen"
+            }
+          },
+          {
+            "id": "407787fb36c22c96",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Lesezeichen"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 396.5
+  },
+  "right": {
+    "id": "fb7fefb6f76786bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "fec0f36564efaeef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c0f38a76bc80222",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Rückverweis"
+            }
+          },
+          {
+            "id": "fa137f6b51de2885",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Ausgehende Links"
+            }
+          },
+          {
+            "id": "f8531aa6c39a9580",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "06763aed03acfc69",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Gliederung"
+            }
+          },
+          {
+            "id": "a1e6367ed13ab24c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Schnellauswahl öffnen": false,
+      "graph:Graphen-Ansicht öffnen": false,
+      "canvas:Neuen Canvas erstellen": false,
+      "daily-notes:Heutige Notiz öffnen": false,
+      "templates:Vorlage einfügen": false,
+      "command-palette:Befehlspalette öffnen": false
+    }
+  },
+  "active": "a44cb85e0378f284",
+  "lastOpenFiles": [
+    "_site/release_notes.html",
+    "_site/known_errors.html",
+    "_site/faq.html",
+    "_site/docs/request/requests/index.html",
+    "_site/docs/user/profile/index.html",
+    "_site/docs/user/passwordReset/index.html",
+    "_site/docs/user/email_password_change/index.html",
+    "_site/docs/recipe/recipe/index.html",
+    "_site/docs/masterdata/units/index.html",
+    "_site/docs/masterdata/unitconversion/index.html",
+    "_site/docs/masterdata/products/index.html",
+    "docs/user/profile.md",
+    "docs/user/email_password_change.md",
+    "docs/user/passwordReset.md",
+    "docs/user/_images/password_reset.png",
+    "docs/user/_images/change_login_data.png",
+    "docs/request/requests.md",
+    "docs/recipe/recipe_create_change.md",
+    "docs/recipe/recipe_publish.md",
+    "docs/recipe/recipes_overview.md",
+    "docs/recipe/_images/recipes_overview.png",
+    "docs/recipe/_images/recipes_advanced_search.png",
+    "docs/recipe/_images/recipecard_layout.png",
+    "docs/recipe/_images/recipe_report_error.png",
+    "docs/recipe/_images/recipe_publish_request.png",
+    "docs/recipe/_images/rearrange_ingredients.gif",
+    "docs/recipe/_images/recipe_print_version.png",
+    "docs/recipe/_images/create_section.gif",
+    "docs/recipe/recipe.md",
+    "docs/recipe/recipe_create_variant.md",
+    "docs/recipe/recipe_print.md",
+    "docs/recipe/recipe_structure.md",
+    "docs/recipe/recipe_report_bug.md",
+    "docs/recipe/_includes/scalingfactor.md",
+    "docs/others/report_bug.md",
+    "docs/others/known_errors.md",
+    "docs/others/faq.md",
+    "docs/others/relase_notes.md",
+    "docs/masterdata/materials.md",
+    "docs/masterdata/products.md",
+    "docs/masterdata/unitconversion.md",
+    "docs/masterdata/units.md",
+    "docs/masterdata/departments.md",
+    "docs/masterdata/masterdata.md",
+    "docs/home/home.md",
+    "docs/event/groupconfiguration.md"
+  ]
+}

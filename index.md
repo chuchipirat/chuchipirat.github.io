@@ -1,99 +1,78 @@
 ---
-title: Home
 layout: home
-nav_order: 1
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
-permalink: /
+title: Home
+nav_exclude: true
 ---
 
-# Focus on writing good documentation
-{: .fs-9 }
 
-Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
-{: .fs-6 .fw-300 }
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[View it on GitHub][Just the Docs repo]{: .btn .fs-5 .mb-4 .mb-md-0 }
+<div style="text-align: center;"> <img src="https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/others/_images/logo_16_9.png?raw=true" alt="Logo" style="border:0;"> </div>
+
+# Wie können wir helfen?
+
+Im Helpcenter findest du alle nötigen Anleitungen und Informationen, um mit dem [chuchipirat](https://chuchipirat.ch) zu arbeiten.
+
+## Was ist der chuchipirat?
+
+Der chuchipirat ist eine Web-Applikation, die Freiwillige in Jugendverbänden in der Planung, Durchführung und Nachbearbeitung von Lagerküchen unterstützt. Das Kochen in grossen Mengen in einem Lager oder Kurs ist gerade in der Vorbereitung aufwendig und erfordert spezifische Kenntnisse, damit nicht nur schmackhaftes, sondern auch Essen in passender Menge serviert werden kann.
+
+Genau hier unterstützt dich der chuchipirat. Lege einen Anlass an, wähle aus den bestehenden Rezepten (oder lege ein neues an) und plane dieses ein. Definieren für wie viele Portionen du zubereiten möchtest und überlasse die Skalierung dem chuchipirat. Kurz vor dem Anlass kannst du automatisiert die Einkaufsliste generieren oder die verwendeten Rezepte (in der richtigen Skalierung) ausdrucken.
+
+Dieses Wiki hilft dir, dich im chuchipirat zurechtzufinden. Du findest hier alle Erklärungen sowie wertvolle Tipps, die dich im Umgang mit der Web-Applikation unterstützen.
 
 ---
 
-{: .warning }
-> This website documents the features of the current `main` branch of the Just the Docs theme. See [the CHANGELOG]({% link CHANGELOG.md %}) for a list of releases, new features, and bug fixes.
+# Erste Schritte
 
-Just the Docs is a theme for generating static websites with [Jekyll]. You can write source files for your web pages using [Markdown], the [Liquid] templating language, and HTML.[^1] Jekyll builds your site by converting all files that have [front matter] to HTML. Your [Jekyll configuration] file determines which theme to use, and sets general parameters for your site, such as the URL of its home page.
+- Entdecke die [Startseite]({% link docs/home/home.md %}). Hier kannst du auf deine Anlässe zugreifen oder sehen, was sonst auf dem chuchipirat läuft.
+  {::comment}[[home]]{:/comment}
+- Lege einen [Anlass]({% link docs/event/event.md %}) an. Falls du bereits Teil eines bestehenden Anlasses bist, kannst du auch gleich im [Menüplan]({% link docs/event/menueplan.md %}) mit der Planung beginnen.
+  {::comment}[[event]] [[menueplan]]{:/comment}
+- Ist dein Lieblingsrezept in der [Rezeptübersicht]({% link docs/recipe/recipes_overview.md %}) nicht zu finden? Lege ein neues [Rezept]({% link docs/recipe/recipe_create_change.md %}) an.
+  {::comment}[[recipes_overview]] [[recipe_create_change]]{:/comment}
+- Ist dein privates Rezept so gut, dass du es der gesamten Community zur Verfügung stellen möchtest? Dann lass das [Rezept veröffentlichen]({% link docs/recipe/recipe_publish.md %}).
+  {::comment}[[recipe_publish]]{:/comment}
+- Zu guter Letzt kannst du auch dein [Profil]({% link docs/user/profile.md %}) pflegen. Hinterlege ein Foto und/oder ein Motto. So wirkt das Ganze gleich viel sympathischer.
+  {::comment}[[profile]]{:/comment}
 
-Jekyll builds this Just the Docs theme docs website using the theme itself. These web pages show how your web pages will look *by default* when you use this theme. But you can easily *[customize]* the theme to make them look completely different!
+Nachfolgend eine Übersicht der verschiedenen Objekte (du findest diese auch im Navigationspanel):
 
-Browse the docs to learn more about how to use this theme.
+### [Rezept]({% link docs/recipe/recipe.md %})
 
-## Getting started
+{::comment}[[recipe]]{:/comment}
+Rezepte sind der Grundstein des chuchipirat.
 
-The [Just the Docs Template] provides the simplest, quickest, and easiest way to create a new website that uses the Just the Docs theme. To get started with creating a site, just click "[use the template]"!
+- [Rezept grundlegender Aufbau]({% link docs/recipe/recipe_structure.md %})
+  {::comment}[[recipe_structure]]{:/comment}
+- [Rezept suchen]({% link docs/recipe/recipes_overview.md %})
+  {::comment}[[recipes_overview]]{:/comment}
+- [Rezept anlegen/ändern]({% link docs/recipe/recipe_create_change.md %})
+  {::comment}[[recipe_create_change]]{:/comment}
+- [Rezept der Community zur Verfügung stellen]({% link docs/recipe/recipe_publish.md %})
+  {::comment}[[recipe_publish]]{:/comment}
+- [Fehler im Rezept melden]({% link docs/recipe/recipe_report_bug.md %})
+  {::comment}[[recipe_report_bug]]{:/comment}
 
-{: .note }
-To use the theme, you do ***not*** need to clone or fork the [Just the Docs repo]! You should do that only if you intend to browse the theme docs locally, contribute to the development of the theme, or develop a new theme based on Just the Docs.
+### [Anlass]({% link docs/event/event.md %})
 
-You can easily set the site created by the template to be published on [GitHub Pages] – the [template README] file explains how to do that, along with other details.
+{::comment}[[event]]{:/comment}
+Im Anlass findet die Planung statt.
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^2] And you will be able to deploy your local build to a different platform than GitHub Pages.
+- [Anlass erstellen]({% link docs/event/event_create.md %})
+  {::comment}[[event_create]]{:/comment}
+- [Menüplan]({% link docs/event/menueplan.md %})
+  {::comment}[[menueplan]]{:/comment}
+- [Gruppengrösse definieren]({% link docs/event/groupconfiguration.md %})
+  {::comment}[[groupconfiguration]]{:/comment}
+- [Verwendete Rezepte]({% link docs/event/used_recipes.md %})
+  {::comment}[[used_recipes]]{:/comment}
+- [Materialliste]({% link docs/event/materiallist.md %})
+  {::comment}[[materiallist]]{:/comment}
 
-More specifically, the created site:
+### [Profil]({% link docs/user/profile.md %})
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+{::comment}[[profile]]{:/comment}
+Dein Zuhause. Hier hast du Zugriff auf dein Profil.
 
-Other than that, you're free to customize sites that you create with the template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
-
-{: .note }
-See the theme [README][Just the Docs README] for how to use the theme as a gem without creating a new site.
-
-## About the project
-
-Just the Docs is &copy; 2017-{{ "now" | date: "%Y" }} by [Patrick Marsceill](https://patrickmarsceill.com).
-
-### License
-
-Just the Docs is distributed by an [MIT license](https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt).
-
-### Contributing
-
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github.com/just-the-docs/just-the-docs#contributing).
-
-#### Thank you to the contributors of Just the Docs!
-
-<ul class="list-style-none">
-{% for contributor in site.github.contributors %}
-  <li class="d-inline-block mr-1">
-     <a href="{{ contributor.html_url }}"><img src="{{ contributor.avatar_url }}" width="32" height="32" alt="{{ contributor.login }}"></a>
-  </li>
-{% endfor %}
-</ul>
-
-### Code of Conduct
-
-Just the Docs is committed to fostering a welcoming community.
-
-[View our Code of Conduct](https://github.com/just-the-docs/just-the-docs/tree/main/CODE_OF_CONDUCT.md) on our GitHub repository.
-
-----
-
-[^1]: The [source file for this page] uses all three markup languages.
-
-[^2]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Jekyll]: https://jekyllrb.com
-[Markdown]: https://daringfireball.net/projects/markdown/
-[Liquid]: https://github.com/Shopify/liquid/wiki
-[Front matter]: https://jekyllrb.com/docs/front-matter/
-[Jekyll configuration]: https://jekyllrb.com/docs/configuration/
-[source file for this page]: https://github.com/just-the-docs/just-the-docs/blob/main/index.md
-[Just the Docs Template]: https://just-the-docs.github.io/just-the-docs-template/
-[Just the Docs]: https://just-the-docs.com
-[Just the Docs repo]: https://github.com/just-the-docs/just-the-docs
-[Just the Docs README]: https://github.com/just-the-docs/just-the-docs/blob/main/README.md
-[GitHub Pages]: https://pages.github.com/
-[Template README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[customize]: {% link docs/customization.md %}
-[use the template]: https://github.com/just-the-docs/just-the-docs-template/generate
+* [Profil einsehen/bearbeiten]({% link docs/user/profile.md %})
+* [E-Mail-Adresse und/oder Passwort ändern]({% link docs/user/email_password_change.md %})

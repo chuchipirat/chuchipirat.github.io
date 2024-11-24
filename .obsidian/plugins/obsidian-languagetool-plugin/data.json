@@ -1,0 +1,13 @@
+{
+  "serverUrl": "https://api.languagetoolplus.com",
+  "urlMode": "premium",
+  "glassBg": false,
+  "shouldAutoCheck": true,
+  "autoCheckDelay": 3000,
+  "pickyMode": true,
+  "apikey": "pit-62HTIpePvoBg",
+  "username": "gio.cettuzzi@gmail.com",
+  "staticLanguage": "auto",
+  "germanVeriety": "de-CH",
+  "englishVeriety": "en-GB"
+}

@@ -1,0 +1,3 @@
+Wenn du ein Rezept hochskalierst, werden die Zutaten nicht immer linear skaliert. Beispiel: Wenn du einen Zopf für 6 Personen bäckst, benötigst du 1 kg Mehl und 1 Ei (zum Bestreichen).  Wenn du nun die doppelte Menge zubereitet (also für 12 Personen) benötigst du 2 kg Mehl, aber es reicht nach wie vor 1 Ei. Denn mit dem einen Ei, kannst du bis zu 3 Zöpfe bestreichen. Darum hat das Ei den Skalierungsfaktor 0,3.
+
+  {::comment}[[recipe_create_change]] [[recipe_structure]]{:/comment}
