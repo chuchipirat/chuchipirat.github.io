@@ -47,6 +47,13 @@ Ein öffentliches Rezept wird allen Usern des chuchipirats angezeigt. Dieses kan
 Möchtest du für einen Anlass ein Rezept geringfügig anpassen. Beispielsweise gewisse Lebensmittel ersetzen oder streichen/ergänzen. Dann [erstelle eine Variante]({% link docs/recipe/recipe_create_variant.md %}). Diese Variante steht dir nur für den spezifischen Anlass zur Verfügung und taucht – abgesehen vom Menüplan – in keiner Übersicht auf.
 {::comment}[[recipe_create_variant]]{:/comment}
 
+{: .note-title }
+
+> 💡 Wieso kann ich nur private Rezepte anpassen?
+>
+> Die Rezepte, die du aus der Datenbank auswählen kannst, werden von den Community-Leadern geprüft. Damit möchten wir sicherstellen, dass diese einer gewissen Qualität entsprechen und du beim Kochen nicht eine böse Überraschung erlebst. Wenn du ein super Rezept hast, welches du allen chuchipirat-User*innen zur Verfügung stellen möchtest, kannst du dieses [veröffentlichen lassen]({% link docs/recipe/recipe_publish.md %}). {::comment}[[recipe_publish]]{:/comment}
+
+
 ## Weiterführende Seiten
 
 Auf den folgenden Seiten wird dir beschrieben, was du mit Rezepten arbeitest.

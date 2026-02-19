@@ -21,7 +21,7 @@ nav_order: 1
 ---
 
 Um einen neuen Anlass zu erstellen, navigiere zum [Startbildschirm]({% link docs/home/home.md %}) und klicke auf den Button `Anlass erstellen`.
-{::comment}[[home]] {:/comment}
+{::comment}[[home]]{:/comment}
 
 ## Informationen zum Anlass
 Beginne mit der Eingabe der grundlegenden Informationen für deinen Anlass.
@@ -98,4 +98,4 @@ Auf der nächsten Seite findest du einen Twint-QR-Code. Wenn es dein Anlassbudge
 
 > Falls du eine Quittung möchtest, schreib uns einfach eine E-Mail. Wir senden dir gerne eine Quittung als PDF zu. Bitte beachte, dass dies einige Tage dauern kann. Sobald die Quittung einmal generiert wurde, kannst du sie im Anlass unter der [Registerkarte]({% link docs/event/event_settings.md %}#quittung) `Info zum Anlass` jederzeit erneut herunterladen.
 
-Mit einem Klick auf `Weiter` gelangst du zum [Menüplan]({% link docs/event/menueplan.md %}).   {::comment}[[menueplan]]{:/comment}
+Mit einem Klick auf `Weiter` gelangst du zum [Menüplan]({% link docs/event/menueplan.md %}).   {::comment}[[menueplan]] [[event_settings]]{:/comment}

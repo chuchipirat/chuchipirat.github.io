@@ -72,11 +72,11 @@ Bei den Zutaten kannst du alle Produkte aufführen, welche für das Rezept benö
 - **Details**  
   Dieses Feld kannst du nutzen, um zu definieren, wie die Zutat benötigt wird (zum Beispiel _in feinen Streifen_). Diese Information ist nur auf dem Rezept ersichtlich und wird nicht in die Einkaufsliste übertragen.
 
-Über die drei vertikalen Punkte ⋮, hast du die Möglichkeit, die gewählte Position zu löschen   oder einen  Abschnitt einzufügen.
+Über die drei vertikalen Punkte ⋮, hast du die Möglichkeit, die gewählte Position zu löschen, einen  Abschnitt einzufügen oder die Position zu verändern.
 
 ### Reihenfolge der Zutaten bestimmen
 
-Falls du die Reihenfolge der Zutaten ändern willst, kannst du das mittels Drag and Drop. Bewege die Maus über die Position, klicke die Position an (aber nicht in ein Feld), und ziehe die Position (mit gedrückter Maustaste) an die gewünschte Stelle. Sobald du die Maustaste loslässt, wird die Position an die gewünschte Position eingefügt.
+Falls du die Reihenfolge der Zutaten ändern willst, kannst du das mittels Drag and Drop. Bewege die Maus über die Position, klicke die Position an (aber nicht in ein Feld), und ziehe die Position (mit gedrückter Maustaste) an die gewünschte Stelle. Sobald du die Maustaste loslässt, wird die Position an die gewünschte Position eingefügt. Alternativ kannst du das auch über die 3 vertikalen Punkte ⋮ und as Kontextmenü erzielen.
 
 ![Zutaten neu anordnen](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/recipe/_images/rearrange_ingredients.gif?raw=true)
 

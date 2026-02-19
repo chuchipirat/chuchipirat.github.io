@@ -21,6 +21,10 @@ permalink: faq/report_bug
 ---
 Die App wurde nach bestem Wissen und Gewissen ehrenamtlich entwickelt. Es wurde grosser Wert auf Richtigkeit und Vollständigkeit gelegt. Dennoch kann nicht garantiert werden, dass die App fehlerlos ist. Falls du einen Fehler findest, melde diesen, damit sich das Chuchipirat-Team darum kümmern kann.
 
+{: .note }
+> Betrifft der Fehler die Einkaufs- oder Materialliste oder den Menüplan? Hast du den `Konsistenzcheck` schon ausgeführt? Details dazu findest du [hier]({% link docs/event/event_settings.md %}#menüplan-konsistenzcheck). Wenn der Fehler danach immer noch besteht, melde dich ungeniert bei uns.
+{::comment}[[event_settings]]{:/comment}
+
 ## Wo kann ich einen Fehler melden?
 
 Fehler kannst du an die folgende E-Mailadresse senden: hilfe@chuchipirat.ch.

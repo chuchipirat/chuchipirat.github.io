@@ -43,6 +43,12 @@ Wenn weitere Personen auf diesen Anlass im chuchipirat zugreifen sollen, füge s
 ## Quittung
 Wenn du bereits einen Betrag gespendet und eine Quittung angefordert hast, kannst du diese jederzeit erneut erhalten. Klicke einfach oben rechts auf den Button `Quittung`, um das PDF herunterzuladen.
 
+## Menüplan-Konsistenzcheck
+In seltenen Fällen kann der Menüplan inkonsistent werden. Das merkst du zum Beispiel daran, dass sich die Einkaufs- und/oder Materialliste nicht mehr generieren lässt.
+
+Klicke auf den Button `Konsistenzcheck`, um den Menüplan zu prüfen. Der chuchipirat behebt gefundene Inkonsistenzen – soweit möglich – automatisch. So kannst du solche Probleme oft selbständig lösen.
+
+
 ## Anlass löschen
 Möchtest du den Anlass komplett löschen, verwende den Button `Anlass löschen`. Dabei werden alle mit dem Anlass verbundenen Daten gelöscht (Menüplan, Einkaufs- und Materialliste, anlassspezifische Rezeptvarianten).
 

@@ -31,6 +31,19 @@ Vielen Dank für deine Unterstützung und dein [Feedback](mailto:hallo@chuchipir
 Go-live: 25.03.2024
 * Bereitstellung der App - Go-live 🎉
 
+## 1.1.0
+Go-live: XX.XX.2025
+* Maintenance [#125](https://github.com/gcettuzz/chuchipirat/issues/125): Upgrade der Firebase-API auf Version 10.9.0. Der Wechsel erforderte einen kompletten Umbau der Kommunikation zwischen App und Datenbank.
+* Maintenance [#183](https://github.com/gcettuzz/chuchipirat/issues/183): Einbau von [Sentry](https://sentry.io/) für ein vereinfachtes Fehler-Monitoring.
+* Maintenance [#126](https://github.com/gcettuzz/chuchipirat/issues/126): Upgrade auf Material-UI Version 5.
+* Maintenance [#186](https://github.com/gcettuzz/chuchipirat/issues/186): Wechsel auf Pragmatic Drag and Drop.
+* Feature [#176 Auswahl der Abteilungen bei Generierung der Einkaufsliste](https://github.com/gcettuzz/chuchipirat/issues/176): Möglichkeit bei der Generierung einer Einkaufsliste auf bestimmte Abteilungen einzuschränken.
+* Feature [#180 fixierte Tage im Menüplan](https://github.com/gcettuzz/chuchipirat/issues/180): Die Ansicht des Menüplans wurde angepasst, sodass die Tagesüberschriften auch beim scrollen sichtbar bleiben. 
+* Feature [#171 Abgestrichene Artikel in der Einkaufsliste beibehalten](https://github.com/gcettuzz/chuchipirat/issues/171): Bei der Aktualisierung einer bestehende Einkaufsliste, werden die Markierungen der Checkboxen beibehalten. Abgeänderte Mengen werden angezeigt. 
+* Bug [#188 Fehler mit fix eingeplanten Portionen](https://github.com/gcettuzz/chuchipirat/issues/188): Unter gewissen Umständen wurden Rezepte mit fix eingeplanten Portionen in der Einkaufsliste nicht berücksichtigt. 
+* Feature [#174 # Freitextfelder in der Einkaufs- und Materialliste](https://github.com/gcettuzz/chuchipirat/issues174): In der Einkaufs- und Materialliste können auch Freitextefelder erfasst werden ohne, dass dafür ein neues Produkt/Material erfasst werden muss. 
+* Feature [#193 Konsistenzcheck Menüplan](https://github.com/gcettuzz/chuchipirat/issues/193): Unter gewissen Umständen, kann der Menüplan inkonsistent werden. Dadurch können beispielsweise Einkaufs- und Materiallisten nicht mehr generiert werden. Mit einem Klick auf [Konsistenzcheck]({% link docs/event/event_settings.md%}#men%C3%BCplan-konsistenzcheck), können gewisse Fehler nun selbstständig behoben werden. {::comment}[[event_settings#Menüplan-Konsistenzcheck]]{:/comment}
+* 
 ## 1.0.4
 Go-live: 24.11.2024
 * Bugfix [#153](https://github.com/gcettuzz/chuchipirat/issues/153): Im Navigationsmenü, war bei dem Eintrag «Anlässe» nur das Icon als Link klickbar. Der Link wurde nun auf das ganze Listenelement erweitert.

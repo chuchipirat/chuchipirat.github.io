@@ -31,6 +31,8 @@ _Auswahl der Menüs._
 > 
 > Du kannst mit den Buttons `Tag auswählen` oder `Alle auswählen` gleich alle Menüs des Anlasses oder alle Menüs eines Tages auswählen. 
 
+Als nächstes, kannst du die Abteilungen wählen, die für die Einkaufsliste berücksichtig werden. Auch hier kannst du alle Abteilungen mit dem Button `Alle auswählen` selektieren.
+
 Sobald du die Auswahl bestätigt hast, kannst du der Liste einen Namen geben.
 
 ### Wie wird die Einkaufsliste generiert?
@@ -50,7 +52,6 @@ Um einzelne Produkte hinzuzufügen, klicke auf die Schaltfläche `Artikel hinzuf
 Du kannst den Namen der Liste und die ausgewählten Menüs ändern, indem du neben dem Listeneintrag auf den Bleistift klickst und den Namen und/oder die ausgwählten Menüs nach Belieben änderst.
 ## Liste löschen
 Um eine generierte Liste zu löschen, klicke auf das Abfalleimer-Symbol. Beachte, dass gelöschte Listen nicht wiederhergestellt werden können. Falls du eine Liste versehentlich löschst, musst du sie neu erstellen.
-
 ## Liste aktualisieren
 Wenn du nach der Erstellung der Liste etwas am Menüplan änderst, kann es sein, dass die Mengen und Artikel in der Einkaufsliste nicht mehr stimmen. Der chuchipirat warnt dich mit einer Meldung, dass eine Aktualisierung notwendig ist.
 
