@@ -56,6 +56,9 @@ exclude:
   - Dockerfile
   # theme test code
   - fixtures/
+  - spec/
+  - tmp
+  - .rspec
 
 # Set a path/url to a logo that will be displayed instead of the title
 logo: "/assets/images/logo.png"
@@ -161,7 +164,8 @@ gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into t
 # Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
 color_scheme: nil
 
-callouts_level: quiet # or loud
+# When commented out, callouts_level defaults to quiet for the light scheme, and loud for dark
+# callouts_level: quiet # or loud
 callouts:
   highlight:
     title: Beachte
@@ -208,3 +212,7 @@ compress_html:
   profile: false
   # ignore:
   #   envs: all
+
+sass:
+  quiet_deps: true # https://github.com/just-the-docs/just-the-docs/issues/1541
+  silence_deprecations: ['import'] # https://github.com/just-the-docs/just-the-docs/issues/1607
