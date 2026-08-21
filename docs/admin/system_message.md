@@ -1,46 +1,42 @@
 ---
-layout: home
-title: Systemmeldung
+layout: default
+title: Systemmeldungen
 permalink: docs/admin/system_message
 nav_exclude: true
 parent: System
 search_exclude: true
-description: Systemmeldungen setzen
 ---
-# Systemmeldung
-
+# Systemmeldungen
 {: .no_toc }
-
-<details markdown="block">
-  <summary>
-    Inhalt
-  </summary>
-  {: .text-delta }
-- TOC
-{:toc}
-</details>
 
 ---
 
 {: .intern-title }
-
 > ☠️ Admin-Bereich ☠️
 >
->Diese Seite ist für System-Admins.
+> Diese Seite ist für die System-Admins.
 
+Mit Systemmeldungen kannst du wichtige Nachrichten erstellen, die auf dem [Home]({% link docs/home/home.md %})-Bildschirm für alle Benutzer\*innen angezeigt werden. Die Meldung bleibt sichtbar, solange das Gültigkeitsdatum nicht abgelaufen ist.
+{::comment}[[home]]{:/comment}
 
-Mit dieser Funktion kannst du wichtige Nachrichten erstellen, die auf dem [Home]({% link docs/home/home.md %})-Bildschirm angezeigt werden.
+![Systemmeldung](/docs/admin/images/systemMessage.png)
+## Übersicht
 
-![Systemmeldung setzen](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/admin/_images/systemMessage.png?raw=true)
+Die Tabelle zeigt alle aktiven Systemmeldungen mit den Spalten:
 
-So gehst du vor:
+- **Typ:** bestimmt die Farbe der Meldungsbox
+- **Titel:** Überschrift der Meldung
+- **Gültig bis:** Ablaufdatum
 
-1. Wähle den Typ der Meldung aus. Dies bestimmt die Farbe der Meldungsbox.
-2. Gib einen aussagekräftigen Titel für die Meldung ein.
-3. Lege fest, wie lange die Meldung angezeigt werden soll, indem du die Gültigkeitsdauer festlegst.
-4. Schreibe den Text für die Meldung. Du kannst auch Links einfügen.
-5. In der Vorschau kannst du sehen, wie die Meldung auf dem Startbildschirm erscheinen wird.
+Über den Schalter «Vergangene Meldungen anzeigen» kannst du auch abgelaufene Meldungen einblenden.
 
-Sobald du die Meldung speicherst, wird sie für alle Benutzer auf dem [Home]({% link docs/home/home.md %})-Bildschirm angezeigt, solange das Gültigkeitsdatum nicht in der Vergangenheit liegt.
+## Neue Systemmeldung erstellen
 
-  {::comment}[[home]]{:/comment}
+Klicke auf `Neue Systemmeldung`, um eine neue Meldung zu erfassen. Der Editor enthält folgende Felder:
+
+- **Typ:** Meldungstyp aus dem Dropdown (z.B. «info»), bestimmt die Farbe
+- **Titel:** aussagekräftige Überschrift
+- **Gültig bis:** bis wann die Meldung angezeigt werden soll
+- **Nachrichtentext:** Rich-Text-Editor für den Inhalt (fett, kursiv, Listen, Links etc.)
+
+Unterhalb des Editors wird eine **Vorschau** angezeigt, damit du siehst, wie die Meldung auf dem Startbildschirm erscheinen wird. Klicke auf `Speichern`, um die Meldung zu veröffentlichen.

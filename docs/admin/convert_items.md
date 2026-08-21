@@ -1,8 +1,8 @@
 ---
-layout: home
+layout: default
 title: Items umwandeln
 permalink: docs/admin/convert_items
-nav_exclude: 
+nav_exclude: true
 parent: System
 search_exclude: true
 ---
@@ -10,33 +10,21 @@ search_exclude: true
 # Items umwandeln
 {: .no_toc }
 
-<details markdown="block">
-  <summary>
-    Inhalt
-  </summary>
-  {: .text-delta }
-- TOC
-{:toc}
-</details>
-
 ---
 
 {: .intern-title }
-
 > ☠️ Admin-Bereich ☠️
 >
->Diese Seite ist für die Community-Leader\*innen und System-Admins.
+> Diese Seite ist für die Community-Leader\*innen und System-Admins.
 
-![Items umwandeln](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/admin/_images/convert_items.png?raw=true)
+Mit dieser Funktion kannst du ein Produkt in ein Material umwandeln oder umgekehrt. Dabei werden alle betroffenen Rezepte, Menüpläne, Einkauf- und Materiallisten automatisch angepasst.
 
-### Vorgehensweise
+![Items umwandeln](/docs/admin/images/convert_items.png)
 
-1. **Wähle den Item-Typ aus:** Wähle aus mit welchem Item-Typ du starten möchtest. Möchtest du ein Produkt in ein Material umwandeln oder umgekehrt?
-   
-2. **Wähle des Items aus:** Wähle einen Artikel bzw. Material aus der Dropdown-Liste aus. 
-    
-2. **Gib die fehlenden Informationen ein:** Gibt die Item-spezifischen Angaben ein, damit das Item umgewandelt werden kann.
-    
-3. **Starte die Konvertierung:** Klicke auf  `Produkt/Material umwandeln`.
-    
-4. **Ergebnis:** Sobald die Cloud-FX ausgeführt wurde, siehst du ein Ergebnis, welche Dokumente in der Datenbank umgewandelt wurden. .
+## Vorgehen
+
+1. **Richtung wählen:** Wähle über die Tabs `Produkt` oder `Material`, was du umwandeln möchtest: ein Produkt in ein Material oder umgekehrt.
+2. **Item auswählen:** Wähle das gewünschte Produkt oder Material aus dem Dropdown.
+3. **Fehlende Informationen ergänzen:** Gib die Item-spezifischen Angaben ein (z.B. den Materialtyp bei der Umwandlung von Produkt zu Material).
+4. **Umwandlung starten:** Klicke auf `Produkt/Material umwandeln`.
+5. **Ergebnis:** Nach der Verarbeitung siehst du eine Übersicht, welche Dokumente in der Datenbank umgewandelt wurden.

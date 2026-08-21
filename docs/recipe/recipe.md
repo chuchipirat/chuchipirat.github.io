@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Rezepte
 nav_exclude: false
 nav_order: 2
@@ -20,53 +20,37 @@ description: Rezepte sind der Grundstein jedes Menüplans. Erfahre mehr über Re
 
 ---
 
-Rezepte sind der Grundstein eines jeden Menüplans.
-
-Nachfolgend ein paar grundlegende Konzepte zu den Rezepten:
+Rezepte sind der Grundstein eines jeden Menüplans. Hier erfährst du, welche Rezepttypen es gibt und wie sie zusammenspielen.
 
 ## Rezepttyp
 
 ### Privat
 
-Jedes neue Rezept ist privat. Private Rezepte werden nur dem\*der Erfasser\*in angezeigt. Fügst du ein solches Rezept einem  [Menüplan]({% link docs/event/menueplan.md %}) hinzu, können Mitglieder des Küchenteams über den Menüplan diese Rezepte lesen. Sie werden ihnen in der  [Rezeptübersicht]({% link docs/recipe/recipes_overview.md %}) nicht angezeigt. {::comment}[[menueplan]] [[recipes_overview]]{:/comment}
-
-
-{: .note-title }
-
-> 💡 Wieso ist ein Rezept standardmässig Privat?
->
-> Die Rezepte, die du aus der Datenbank auswählen kannst, werden von den Community-Leadern geprüft. Damit möchten wir sicherstellen, dass diese einer gewissen Qualität entsprechen und du beim Kochen nicht eine böse Überraschung erlebst. Wenn du ein super Rezept hast, welches du allen chuchipirat-User*innen zur Verfügung stellen möchtest, kannst du dieses [veröffentlichen lassen]({% link docs/recipe/recipe_publish.md %}). {::comment}[[recipe_publish]]{:/comment}
+Jedes neue Rezept ist privat. Private Rezepte werden nur dir angezeigt. Fügst du ein solches Rezept einem [Menüplan]({% link docs/event/menueplan.md %}) hinzu, können Mitglieder des Küchenteams es über den Menüplan lesen — in der [Rezeptübersicht]({% link docs/recipe/recipes_overview.md %}) taucht es für sie aber nicht auf.
+{::comment}[[menueplan]] [[recipes_overview]]{:/comment}
 
 ### Öffentlich
 
-Ein öffentliches Rezept wird allen Usern des chuchipirats angezeigt. Dieses kann nur noch von den Community-Leadern geändert werden, falls nachträglich noch ein [Fehler entdeckt]({% link docs/recipe/recipe_report_bug.md %}) wird. Wenn du ein eigenes Rezept veröffentlichen lässt, kannst du dieses, nach der Veröffentlichung, nicht mehr ändern.
+Ein öffentliches Rezept wird allen Nutzer\*innen von chuchipirat angezeigt. Nach der Veröffentlichung kann es nur noch von den Community-Leadern geändert werden, zum Beispiel falls ein [Fehler gemeldet]({% link docs/recipe/recipe_report_bug.md %}) wird.
 {::comment}[[recipe_report_bug]]{:/comment}
 
 ### Variante
 
-Möchtest du für einen Anlass ein Rezept geringfügig anpassen. Beispielsweise gewisse Lebensmittel ersetzen oder streichen/ergänzen. Dann [erstelle eine Variante]({% link docs/recipe/recipe_create_variant.md %}). Diese Variante steht dir nur für den spezifischen Anlass zur Verfügung und taucht – abgesehen vom Menüplan – in keiner Übersicht auf.
+Möchtest du ein Rezept für einen bestimmten Anlass geringfügig anpassen — zum Beispiel Zutaten ersetzen, streichen oder ergänzen — dann [erstelle eine Variante]({% link docs/recipe/recipe_create_variant.md %}). Die Variante steht dir nur für diesen Anlass zur Verfügung und taucht ausserhalb des Menüplans in keiner Übersicht auf.
 {::comment}[[recipe_create_variant]]{:/comment}
 
 {: .note-title }
-
-> 💡 Wieso kann ich nur private Rezepte anpassen?
+> 💡 Wieso sind Rezepte privat und warum kann ich öffentliche nicht ändern?
 >
-> Die Rezepte, die du aus der Datenbank auswählen kannst, werden von den Community-Leadern geprüft. Damit möchten wir sicherstellen, dass diese einer gewissen Qualität entsprechen und du beim Kochen nicht eine böse Überraschung erlebst. Wenn du ein super Rezept hast, welches du allen chuchipirat-User*innen zur Verfügung stellen möchtest, kannst du dieses [veröffentlichen lassen]({% link docs/recipe/recipe_publish.md %}). {::comment}[[recipe_publish]]{:/comment}
-
+> Öffentliche Rezepte werden von den Community-Leadern geprüft, damit sie einer gewissen Qualität entsprechen und du beim Kochen keine böse Überraschung erlebst. Deshalb sind neue Rezepte zunächst privat. Wenn du ein tolles Rezept hast, kannst du es [veröffentlichen lassen]({% link docs/recipe/recipe_publish.md %}). Möchtest du ein öffentliches Rezept für deinen Anlass anpassen, erstelle einfach eine Variante.
+{::comment}[[recipe_publish]]{:/comment}
 
 ## Weiterführende Seiten
 
-Auf den folgenden Seiten wird dir beschrieben, was du mit Rezepten arbeitest.
+- [Aufbau eines Rezepts]({% link docs/recipe/recipe_structure.md %}) — die Rezeptseite und ihre Funktionen
+- [Rezept anlegen oder ändern]({% link docs/recipe/recipe_create_change.md %}) — neues Rezept erstellen oder bestehendes bearbeiten
+- [Rezept veröffentlichen]({% link docs/recipe/recipe_publish.md %}) — ein privates Rezept der Community zur Verfügung stellen
+- [Rezept drucken]({% link docs/recipe/recipe_print.md %}) — ein einzelnes Rezept ausdrucken
+- [Fehler melden]({% link docs/recipe/recipe_report_bug.md %}) — einen Fehler in einem öffentlichen Rezept melden
 
-- [Rezept]({% link docs/recipe/recipe_structure.md %})  
-  Der Aufbau des Rezeptes und die Funktionen, die die Rezeptseite bietet.
-- [Rezept anlegen und/oder ändern]({% link docs/recipe/recipe_create_change.md %}) 
-  Hier wird beschrieben, wie du ein neues Rezept anlegen oder ein bestehendes ändern kannst. 
-- [Rezept veröffentlichen]({% link docs/recipe/recipe_publish.md %})  
-  Hier wird beschrieben, wie du vorgehen kannst, um ein eigenes privates Rezept zu veröffentlichen und der Community zur Verfügung zu stellen.
-- [Rezept drucken]({% link docs/recipe/recipe_print.md %})  
-  Hier ist beschrieben, wie du ein einzelnes Rezept ausdrucken kannst
-- [Rezept Fehler melden]({% link docs/recipe/recipe_report_bug.md %})  
-  Hast du in einem öffentlichen Rezept ein Fehler gefunden? Hier beschreiben wir, wie du das melden kannst.
-  
-  {::comment}[[recipe_structure]] [[recipe_create_change]][[recipe_publish]][[recipe_print]][[recipe_report_bug]]{:/comment}
+{::comment}[[recipe_structure]] [[recipe_create_change]] [[recipe_publish]] [[recipe_print]] [[recipe_report_bug]]{:/comment}

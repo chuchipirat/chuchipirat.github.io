@@ -1,42 +1,34 @@
 ---
-layout: home
+layout: default
 title: Verfolgungsnachweis
 permalink: docs/admin/where_used
-nav_exclude: 
+nav_exclude: true
 parent: System
 search_exclude: true
 ---
-# Verfolgungsnachweis
+# Verfolgungsnachweis (Trace)
 {: .no_toc }
-
-<details markdown="block">
-  <summary>
-    Inhalt
-  </summary>
-  {: .text-delta }
-- TOC
-{:toc}
-</details>
 
 ---
 
 {: .intern-title }
-
 > ☠️ Admin-Bereich ☠️
 >
->Diese Seite ist für die Community-Leader\*innen und System-Admins.
+> Diese Seite ist für die Community-Leader\*innen und System-Admins.
 
+Der Verfolgungsnachweis zeigt dir, wo ein bestimmtes Produkt, Material oder Rezept überall in der Datenbank verwendet wird. Das ist wichtig, um festzustellen, ob ein Objekt gefahrlos gelöscht oder geändert werden kann.
 
-Der Verfolgungsnachweis ermöglicht es, Rezepte, Produkte und Materialien in der Datenbank zu überprüfen. Dies ist wichtig, um festzustellen, ob ein bestimmtes Objekt gelöscht werden darf oder nicht.
+![Verfolgungsnachweis](/docs/admin/images/where_used.png)
+## Vorgehen
 
-![Screen Verfolgungsnachweis](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/admin/_images/where_used.png?raw=true)
+Du hast zwei Suchmöglichkeiten:
 
-### Vorgehensweise
+- **Artikel suchen:** Wähle im Feld «Artikel» ein Produkt oder Material aus der Dropdown-Liste.
+- **Rezept-ID eingeben:** Wähle im Dropdown darunter «Rezept» und gib die UID eines Rezepts ein.
 
-1. **Wähle einen Artikel aus:** Wähle einen Artikel aus der Dropdown-Liste aus. Beachte, dass sowohl Produkte als auch Materialien in der Liste enthalten sind. Oder:
-    
-2. **Gib die UID eines Rezepts ein:** Falls du die UID eines spezifischen Rezepts kennst, kannst du sie direkt eingeben. Die UID kann beispielsweise in der URL des Rezepts gefunden werden.
-    
-3. **Starte den Trace:** Sobald du entweder einen Artikel ausgewählt oder die UID eines Rezeptes eingegeben hast, klicke auf die Schaltfläche `Trace Starten`.
-    
-4. **Ergebnisse anzeigen:** Im Hintergrund wird eine Cloud-Function ausgeführt, um alle relevanten Dokumente zu sammeln. Die Ergebnisse werden dann in Form einer Liste angezeigt.
+Klicke auf `Trace starten`. Die Ergebnisse werden gruppiert angezeigt — zum Beispiel:
+
+- **Rezepte (Zutaten):** in welchen Rezepten der Artikel als Zutat verwendet wird
+- **Einkaufslisten:** in welchen Einkaufslisten der Artikel vorkommt
+
+Die Gesamtanzahl der gefundenen Verweise wird oberhalb der Ergebnisse angezeigt.

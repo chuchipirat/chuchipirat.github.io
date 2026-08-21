@@ -1,47 +1,50 @@
 ---
-layout: home
+layout: default
 title: Mailbox Monitor
 permalink: docs/admin/mailbox_overview
-nav_exclude: 
+nav_exclude: true
 parent: System
 search_exclude: true
 ---
 # Mailbox Monitor
 {: .no_toc }
 
-<details markdown="block">
-  <summary>
-    Inhalt
-  </summary>
-  {: .text-delta }
-- TOC
-{:toc}
-</details>
-
 ---
 
 {: .intern-title }
-
 > ☠️ Admin-Bereich ☠️
 >
->Diese Seite ist für System-Admins.
+> Diese Seite ist für die System-Admins.
 
-Die Seite Jobs ermöglicht es diverse Jobs auszuführen.
+Der Mailbox Monitor zeigt alle E-Mails, die vom chuchipirat versendet wurden. Die Seite hat zwei Tabs: `Übersicht` und `Löschen`.
 
 {: .note }
-> Beachte, dass Nachrichten rund um die Authentifizierung von Google Firebase versendet werden und daher im Monitor nicht erscheinen.
+E-Mails rund um die Authentifizierung (E-Mail bestätigen, Passwort zurücksetzen etc.) werden von GoTrue versendet und erscheinen hier nicht.
 
+![Mailbox](/docs/admin/images/mailbox.png)
+## Übersicht
 
-## Ansicht
+Die Tabelle zeigt alle archivierten E-Mails mit folgenden Spalten:
 
-In der Tabelle werden alle E-Mails angezeigt, die noch im Archiv sind. Du kannst entweder über das Suchfeld nach bestimmten E-Mails suchen oder die Spalten sortieren.
+- **Öffnen:** öffnet die Detailansicht
+- **Betreff:** Betreffzeile der E-Mail
+- **Nachrichtentext:** Inhalt der E-Mail
+- **Empfänger:** E-Mail-Adresse
+- **Anzahl Empfänger:** Anzahl der Empfänger\*innen
+- **Mail Template:** verwendete Vorlage (z.B. donation-confirmed, newsletter, admin_console, event-review)
+- **Status:** z.B. `success`
+- **Timestamp:** Zeitpunkt des Versands
+
+Über das Suchfeld kannst du nach bestimmten E-Mails suchen. Die Gesamtanzahl wird oberhalb der Tabelle angezeigt.
 
 ### Detailansicht
 
-Wenn du auf das Icon am Anfang einer Zeile klickst, öffnet sich das detaillierte E-Mail-Protokoll.
+Klickst du auf das Öffnen-Symbol, siehst du die Details der E-Mail:
 
-## Löschen von E-Mail-Protokollen
+- **Betreff:** vollständige Betreffzeile
+- **Empfänger:** alle Empfänger\*innen
+- **E-Mail-Inhalt:** die an das Template übergebenen Daten (variiert je nach Mail-Typ)
 
-Du kannst über den Tab `Löschen` E-Mail-Protokolle aus der Datenbank entfernen. Gib einfach die Anzahl der Tage ein, für die du die Protokolle behalten möchtest. Alles, was älter als die angegebene Anzahl von Tagen ist, wird gelöscht.
+## Löschen
 
-Klicke auf `Mailprotokolle löschen`, um den Löschvorgang zu starten.
+Über den Tab `Löschen` kannst du ältere E-Mail-Protokolle aus der Datenbank entfernen. Gib die Anzahl Tage ein, für die du die Protokolle behalten möchtest, und klicke auf `Mailprotokolle löschen`.

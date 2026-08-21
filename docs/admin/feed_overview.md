@@ -1,50 +1,53 @@
 ---
-layout: home
+layout: default
 title: Übersicht Feeds
 permalink: docs/admin/feeds_overview
-nav_exclude: 
+nav_exclude: true
 parent: System
 search_exclude: true
 ---
-# Übersicht Feed-Einträge
+# Feed-Einträge Monitor
 {: .no_toc }
-
-<details markdown="block">
-  <summary>
-    Inhalt
-  </summary>
-  {: .text-delta }
-- TOC
-{:toc}
-</details>
 
 ---
 
 {: .intern-title }
-
 > ☠️ Admin-Bereich ☠️
 >
->Diese Seite ist für die Community-Leader\*innen und System-Admins.
+> Diese Seite ist für die Community-Leader\*innen und System-Admins.
 
+Der Feed-Einträge Monitor listet alle generierten Feed-Einträge im System auf. Die Gesamtanzahl wird oberhalb der Tabelle angezeigt. Über das Suchfeld kannst du nach bestimmten Einträgen suchen.
 
+Die Seite hat zwei Tabs: `Übersicht` und `Löschen`.
 
-Die Seite **Feed-Einträge Monitor** listet alle generierten Feed-Einträge im System auf. 
+![Feed Übersicht](/docs/admin/images/feeds.png)
+## Übersicht
 
-![Rezept-Übersicht](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/admin/_images/feed_monitor.png?raw=true)
+Die Tabelle zeigt alle Feed-Einträge mit folgenden Spalten:
 
-## Ansicht
+- **Öffnen:** öffnet die Detailansicht des Eintrags
+- **UID:** eindeutige Kennung des Eintrags
+- **Typ:** Art des Feed-Eintrags (z.B. donationConfirmed, eventCreated, userCreated)
+- **Datum:** Erstellungszeitpunkt
+- **Titel:** Kurzbeschreibung der Aktion
+- **Sichtbarkeit:** z.B. «basic»
+- **User:** wer die Aktion ausgelöst hat
 
-In dieser Tabelle sind alle Feed-Einträge aufgelistet, die im System erstellt wurden. Durch Klicken auf das Symbol `Öffnen` können die Details eines bestimmten Feed-Eintrags angezeigt werden.
+### Detailansicht
 
-### Einzelnen Eintrag löschen
+Klickst du auf das Öffnen-Symbol, siehst du alle Details zum Eintrag:
 
-Um einen einzelnen Feed-Eintrag zu entfernen, öffne ihn und klicken dann auf den Button `Löschen`, um ihn aus der Datenbank zu löschen.
+- **Feed-Daten:** UID, Typ, Sichtbarkeit, Titel, Text, Erstellt am
+- **User:** UID und Name der auslösenden Person
+- **Source Object:** Typ, UID und Name des betroffenen Objekts (z.B. Spende, Event, Rezept)
 
-## Mehrere Feed-Einträge löschen
+Die angezeigten Informationen variieren je nach Feed-Typ.
 
-Durch Auswahl des Tabs `Löschen` können alle Feeds gelöscht werden, die älter als X Tage sind.
+Über `Löschen` kannst du den einzelnen Eintrag entfernen, über `Schliessen` die Detailansicht wieder schliessen.
 
-{: .note } 
+## Löschen (Tab)
 
-> Beachte: Der minimale Zeitraum beträgt 30 Tage. Das System verhindert das Löschen von Feed-Einträgen, die jünger als 30 Tage sind.
+Über den Tab `Löschen` kannst du alle Feed-Einträge löschen, die älter als eine bestimmte Anzahl Tage sind.
 
+{: .note }
+> Der minimale Zeitraum beträgt 30 Tage. Das System verhindert das Löschen von Einträgen, die jünger als 30 Tage sind.

@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Rezept anlegen/ändern
 permalink: docs/recipe/create_edit
 nav_exclude: false
@@ -20,94 +20,100 @@ nav_order: 3
 
 ---
 
-Die folgende Seite zeigt dir auf, was du achten sollst, wenn du ein neues Rezept anlegst oder ein bestehendes änderst.
+Diese Seite zeigt dir, worauf du achten sollst, wenn du ein neues Rezept anlegst oder ein bestehendes bearbeitest.
 
 {: .note }
-Du kannst nur eigenen Rezepte ändern, die nicht veröffentlicht wurde. Falls du bei einem veröffentlichten Rezept einen Fehler gefunden hast, ist [hier]({% link docs/recipe/recipe_report_bug.md %}) beschrieben, wie du vorgehen kannst.  {::comment}[[recipe_report_bug]]{:/comment}
+Du kannst nur eigene Rezepte ändern, die nicht veröffentlicht wurden. Falls du bei einem veröffentlichten Rezept einen Fehler gefunden hast, ist [hier]({% link docs/recipe/recipe_report_bug.md %}) beschrieben, wie du vorgehen kannst.
+{::comment}[[recipe_report_bug]]{:/comment}
 
 ## Titel und Bildquelle
 
 Gib dem Rezept den passenden Namen. Unter diesem Namen erscheint es überall, wo du es einfügst.
 
-Wenn du ein Bild einfügen möchtest, kannst du folgendermassen vorgehen.
+Wenn du ein Bild einfügen möchtest, kannst du folgendermassen vorgehen:
 
-![Bild-URL kopieren](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/recipe/_images/copy_recipe_image_url.gif?raw=true)
+![Bild-URL kopieren](/docs/recipe/images/copy_recipe_image_url.gif)
 
 - Suche im Internet eine Seite mit einem passenden Bild. Bewährt haben sich [migusto.ch](https://migusto.migros.ch), [fooby.ch](https://fooby.ch), [bettybossi.ch](https://www.bettybossi.ch), [swissmilk.ch](https://www.swissmilk.ch).
-- Mache einen Rechtsklick auf das Bild und wähle im Kontextmenü den Eintrag "_Bildadresse kopieren_" (💡 je nach Browser, kann der Menüeintrag leicht anders heissen).
-- Füge die kopierte Adresse (diese ist im Zwischenspeicher), im Feld Bildquelle ein.
-  Wenn die Adresse erkannt wird, wird das Bild umgehend angezeigt.
+- Mache einen Rechtsklick auf das Bild und wähle im Kontextmenü den Eintrag «Bildadresse kopieren» (je nach Browser kann der Menüeintrag leicht anders heissen).
+- Füge die kopierte Adresse im Feld «Bildquelle» ein. Wenn die Adresse erkannt wird, wird das Bild umgehend angezeigt.
 
 {: .note-title }
-
 > Wieso kann ich keine eigenen Bilder hochladen?
->  
-> Aus Urheberrechtlichen-Gründen kann der chuchipirat keine Rezeptbilder speichern. Die Überprüfung, ob ein hochgeladenes Bild urheberrechtlich geschützt ist, ist nicht möglich. Deswegen wird nur die Möglichkeit angeboten, eine Bildreferenz zu speichern (was rechtlich erlaubt ist).
+>
+> Aus urheberrechtlichen Gründen kann der chuchipirat keine Rezeptbilder speichern. Die Überprüfung, ob ein hochgeladenes Bild urheberrechtlich geschützt ist, ist nicht möglich. Deshalb wird nur die Möglichkeit angeboten, eine Bildreferenz zu speichern (was rechtlich erlaubt ist).
 
 ## Allgemeine Informationen
 
-Gibt in diesem Abschnitt die Quelle und die Zeiten an, welche für die Zubereitung benötigt werden (in Minuten). Falls die Quelle keine Internetseite ist, sondern ein Buch, gibt den Buchtitel und die Seitenzahl an.
+In diesem Abschnitt gibst du die Eckdaten zum Rezept an:
 
-Unter Menütyp kannst du angeben, wofür sich das Rezept eignet. Ist es ideal für das Frühstück und/oder vielleicht doch Zvieri/Znüni? Mit dem Schalter _Geeignet für Outdoor-Küche_ gibst du an, ob das Rezept auch unter vereinfachten Küchenverhältnissen (beispielsweise in einem Zeltlager) kochbar ist. Mit diesen Angaben kann in der erweiterten Suche der [Rezeptübersicht]({% link docs/recipe/recipes_overview.md %}) das passende Rezept schneller gefunden werden.  {::comment}[[recipes_overview]]{:/comment}
+- **Quelle** — woher das Rezept stammt (URL, Buchtitel mit Seitenzahl, Zeitschrift usw.)
+- **Vorbereitung** — Zubereitungszeit in Minuten
+- **Koch/Backzeit** — Koch- oder Backzeit in Minuten
+- **Menütyp** — wofür sich das Rezept eignet (z.B. Frühstück, Zvieri/Znüni)
+- **Geeignet für Outdoor-Küche** — ob das Rezept auch unter vereinfachten Küchenverhältnissen (z.B. im Zeltlager) zubereitet werden kann
+- **Hinweis** — ein optionaler Tipp oder Hinweis zum Rezept
+- **Tags** — Schlagwörter, die bei der Suche in der [Rezeptübersicht]({% link docs/recipe/recipes_overview.md %}) berücksichtigt werden. Neue Tags fügst du über das `+` hinzu.
+{::comment}[[recipes_overview]]{:/comment}
 
 {: .highlight }
-💡 Bitte beachte: Möchtest du das [Rezept veröffentlichen]({% link docs/recipe/recipe_publish.md %}) musst du eine gültige Quelle angeben.  {::comment}[[recipe_publish]]{:/comment}
+Möchtest du das [Rezept veröffentlichen]({% link docs/recipe/recipe_publish.md %}), musst du eine gültige Quelle angeben.
+{::comment}[[recipe_publish]]{:/comment}
 
 {: .note-title }
-
-> Wieso kann ich die Diät Info nicht selber bestimmen?
+> Wieso kann ich die Diätinfo nicht selber bestimmen?
 >
-> Die Diät Info wird anhand der gewählten Zutaten ermittelt. Jede Zutat ist kategorisiert, ob sie für gewisse Diäten (Vegetarisch, Vegan) und/oder Unverträglichkeit (bspw. Laktose) geeignet ist. Die Summe aller Zutaten ergibt schlussendlich, ob das Rezept sich für die angezeigten Diäten eignet oder eben nicht.
+> Die Diätinfo wird anhand der gewählten Zutaten ermittelt. Jede Zutat ist kategorisiert, ob sie für gewisse Diäten (vegetarisch, vegan) und/oder Unverträglichkeiten (z.B. Laktose) geeignet ist. Die Summe aller Zutaten ergibt, ob das Rezept sich für die angezeigten Diäten eignet.
 
 ## Zutaten
 
-Bei den Zutaten kannst du alle Produkte aufführen, welche für das Rezept benötigt werden.  Eine Zutat besteht aus den folgenden Feldern.
+Hier führst du alle Produkte auf, die für das Rezept benötigt werden. Zuoberst gibst du die Anzahl **Portionen** an, für die das Rezept ausgelegt ist.
 
-- **Menge**  
-  Wie viel wird davon verwendet, du kannst das Feld auch leer lassen.
-- **Einheit**  
-  In welcher Einheit ist die angegebene Menge. Wenn es sich dabei um Stück handelt (Beispiel 3 Äpfel), kannst du das Feld leer lassen.
-- **Zutat**
-  Wähle aus dem Dropdown-Menü die Zutat aus. Tipp: Fange an zu tippen und alle Zutaten, die textlich mit deiner Eingabe übereinstimmen, werden angezeigt. Falls es die Zutat im Dropdown nicht gibt, kannst du eine [neue Zutat] anlegen.
-- **Details**  
-  Dieses Feld kannst du nutzen, um zu definieren, wie die Zutat benötigt wird (zum Beispiel _in feinen Streifen_). Diese Information ist nur auf dem Rezept ersichtlich und wird nicht in die Einkaufsliste übertragen.
+Eine Zutat besteht aus folgenden Feldern:
 
-Über die drei vertikalen Punkte ⋮, hast du die Möglichkeit, die gewählte Position zu löschen, einen  Abschnitt einzufügen oder die Position zu verändern.
+- **Menge** — wie viel davon verwendet wird (kann auch leer bleiben)
+- **Einheit** — in welcher Einheit die Menge angegeben ist. Bei Stückzahlen (z.B. 3 Äpfel) kannst du das Feld leer lassen.
+- **Zutat** — wähle aus dem Dropdown die passende Zutat. Fange an zu tippen, um die Auswahl zu filtern. Falls die Zutat noch nicht existiert, kannst du eine neue anlegen.
+- **Details** — optionale Angabe, wie die Zutat benötigt wird (z.B. «in feinen Streifen»). Diese Information erscheint nur im Rezept und wird nicht in die Einkaufsliste übertragen.
 
-### Reihenfolge der Zutaten bestimmen
+### Kontextmenü und Reihenfolge
 
-Falls du die Reihenfolge der Zutaten ändern willst, kannst du das mittels Drag and Drop. Bewege die Maus über die Position, klicke die Position an (aber nicht in ein Feld), und ziehe die Position (mit gedrückter Maustaste) an die gewünschte Stelle. Sobald du die Maustaste loslässt, wird die Position an die gewünschte Position eingefügt. Alternativ kannst du das auch über die 3 vertikalen Punkte ⋮ und as Kontextmenü erzielen.
+Über die drei vertikalen Punkte ⋮ am Ende jeder Zeile öffnest du das Kontextmenü mit folgenden Optionen:
 
-![Zutaten neu anordnen](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/recipe/_images/rearrange_ingredients.gif?raw=true)
+- **Neue Position einfügen** — fügt eine neue Zeile ein
+- **Neuer Abschnitt einfügen** — fügt einen Abschnitt zur Gliederung ein
+- **Löschen** — entfernt die Zeile
+- **Nach oben / unten verschieben** — verschiebt die Zeile
+
+Alternativ kannst du die Reihenfolge per **Drag and Drop** ändern: Klicke eine Zeile an (aber nicht in ein Feld) und ziehe sie mit gedrückter Maustaste an die gewünschte Stelle.
+
+![Zutaten neu anordnen](/docs/recipe/images/rearrange_ingredients.gif)
+
+### Abschnitte
+
+Mit Abschnitten kannst du die Zutaten thematisch unterteilen — zum Beispiel in einem Wähenrezept die Zutaten für den Teig von denen des Belags trennen. So kannst du ein Produkt (z.B. Zucker) mehrmals im Rezept auflisten und in unterschiedliche Abschnitte gruppieren. Abschnitte werden auch in der PDF-Version angezeigt.
+
+![Abschnitt einfügen](/docs/recipe/images/create_section.gif)
 
 ### Skalierungsfaktoren
 
-Du hast die Möglichkeit, die Skalierungsfaktoren einzublenden. Sobald diese eingeblendet sind (dies geht über den Schalter rechts von dem Feld _Portionen_), kannst du pro Zutat diese ändern. Dabei sind alle Zahlen zwischen 0.1 - 1.0 möglich.
+Über den Schalter «Skalierungsfaktoren anzeigen» (rechts neben dem Feld «Portionen») kannst du pro Zutat einen individuellen Skalierungsfaktor hinterlegen. Mögliche Werte sind 0.1 bis 1.0.
 
 {: .note-title }
-
 > Was ist ein Skalierungsfaktor?
-> 
+>
 > {% include_relative _includes/scalingfactor.md %}
 
 ## Zubereitung
 
-Im Abschnitt Zubereitung kannst du beschreiben, welche einzelnen Schritte nötig sind, um das Rezept zuzubereiten. Damit kannst du die Kochbücher und zu Hause lasen. Diese Angaben werden auf die PDF-Version des Rezeptes sowie auf im Abschnitt _Verwendete Rezepte_ im Menüplan angezeigt.
+Beschreibe hier die einzelnen Schritte, die für die Zubereitung nötig sind. Die Zubereitungsschritte werden im Rezept, in der PDF-Version sowie im Abschnitt «Verwendete Rezepte» im Menüplan angezeigt.
 
-Auch hier hast du über die 3 vertikalen Punkte ⋮ , die gewählte Position zu löschen, eine neue Position oder Abschnitt einzufügen. Die Positionen können ebenfalls mittels Drag and Drop verschoben werden. Wie das geht, ist im Abschnitt [Reihenfolge der Zutaten bestimmen]({% link docs/recipe/recipe_create_change.md %}#reihenfolge-der-zutaten-bestimmen) beschrieben.
-
-## Abschnitt
-
-Mit einem Abschnitt kannst du die Zutaten und/oder die Zubereitungsschritte unterteilen. So kannst du beispielsweise in einem Wähenrezept die Zutaten für den Teig von denen des Belags trennen. Dies hilft, das Rezept zu gliedern und während des Kochens schneller den Überblick zu behalten. So kannst du ein Produkt (etwa Zucker) mehrmals im Rezept auflisten und in unterschiedliche Abschnitte gruppieren (Teig, Guss)
-Abschnitte werden auch auf der PDF-Version angezeigt. Einen Abschnitt fügst du über die 3 Punkte am Ende der Position ein. 
-
-![Abschnitt einfügen](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/recipe/_images/create_section.gif?raw=true)
+Auch hier stehen dir das Kontextmenü ⋮ und Drag and Drop zur Verfügung — genau wie bei den Zutaten. Ebenso kannst du Abschnitte einfügen, um die Schritte zu gliedern.
 
 ## Material
 
-Benötigt dein Rezept spezielles Material? Backpapier, ein Spritzbeutel oder Gonfiglässer? Hier kannst du das Material hinterlegen. Wähle hierfür aus dem Dropdown das gewünschte Material. Falls sinnvoll, kannst du auch eine Menge hinterlegen.
+Benötigt dein Rezept spezielles Material? Backpapier, ein Spritzbeutel oder Gonfigläser? Hier kannst du das Material hinterlegen. Wähle aus dem Dropdown das gewünschte Material und gib bei Bedarf eine Menge an. Auch hier kannst du Zeilen per Kontextmenü oder Drag and Drop verwalten.
 
 {: .note }
-Du kannst im Dropdownfeld suchen, in dem du deinen Begriff eingibst. Die Auswahl wird automatisch angepasst mit den Materialien, die deinem Suchbegriff entsprechen. Falls das gewünschte Material noch nicht existiert, kannst du [ein neues Material anlegen]({% link docs/masterdata/materials.md %})  {::comment}[[materials]]{:/comment}
-
-
+Gib im Dropdown deinen Suchbegriff ein — die Auswahl wird automatisch gefiltert. Falls das gewünschte Material noch nicht existiert, kannst du [ein neues Material anlegen]({% link docs/masterdata/materials.md %}).
+{::comment}[[materials]]{:/comment}

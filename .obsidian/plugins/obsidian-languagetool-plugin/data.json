@@ -1,13 +1,11 @@
 {
   "serverUrl": "https://api.languagetoolplus.com",
   "urlMode": "premium",
-  "glassBg": false,
+  "glassBg": true,
   "shouldAutoCheck": true,
   "autoCheckDelay": 3000,
   "pickyMode": true,
   "apikey": "pit-62HTIpePvoBg",
-  "username": "gio.cettuzzi@gmail.com",
-  "staticLanguage": "auto",
-  "germanVeriety": "de-CH",
-  "englishVeriety": "en-GB"
+  "username": "languagetool.culminate820@passmail.com",
+  "staticLanguage": "de-CH"
 }

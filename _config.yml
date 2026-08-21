@@ -205,7 +205,7 @@ kramdown:
 
 compress_html:
   clippings: all
-  comments: all
+  comments: ["<!-- ", " -->"]
   endings: all
   startings: []
   blanklines: false

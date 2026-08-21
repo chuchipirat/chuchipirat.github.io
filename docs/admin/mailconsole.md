@@ -1,52 +1,50 @@
----
-layout: home
+:**
+layout: default
 title: Mail-Konsole
 permalink: docs/admin/mailconsole
-nav_exclude: 
+nav_exclude: true
 parent: System
 search_exclude: true
----
+:**
 # Mail-Konsole
 {: .no_toc }
 
-<details markdown="block">
-  <summary>
-    Inhalt
-  </summary>
-  {: .text-delta }
-- TOC
-{:toc}
-</details>
-
----
+:**
 
 {: .intern-title }
-
 > ☠️ Admin-Bereich ☠️
 >
->Diese Seite ist für System-Admins.
+> Diese Seite ist für die System-Admins.
 
-Über die Mail-Konsole kannst du Texte im Newsletter-Stil versenden.
+Über die Mail-Konsole kannst du E-Mails im Newsletter-Stil an Benutzer\*innen versenden. Rechts neben dem Editor wird eine Live-Vorschau der Nachricht angezeigt.
 
+![Mailkonsole](/docs/admin/images/mailconsole.png)
+## Empfänger
 
-![Mail-Konsole](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/admin/_images/mailconsole.png?raw=true)
+Wähle aus, an wen die Nachricht gesendet werden soll. Es gibt drei Optionen:
 
-## Vorgehen
+- **E-Mail-Adresse:** direkte Eingabe einer oder mehrerer E-Mail-Adressen
+- **User-UID:** Eingabe einer oder mehrerer User-UIDs
+- **Rolle:** Auswahl einer Rolle aus dem Dropdown (z.B. alle Community-Leader)
 
-1. **Empfänger auswählen**: Wähle aus, welche Personen die Nachricht erhalten sollen. Du kannst E-Mail-Adressen, User-UIDs eingeben oder Empfänger anhand ihrer Rolle auswählen. Mehrere Werte können durch Semikolons `;` getrennt werden.
-    
-2. **Editor verwenden**: Fülle die folgenden Felder aus:
-    
-    - Betreff: Der Betreff der Nachricht.
-    - Titel: Grosse Überschrift im Newsletter.
-    - Untertitel: ein kurzer Untertitel (optional).
-    - Bild-URL für Header: Das Bild, das in der Nachricht angezeigt wird.
-    - E-Mail-Nachricht: Der Haupttext der E-Mail.
-    - Button-Beschriftung und Link: Falls gewünscht, füge hier einen Button ein, der zu einem bestimmten Link führt.
-      
-3. **Vorschau ansehen**: Sieh dir eine Vorschau deiner Nachricht an.
-    
-4. **Testnachricht senden**: Klicke auf `Test Mail senden`, um eine Testnachricht zu generieren. Diese wird an die E-Mail-Adresse gesendet, die du zum Einloggen in den chuchipirat verwendest.
-    
-6. **Nachricht überprüfen und versenden**: Prüfe die Testnachricht in deinem Posteingang. Wenn alles in Ordnung ist, klicke auf `Mail senden`. Die E-Mail wird dann an den ausgewählten Empfängerkreis versendet.
+{: .note }
+Mehrere Werte trennst du mit einem Semikolon `;`.
 
+## Editor
+
+Wähle zuerst ein **Mail Template** aus dem Dropdown (oder «Leere Vorlage» für eine freie Nachricht). Fülle dann die folgenden Felder aus:
+
+- **Betreff:** Betreffzeile der E-Mail
+- **Titel:** grosse Überschrift im Newsletter
+- **Untertitel:** kurzer Untertitel (optional)
+- **E-Mail Nachricht:** der Haupttext mit Rich-Text-Editor (fett, kursiv, Listen, Links etc.)
+- **Button-Beschriftung:** Text des Buttons (optional)
+- **Link für Button (Ziel):** URL, auf die der Button verlinkt (optional)
+
+## Versenden
+
+1. **Vorschau prüfen:** kontrolliere die Nachricht in der Live-Vorschau rechts.
+2. **Test Mail senden:** klicke auf `Test Mail senden`, um eine Testmail an deine eigene E-Mail-Adresse zu erhalten.
+3. **Mail versenden:** wenn alles passt, klicke auf `Mail an X Empfänger senden`. Der Button zeigt die Anzahl der Empfänger\*innen an.
+
+Über `Entwurf löschen` kannst du alle Eingaben zurücksetzen und von vorne beginnen.

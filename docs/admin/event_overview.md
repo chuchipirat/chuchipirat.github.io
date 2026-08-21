@@ -1,49 +1,50 @@
 ---
-layout: home
+layout: default
 title: Übersicht Anlässe
 permalink: docs/admin/event_overview
-nav_exclude: 
+nav_exclude: true
 parent: System
 search_exclude: true
 ---
 # Übersicht Anlässe
 {: .no_toc }
 
-<details markdown="block">
-  <summary>
-    Inhalt
-  </summary>
-  {: .text-delta }
-- TOC
-{:toc}
-</details>
-
 ---
 
 {: .intern-title }
-
 > ☠️ Admin-Bereich ☠️
 >
->Diese Seite ist für die Community-Leader\*innen und System-Admins.
+> Diese Seite ist für die Community-Leader\*innen und System-Admins.
 
+Die Anlassübersicht zeigt alle erfassten Anlässe. Die Gesamtanzahl wird oberhalb der Ergebnisse angezeigt. Über das Suchfeld kannst du nach einem bestimmten Anlass suchen. Mit den Icons rechts oben wechselst du zwischen Karten- und Listenansicht.
 
-Die Anlassübersicht listet alle erfassten Anlässe auf. 
+![Anlassübersicht](/docs/admin/images/events_overview.png)
+## Anlass-Karten
 
-![Rezept-Übersicht](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/admin/_images/recipe_overview.png?raw=true)
+Jede Karte zeigt auf einen Blick:
 
+- Name und Bild des Anlasses
+- UID
+- Zeitraum (Start- und Enddatum)
+- Ort
+- Anzahl Köche
 
-## Ansicht
+## Detailansicht
 
-Standardmäßig werden alle Anlässe in dieser Ansicht angezeigt. Hier kannst du anhand des Anlassnamens und der Person die eindeutige Benutzer-ID (UID) herausfinden, um gegebenenfalls den [Support-Benutzer]({% link docs/admin/activate_support_user.md %}) zu aktivieren.
+Klickst du auf eine Karte, öffnet sich die Detailansicht mit allen Informationen zum Anlass:
 
-  {::comment}[[activate_support_user]]{:/comment}
-## Quittung erstellen
+- **UID:** eindeutige Kennung
+- **Name**, **Ort**, **Motto**
+- **Start-Datum**, **Ende-Datum**, **Anzahl Tage**
+- **Köche:** Anzahl der Köch\*innen
+- **Erstellt am**, **Erstellt von UID**, **Erstellt von**
 
-Um für einen Anlass eine Quittung zu erstellen, klicke auf den entsprechenden Anlass und öffne das Kontextmenü, das sich ganz rechts befindet (durch Klicken auf die drei vertikalen Punkte). Wähle die Option `Quittung erstellen`.
+Am unteren Rand der Detailansicht stehen dir drei Aktionen zur Verfügung:
 
-![Quittung erstellen](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/admin/_images/event_receipt.png?raw=true)
+- `Quittung erstellen` — erstellt eine Spendenquittung als PDF (siehe unten)
+- `Schliessen` — schliesst die Detailansicht
+- `Anlass öffnen` — öffnet den Anlass direkt in der App
 
-
-Gib das Datum und den Betrag ein und klicke auf `Erstellen`. Es wird ein PDF generiert, das du dem\*der Spender\*in zur Verfügung stellen kannst. Ab diesem Zeitpunkt hat auch die gesamte Küchenmannschaft die Möglichkeit, die Quittung in der [Anlass-Einstellungen]({% link docs/event/event_settings.md %}) selbstständig herunterzuladen.
-
-  {::comment}[[event_settings]]{:/comment}
+{: .highlight }
+Über die UID kannst du den [Support-User aktivieren]({% link docs/admin/activate_support_user.md %}), um bei einem Anlass Support zu leisten.
+{::comment}[[activate_support_user]]{:/comment}

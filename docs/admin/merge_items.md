@@ -1,46 +1,37 @@
 ---
-layout: home
+layout: default
 title: Items zusammenführen
 permalink: docs/admin/merge_items
-nav_exclude: 
+nav_exclude: true
 parent: System
 search_exclude: true
 ---
 # Items zusammenführen
 {: .no_toc }
 
-<details markdown="block">
-  <summary>
-    Inhalt
-  </summary>
-  {: .text-delta }
-- TOC
-{:toc}
-</details>
-
 ---
 
 {: .intern-title }
-
 > ☠️ Admin-Bereich ☠️
 >
->Diese Seite ist für die Community-Leader\*innen und System-Admins.
+> Diese Seite ist für die Community-Leader\*innen und System-Admins.
 
+Es kann vorkommen, dass dasselbe Lebensmittel oder Material mehrfach erfasst wird — z.B. mit leicht unterschiedlichen Namen oder Tippfehlern. Das System behandelt diese als separate Einträge, wodurch sie in Einkaufs- und Materiallisten getrennt aufgeführt werden.
 
-Wenn viele Benutzer gemeinsam arbeiten, ist es wichtig, Ordnung zu halten. Es kann vorkommen, dass dasselbe Lebensmittel oder Material mehrmals erfasst wird, vielleicht sogar mit leicht unterschiedlichen Namen oder Tippfehlern. Dadurch denkt das System, dass es sich um zwei verschiedene Produkte/Materialien handelt. Diese werden dann getrennt in den Einkaufs-/Materialliste aufgeführt und können nicht zusammengezählt werden.
+Mit dieser Funktion kannst du zwei Produkte oder Materialien zu einem zusammenführen. Wähle über die Tabs `Produkte` oder `Materialien`, was du zusammenführen möchtest.
 
-![Items zusammenführen](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/admin/_images/merge_items.png?raw=true)
+![Items zusammenführen](/docs/admin/images/merge_items.png)
+
 ## Vorgehen
 
-Um zwei Produkte/Materialien zusammenzuführen, befolge diese Schritte:
+1. Wähle unter **Produkt A** (bzw. Material A) das Item, das ersetzt und anschliessend gelöscht wird.
+2. Wähle unter **Produkt B** (bzw. Material B) das Item, das bestehen bleibt.
+3. Klicke auf `Items zusammenführen`.
 
-1. Wähle, ob du Produkte oder Materialien zusammenführen willst.
-2. Wähle im Dropdown-Menü `Produkt A` bzw. `Material A` das Item aus, das du ersetzen möchtest.
-3. Wähle im Dropdown-Menü `Produkt B` bzw. `Material B` das Item aus, mit dem du Produkt A ersetzen möchtest.
-4. Klicke auf `Items zusammenführen`.
+Alle Vorkommnisse von Item A (Rezepte, Menüpläne, Einkaufslisten) werden durch Item B ersetzt. Danach wird Item A gelöscht und steht nicht mehr zur Verfügung.
 
-Im Hintergrund wird nun eine Cloud-Funktion ausgeführt, die alle Vorkommnisse (Rezepte, Menüpläne, Einkaufslisten) des Item A durch das Item B ersetzt.
+{: .warning }
+Dieser Vorgang kann nicht rückgängig gemacht werden. Stelle sicher, dass du das richtige Item zum Löschen (A) und das richtige zum Behalten (B) ausgewählt hast.
 
-{: .note }  
-
-> Es kann einige Minuten dauern, bis die Cloud-Funktion alles bereinigt hat.
+{: .note }
+Es kann einige Minuten dauern, bis die Zusammenführung vollständig abgeschlossen ist.
