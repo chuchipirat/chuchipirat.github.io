@@ -157,7 +157,7 @@ chuchipirat wird nicht von heute auf morgen abgeschaltet – aber ohne ausreiche
 
 ## Wie kann ich helfen?
 
-Auf der [Spendenseite](../spenden) findest du alle Möglichkeiten, das Projekt zu unterstützen. Jeder Betrag hilft – auch eine kleine Spende trägt dazu bei, dass chuchipirat für alle Jungwacht-, Blauring, Pfadi- und Jungscharen kostenlos nutzbar bleibt.
+Auf der Seite [Spenden]({% link docs/event/donations.md %}) findest du alle Möglichkeiten, das Projekt zu unterstützen. Jeder Betrag hilft – auch eine kleine Spende trägt dazu bei, dass chuchipirat für alle Jungwacht-, Blauring, Pfadi-, Jungscharen und weitere kostenlos nutzbar bleibt.
 
 {: .note }
 Hast du Fragen zur Verwendung der Spendengelder? Schreib uns unter [info@chuchipirat.ch](mailto:info@chuchipirat.ch).
