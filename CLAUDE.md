@@ -15,11 +15,11 @@ All documentation content is written in **German**.
 bundle install
 npm install        # first time only, for linters
 
-# Serve locally (with live reload)
-bundle exec jekyll serve
+# Serve locally (with live reload; --destination avoids building inside the iCloud-synced folder)
+bundle exec jekyll serve --destination /tmp/chuchipirat-helpcenter-site
 
-# Build the site (output to /tmp/chuchipirat-helpcenter-site, not _site/)
-bundle exec jekyll build
+# Build the site
+bundle exec jekyll build --destination /tmp/chuchipirat-helpcenter-site
 
 # Serve via Docker
 docker-compose up
@@ -38,7 +38,7 @@ bundle exec rspec
 
 ### Build Output
 
-The Jekyll build destination is set to `/tmp/chuchipirat-helpcenter-site` (in `_config.yml`) to avoid iCloud Drive sync conflicts. This means `_site/` is **not** used.
+Locally, pass `--destination /tmp/chuchipirat-helpcenter-site` to build outside the iCloud-synced project folder and avoid sync conflicts (see Common Commands above). This is a local convenience only — it must not be baked into `_config.yml`, since CI (`.github/workflows/ci.yml`) and the production deploy (`.github/workflows/deploy.yml`) both expect the default `_site/` output.
 
 ### Theme Customization
 

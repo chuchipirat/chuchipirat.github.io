@@ -17,7 +17,6 @@ title: chuchipirat Helpcenter
 description: 'Alles was du für den Einsatz des <a href="https://chuchipirat.ch" target="_blank">chuchipirat</a> wissen must. Tipps, Trick und Anleitungen. Alles hier.'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-destination: /tmp/chuchipirat-helpcenter-site # build outside iCloud Drive to avoid sync conflicts
 repository: chuchipirat/chuchipirat.github.io # for github-metadata
 
 permalink: pretty
@@ -54,6 +53,8 @@ exclude:
   - CODE_OF_CONDUCT.md
   - docker-compose.yml
   - Dockerfile
+  - CLAUDE.md
+  - .claude/
   # theme test code
   - fixtures/
   - spec/
