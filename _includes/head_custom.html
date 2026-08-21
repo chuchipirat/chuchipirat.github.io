@@ -1,0 +1,21 @@
+<script>
+  ;(function () {
+    var saved = localStorage.getItem("jtd-theme")
+    if (saved === "dark") {
+      var link = document.querySelector('[rel="stylesheet"]')
+      if (link) {
+        link.setAttribute(
+          "href",
+          link
+            .getAttribute("href")
+            .replace(/just-the-docs-\w+/, "just-the-docs-dark")
+        )
+      }
+    }
+  })()
+</script>
+<script
+  defer
+  src="https://umami.chuchipirat.ch/script.js"
+  data-website-id="5b0883d6-36d8-40f1-98e3-ed779dd995eb"
+></script>

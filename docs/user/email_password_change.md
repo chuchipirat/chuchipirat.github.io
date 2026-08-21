@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: E-Mail-Adresse und/oder Passwort ändern
 nav_exclude: false
 has_children: false
@@ -21,20 +21,20 @@ toc: true
 
 ---
 
-Wenn du dein Passwort und/oder deine E-Mail-Adresse ändern möchtest, gehe auf deine Profilseite und klicke auf `Mail / Passwort ändern`. Um sicherzustellen, dass du diese Änderungen wirklich vornehmen möchtest, musst du dein aktuelles Passwort erneut eingeben.
+Wenn du deine E-Mail-Adresse oder dein Passwort ändern möchtest, gehe auf deine [Profilseite]({% link docs/user/profile.md %}) und klicke auf `Mail / Passwort ändern`. Aus Sicherheitsgründen musst du zuerst dein aktuelles Passwort erneut eingeben, bevor du Änderungen vornehmen kannst.
 
-Nach der Bestätigung kannst du deine E-Mail-Adresse und/oder dein Passwort ändern.
+![E-Mail-Adresse und/oder Passwort ändern](/docs/user/images/change_login_data.png)
 
-![E-Mail-Adresse und/oder Passwort ändern](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/user/_images/change_login_data.png?raw=true)
+## E-Mail-Adresse ändern
 
-
-# E-Mail-Adresse ändern
-
-Hier gibst du einfach deine neue E-Mail-Adresse ein und bestätigst sie mit dem Button `E-Mail-Adresse ändern`. 
+Gib deine neue E-Mail-Adresse in das Feld ein und bestätige mit dem Button `E-Mail-Adresse ändern`.
 
 {: .note }
-> Beachte: Du erhältst eine E-Mail an die neue Adresse, in der du aufgefordert wirst, deine neue E-Mail-Adresse zu bestätigen. Die Änderung wird erst aktiv, wenn du dies erledigt hast.
+> Du erhältst eine E-Mail an die neue Adresse, in der du aufgefordert wirst, diese zu bestätigen. Die Änderung wird erst aktiv, wenn du die Bestätigung abgeschlossen hast.
 
-# Passwort ändern
+## Passwort ändern
 
-Gib ein neues Passwort ein und bestätige es mit `Passwort ändern`. Dein neues Passwort ist ab sofort aktiv.
+Gib dein neues Passwort ein und wiederhole es im Feld «Passwort bestätigen». Das Passwort muss mindestens 6 Zeichen lang sein. Ein Indikator zeigt dir an, wie stark dein gewähltes Passwort ist. Bestätige die Änderung mit dem Button `Passwort ändern`.
+
+{: .highlight }
+Dein neues Passwort ist sofort aktiv. Beim nächsten Login verwendest du das neue Passwort.

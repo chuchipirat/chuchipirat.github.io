@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Anlass erstellen
 permalink: docs/event/create
 nav_exclude: false
@@ -20,82 +20,66 @@ nav_order: 1
 
 ---
 
-Um einen neuen Anlass zu erstellen, navigiere zum [Startbildschirm]({% link docs/home/home.md %}) und klicke auf den Button `Anlass erstellen`.
-{::comment}[[home]] {:/comment}
+Um einen neuen Anlass zu erstellen, klicke auf dem [Startbildschirm]({% link docs/home/home.md %}) oder in der [Anlassübersicht]({% link docs/event/overview.md %}) auf den Button `Anlass erstellen`. Der Erstellungsprozess besteht aus drei Schritten.
+{::comment}[[home]][[overview]]{:/comment}
 
-## Informationen zum Anlass
-Beginne mit der Eingabe der grundlegenden Informationen für deinen Anlass.
+## Schritt 1: Informationen zum Anlass
 
-{: .note }
-> Du kannst alle Daten jederzeit wieder ändern.
+Gib die grundlegenden Eckdaten deines Anlasses ein.
 
-![Anlass erstellen](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/event/_images/create_event_information.png?raw=true)
+![Anlass erstellen](/docs/event/images/create_event_information.png)
 
-Du siehst folgende Felder:
-
-- **Name \***  
-  Der Name deines Anlasses. Dieser vereinfacht die Wiedererkennung, eines bestimmten Anlasses, sobald du mehrere Anlässe planst. Hier ein paar Beispiele wie ein Anlass heissen kann: _Sola 2024, GLK A 2022, Pfila 24, Leiterweekend 24_.
-- **Motto**  
-  Falls dein Anlass ein Motto hat, kannst du diese in diesem Feld festhalten. Die Information hat keine steuernde Wirkung im chuchipirat. Heisst: es spielt keine Rolle, ob du dieses Feld pflegst oder nicht. Dies dient lediglich, falls du dich erinnern willst, was an diesem Anlass das Motto war. 
-- **Ort**  
-  Hier kannst du hinterlegen, wo der Anlass stattfindet. Auch dieses Feld hat keine steuernde Wirkung, sondern ist rein informativ.
-- **Daten \***  
-  Hier hinterlegst du, wann dein Anlass stattfindet. Anhand der gewählten Daten wird der [Menüplan]({% link docs/event/menueplan.md %}) erstellt. Du hast dabei die Möglichkeit mehrere Daten, die nicht zusammenhängend sind, zu hinterlegen (beispielsweise für ein Vorweekend).
-  Falls du nur einen eintägigen Anlass planst, gib im Von- und Bis-Datum den gleichen Wert ein.
-  {::comment}[[menueplan]]{:/comment}
-
-Alle Felder mit einem Stern (\*) sind Pflichtfelder. Der Anlass kann erst erstellt werden, wenn alle Werte eingetragen sind und keine inhaltlichen Fehler festgestellt werden.
-
-### Küchen-Crew
-In diesem Abschnitt fügst du Personen hinzu, die die Planung mit dir durchführen. Nur diese Personen können den Anlass sehen und bearbeiten.
-
-{: .highlight-title }
-> Person hinzufügen
->
->Beachte, dass nur Personen mit einem vorhandenen chuchipirat-Benutzer hinzugefügt werden können.
-
-### Prüfung der eingegeben Daten
-
-Bevor du zum nächsten Schritt gelangst, werden deine Eingaben geprüft. Dabei werden folgende Eingaben überprüft:
-
-- Alle Pflichtfelder sind ausgefüllt.
-- Die Daten haben gültige Von- und Bis-Datumsangaben.
-- Bei mehreren Datumseinträgen überlappen sich die Zeitabschnitte nicht.
-
-## Informationen zur Mengenberechnung
-In diesem Schritt legst du fest, für welche Ernährungsgruppen du planst. Standardmässig gibt es Gruppen wie _Fleisch_, _Vegetarisch_, _ohne Unverträglichkeit_, _Laktoseintoleranz_ und _Glutenunverträglichkeit_. Du kannst weitere Gruppen hinzufügen oder die vorgeschlagenen löschen.
-Wenn du mit Gruppen arbeitest, kannst du im [Menüplan]({% link docs/event/menueplan.md %}) die Rezepte mit Gruppen und/oder Intoleranzen verknüpfen, um kurz vor dem Anlass die Gruppengrösse anzupassen.
+- **Name \*** — der Name deines Anlasses (z.B. «Sola 2024», «GLK A 2022», «Pfila 24»)
+- **Motto** — falls dein Anlass ein Motto hat (rein informativ)
+- **Ort** — wo der Anlass stattfindet (rein informativ)
+- **Titelbild** — ein Logo oder Lagerbild für den Anlass. Klicke auf `Bild hinzufügen`, um ein Bild hochzuladen.
+- **Daten \*** — wann der Anlass stattfindet. Anhand der Daten wird der [Menüplan]({% link docs/event/menueplan.md %}) erstellt. Du kannst mehrere nicht zusammenhängende Zeiträume hinterlegen (z.B. für ein Vorweekend). Bei einem eintägigen Anlass gibst du im Von- und Bis-Datum den gleichen Wert ein.
 {::comment}[[menueplan]]{:/comment}
 
+{: .note }
+Du kannst alle Angaben jederzeit in den [Anlass-Einstellungen]({% link docs/event/event_settings.md %}) wieder ändern.
+{::comment}[[event_settings]]{:/comment}
 
-![Informationen zur Mengenberechnung](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/event/_images/create_event_groupConfig.png?raw=true)
+### Küchen-Crew
 
+Hier fügst du Personen hinzu, die die Planung mit dir durchführen. Nur diese Personen können den Anlass sehen und bearbeiten.
 
 {: .highlight }
-Wenn dir das mit den Gruppen zu kompliziert erscheint, kannst du einfach die Gruppengrösse im ersten Feld hinterlegen und die anderen Felder leer lassen.
+Es können nur Personen hinzugefügt werden, die bereits ein chuchipirat-Konto haben.
+
+### Prüfung
+
+Bevor du zum nächsten Schritt gelangst, werden deine Eingaben geprüft:
+
+- Alle Pflichtfelder sind ausgefüllt
+- Die Daten haben gültige Von- und Bis-Angaben
+- Bei mehreren Zeiträumen überlappen sich diese nicht
+
+## Schritt 2: Informationen zur Mengenberechnung
+
+Hier legst du fest, für welche Ernährungsgruppen und Unverträglichkeiten du planst. Standardmässig werden die Gruppen «Fleisch» und «Vegetarisch» sowie die Unverträglichkeiten «Ohne Unverträglichkeiten», «Laktoseintoleranz» und «Glutenunverträglichkeit» vorgeschlagen.
+
+![Informationen zur Mengenberechnung](/docs/event/images/create_event_groupConfig.png)
+
+In der Tabelle trägst du pro Kombination die Anzahl Portionen ein. Die letzte Zeile und Spalte zeigen die Summen. Wenn du mit Gruppen arbeitest, kannst du im [Menüplan]({% link docs/event/menueplan.md %}) die Rezepte mit Gruppen und/oder Intoleranzen verknüpfen und so die Mengenberechnung flexibel anpassen.
+{::comment}[[menueplan]]{:/comment}
+
+{: .highlight }
+Wenn dir das mit den Gruppen zu kompliziert erscheint, trage einfach die Gesamtanzahl Portionen im ersten Feld ein und lass die anderen leer.
 
 {: .note-title }
-
 > Anzahl Portionen
 >
->Die hier eingetragene Anzahl Portionen bildet die Grundlage für die Mengenberechnung. Du kannst die Portionen jederzeit anpassen. Die Mengenberechnung wird automatisch bei jeder Änderung aktualisiert.
+> Die hier eingetragene Anzahl bildet die Grundlage für die Mengenberechnung. Du kannst die Portionen jederzeit anpassen — die Berechnung wird automatisch aktualisiert.
 
-In der letzten Zeile und Spalte werden die Werte summiert, um dir einen Überblick über die Gesamtanzahl der Portionen zu geben.
+### Gruppen und Unverträglichkeiten verwalten
 
-### Neue Ernährungs- oder Unverträglichkeitsgruppe erstellen
+- **Neue Gruppe/Unverträglichkeit hinzufügen:** Klicke auf `+` in den Spaltenüberschriften oder auf `+ Unverträglichkeit`.
+- **Umbenennen oder löschen:** Klicke auf die drei vertikalen Punkte ⋮ neben der Gruppe und wähle die gewünschte Aktion.
 
-Um eine neue Gruppe zu erstellen, klicke auf das Plus (`+`) in den Gruppenüberschriften oder den Button `+ Unverträglichkeit`. Gib der Gruppe einen passenden Namen und bestätige mit `OK`.
+## Schritt 3: Abschluss
 
-### Ernährungs- oder Unverträglichkeitsgruppe umbenennen oder löschen
+Im letzten Schritt wirst du gefragt, ob du eine [Spende]({% link docs/event/donations.md %}) leisten möchtest. Wenn es dein Anlassbudget zulässt, freut sich das chuchipirat-Team über einen kleinen Beitrag für die laufenden Kosten und Weiterentwicklung. Du kannst diesen Schritt auch überspringen.
 
-Um eine Gruppe zu ändern/löschen, klicke auf die 3 vertikalen Punkte und wähle den entsprechenden Eintrag aus dem Menü.
-
-## Abschluss
-
-Auf der nächsten Seite findest du einen Twint-QR-Code. Wenn es dein Anlassbudget zulässt, würden wir uns über eine kleine Spende freuen, um die laufenden Kosten zu decken und die Weiterentwicklung der App zu unterstützen. Dein Beitrag hilft uns dabei, das Angebot weiterhin kostenlos anzubieten.
-
-{: .note }
-
-> Falls du eine Quittung möchtest, schreib uns einfach eine E-Mail. Wir senden dir gerne eine Quittung als PDF zu. Bitte beachte, dass dies einige Tage dauern kann. Sobald die Quittung einmal generiert wurde, kannst du sie im Anlass unter der [Registerkarte]({% link docs/event/event_settings.md %}#quittung) `Info zum Anlass` jederzeit erneut herunterladen.
-
-Mit einem Klick auf `Weiter` gelangst du zum [Menüplan]({% link docs/event/menueplan.md %}).   {::comment}[[menueplan]]{:/comment}
+Nach der Bezahlung — oder dem Überspringen — wirst du zum [Menüplan]({% link docs/event/menueplan.md %}) weitergeleitet.
+{::comment}[[donations]][[menueplan]]{:/comment}

@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Einheitenumrechnung
 nav_exclude: false
 nav_order: 3
@@ -9,32 +9,29 @@ parent: Stammdaten
 # Einheitenumrechnung
 {: .no_toc }
 
-<details markdown="block">
-  <summary>
-    Inhalt
-  </summary>
-  {: .text-delta }
-- TOC
-{:toc}
-</details>
-
 ---
 
-Um Rezepte effizient zu skalieren, bietet die App eine Einheitenumrechnungsfunktion an. Diese ermöglicht die Umwandlung von Einheiten, um ein reibungsloses Koch- und Einkaufserlebnis zu gewährleisten.
+Nicht alle Einheiten lassen sich direkt umrechnen. Die Einheitenumrechnung definiert, wie bestimmte Mengen und Einheiten ineinander überführt werden — zum Beispiel wie schwer ein Esslöffel Honig ist, damit grosse Mengen gewogen statt von Hand abgemessen werden können.
 
 {: .note-title }
-
 > Warum kann ich die Liste nicht ändern?
 >
->Diese Einstellungen gelten für alle Nutzer\*innen des chuchipirats und sind daher global. Die Bearbeitung dieser Aufgabe bleibt somit den Systemadministrator\*innen vorbehalten.
+> Diese Einstellungen gelten für alle Nutzer\*innen des chuchipirats und sind daher global. Die Bearbeitung bleibt den Systemadministrator\*innen vorbehalten.
+
+Die Seite ist in zwei Tabs unterteilt: **Basic** und **Produktspezifisch**.
+
 ## Basic
 
-Hier findest du einfache Umrechnungen des metrischen Systems. Zum Beispiel entsprechen 10 Deziliter einem Liter. Diese Umrechnungen helfen dabei, die im Rezept angegebenen Einheiten an die gängigen Einheiten im Geschäft anzupassen.
+Hier findest du einfache Umrechnungen des metrischen Systems. Zum Beispiel entsprechen 10 Deziliter einem Liter oder 1 Esslöffel 15 Milliliter. Diese Umrechnungen helfen dabei, die im Rezept angegebenen Einheiten an die gängigen Einkaufseinheiten anzupassen.
 
-![Basic Einheitenumrechnung](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/masterdata/_images/unitconversion_basic.png?raw=true)
+Die Tabelle zeigt jeweils die Ausgangsmenge und -einheit sowie die umgerechnete Menge und Einheit.
+
+![Basic Einheitenumrechnung](/docs/masterdata/images/unitconversion_basic.png)
 
 ## Produktspezifisch
 
-Einige Einheiten erfordern eine spezifischere Umrechnung. Nehmen wir zum Beispiel die Einheit EL (Esslöffel). Je nachdem, ob du eine Flüssigkeit oder ein festes Lebensmittel misst, variiert die Umrechnung. Ein Esslöffel Flüssigkeit entspricht immer 15 Millilitern (Volumen), während ein Esslöffel Mehl zum Beispiel 10 Gramm wiegt (Masse). Da jedes Lebensmittel eine unterschiedliche Dichte hat, wird das Gewicht pro nichtmetrischer Einheit angegeben. Dadurch kann der chuchipirat versuchen, diese Einheiten in die passende Einkaufseinheit umzurechnen, um erfolgreich zu skalieren.
+Einige Einheiten erfordern eine produktspezifische Umrechnung. Zum Beispiel entspricht 1 Esslöffel Flüssigkeit immer 15 ml (Volumen), während 1 Esslöffel Mehl etwa 10 g wiegt (Masse). Da jedes Lebensmittel eine unterschiedliche Dichte hat, wird das Gewicht pro nichtmetrischer Einheit hier pro Produkt hinterlegt.
 
-![Produkte Einheitenumrechnung](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/masterdata/_images/unitconversion_products.png?raw=true)
+Dadurch kann der chuchipirat diese Einheiten in die passende Einkaufseinheit umrechnen — weil 276 g Zucker einfacher zu handhaben sind als 23 EL.
+
+![Produktspezifische Einheitenumrechnung](/docs/masterdata/images/unitconversion_products.png)

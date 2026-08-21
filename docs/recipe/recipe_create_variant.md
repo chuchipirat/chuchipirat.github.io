@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Rezeptvariante erstellen
 permalink: docs/recipe/create_variant
 nav_exclude: false
@@ -9,49 +9,33 @@ nav_order: 4
 # Rezeptvariante erstellen
 {: .no_toc }
 
-<details markdown="block">
-  <summary>
-    Inhalt
-  </summary>
-  {: .text-delta }
-- TOC
-{:toc}
-</details>
-
 ---
 
 Möchtest du für einen Anlass ein bestehendes Rezept anpassen? Beispielsweise eine Zutat weglassen aufgrund einer Intoleranz oder etwas anfügen, damit es dem Motto entspricht? Dann sind Rezeptvarianten das, wonach du suchst.
 
-Um eine Variante anzulegen, öffne das gewünschte Rezept über den Menüplan. Ob das Rezept bereits eingeplant ist oder bisher nicht, spielt dabei keine Rolle. Klicke auf den Button *Variante erstellen*. Das Rezept öffnet sich nun im Änderungsmodus.
+{: .note-title }
+> Variante oder privates Rezept?
+>
+> Eine **Variante** ist eine temporäre Kopie eines Rezeptes. Sie wird genutzt, um ein Rezept für einen bestimmten Anlass anzupassen (z.B. laktosefrei). Die Variante existiert nur innerhalb dieses Anlasses und kann in anderen Anlässen nicht wiederverwendet werden. Ein **privates Rezept** hingegen ist über alle deine Anlässe hinweg verfügbar, kann aber nur von dir genutzt werden.
+
+## Variante erstellen
+
+Öffne das gewünschte Rezept über den Menüplan und klicke auf den Button `Variante erstellen`. Das Rezept öffnet sich im Bearbeitungsmodus. Ob das Rezept bereits eingeplant ist oder nicht, spielt dabei keine Rolle.
 
 {: .highlight }
-Bei dem Anlegen einer Rezeptvariante wird das Rezept kopiert und mit deinem Anlass verknüpft. Bitte beachte: Änderst du das Originalrezept, hat das auf die Variante keinen Einfluss.
+Beim Anlegen einer Variante wird das Rezept kopiert und mit deinem Anlass verknüpft. Änderungen am Originalrezept haben keinen Einfluss auf die Variante.
 
-## Änderungsmöglichkeiten
-Bei einer Rezeptvariante kannst du nur folgende Dinge ändern.
+## Was du ändern kannst
 
-**Variantennamen**  
-Gibt der Variante einen Namen, die dir zeigt, was du daran geändert hast. Hier einige Beispiele *ohne Nüsse*, *glutenfrei*.
+### Variantenname
 
-**Zutaten**  
-Du kannst die Zutatenliste komplett anpassen. So kannst du einzelne Zutaten entfernen (über die 3 Punkte, links der Position, *Position entfernen*). Du kannst einzelne Lebensmittel ersetzen, in dem du eine andere Zutat aus der Liste auswählst oder du fügst weitere Zutaten hinzu.
+Gib der Variante einen aussagekräftigen Namen, der zeigt, was du angepasst hast — zum Beispiel «ohne Nüsse» oder «glutenfrei».
 
-{: .note-title }
+### Zutaten, Zubereitung und Material
 
-> Reihenfolge anpassen
-> 
-> Wie du die Reihenfolge der Zutaten anpassen kannst, ist [hier]({% link docs/recipe/recipe_create_change.md %}#reihenfolge-der-zutaten-bestimmen) beschrieben.
+Du kannst Zutaten, Zubereitungsschritte und Materialien frei anpassen: Zeilen hinzufügen, ändern, löschen, neu anordnen und in Abschnitte gliedern. Wie das funktioniert, ist auf der Seite [Rezept anlegen/ändern]({% link docs/recipe/recipe_create_change.md %}) beschrieben.
+{::comment}[[recipe_create_change]]{:/comment}
 
+## Was du nicht ändern kannst
 
-  {::comment}[[recipe_create_change]]{:/comment}
-
-**Zubereitungsschritte**  
-Auch die Zubereitungsschritte kannst du wie die Zutaten frei anpassen.
-
-**Material**  
-Du kannst Materialien ändern, löschen oder neue hinzufügen.
-
-
-
-
-
+Die allgemeinen Informationen wie Quelle, Zubereitungszeiten, Diätinfo und Tipps & Tags werden vom Originalrezept übernommen und können in der Variante nicht geändert werden. Die Diätinfo wird automatisch anhand der angepassten Zutaten neu berechnet.

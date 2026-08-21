@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Materialien
 nav_exclude: false
 nav_order: 2
@@ -9,41 +9,29 @@ parent: Stammdaten
 # Materialien
 {: .no_toc }
 
-<details markdown="block">
-  <summary>
-    Inhalt
-  </summary>
-  {: .text-delta }
-- TOC
-{:toc}
-</details>
-
 ---
 
-Verschiedene Rezepte benötigen Materialien, die nicht immer in einer Lagerküche vorzufinden sind. Darum kannst du bei den Rezepten benötigtes Material hinterlegen, welches dann auch in die Einkaufsliste oder Materialliste angezeigt wird.
+Verschiedene Rezepte benötigen Materialien, die nicht immer in einer Lagerküche vorzufinden sind. Darum kannst du bei Rezepten benötigtes Material hinterlegen. Je nach Materialtyp erscheint es auf der Einkaufsliste oder der Materialliste.
 
 ## Materialtyp
 
-Beim Material wird unterschieden zwischen Verbrauchs- und Gebrauchsmaterial.
+Beim Material wird zwischen Verbrauchs- und Gebrauchsmaterial unterschieden.
 
 ### Verbrauchsmaterial
 
-Verbrauchsmaterial ist nach der Zubereitung des Rezeptes nicht erneut nutzbar. Hierzu zählen etwa Aluminiumpapier, Holzspiesse oder Geburtstagskerzen. Dieses Material landet, falls gewünscht, auf die Einkaufsliste.
+Verbrauchsmaterial ist nach der Zubereitung nicht erneut nutzbar — zum Beispiel Alufolie, Holzspiesse oder Geburtstagskerzen. Dieses Material kann auf die Einkaufsliste übernommen werden.
 
 ### Gebrauchsmaterial
 
-Dies ist Material, dass du immer wieder einsetzen kannst. Hierzu zählen beispielsweise eine Cakeform, ein Stabmixer oder ein Spritzsack. 
-Nicht jede Lagerküche ist gleich gut ausgerüstet. Durch das Hinterlegen von solchem Material, kannst du kurz vor dem Anlass die Materialliste generieren, sodass du gewisses Material allenfalls von zu Hause mitnehmen kannst.
+Gebrauchsmaterial kannst du immer wieder einsetzen — zum Beispiel eine Cakeform, ein Stabmixer oder ein Waffeleisen. Nicht jede Lagerküche ist gleich gut ausgerüstet. Durch das Hinterlegen von Gebrauchsmaterial kannst du vor dem Anlass die Materialliste generieren und gewisses Material allenfalls von zu Hause mitnehmen.
 
 ## Neues Material anlegen
 
-Der Dialog _Material anlegen_, ermöglicht es dir fehlendes Material anzulegen. Neues Material ist immer für alle User des chuchipirat nutzbar.
+Über den Dialog «Neues Material anlegen» kannst du fehlendes Material erfassen. Gib den Namen und den [Materialtyp](#materialtyp) an und klicke auf `Erstellen`. Das neue Material steht danach allen Nutzer\*innen des chuchipirats zur Verfügung.
 
-<kbd> <img src="https://raw.githubusercontent.com/wiki/gcettuzz/chuchipirat/material/create_material.png" alt="Erfassungsmaske neues Material"/> </kbd>
-
-Gib bei der Neuerstellung den Namen und den [Materialtyp](#materialtyp) an. Sobald du auf _Speichern_ klickst, wird das neu erstellte Material im Rezept/Menüplan/Einkaufsliste/Materialliste übernommen.
+![Neues Material anlegen](/docs/masterdata/images/create_material.png)
 
 {: .note-title }
 > Nicht sicher?
 >
->Keine Sorge. Die neu erfassten Materialien werden von den Community-Leadern gegengeprüft um sicherzustellen, dass die gewählten Einstellungen für dich und andere nicht zu bösen Überraschungen führt. 
+> Keine Sorge. Neu erfasste Materialien werden von den Community-Leadern gegengeprüft, um sicherzustellen, dass die gewählten Einstellungen passen.

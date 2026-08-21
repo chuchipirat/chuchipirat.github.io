@@ -8,11 +8,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-      - name: Setup Ruby 3.3
+      - uses: actions/checkout@v6
+      - name: Setup Ruby 3.4
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.3"
+          ruby-version: "3.4"
 
       - name: Publish to GPR
         run: |

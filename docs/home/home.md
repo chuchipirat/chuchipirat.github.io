@@ -1,13 +1,12 @@
 ---
-layout: home
+layout: default
 title: Startseite
 nav_exclude: false
 nav_order: 1
+has_children: true
 ---
 # Startbildschirm
 {: .no_toc }
-## Inhalt
-{: .no_toc .text-delta }
 
 <details markdown="block">
   <summary>
@@ -20,27 +19,21 @@ nav_order: 1
 
 ---
 
+Die Startseite begrüsst dich mit deinem Namen und bietet dir einen Überblick über alles Wichtige im chuchipirat.
 
-Auf der Startseite erwarten dich verschiedene nützliche Informationen und Funktionen:
+![Support-User aktivieren](/docs/home/images/home.png)
+## Nächste Anlässe
 
-![Home-Bildschirm](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/home/_images/home.png?raw=true)
+Hier siehst du alle kommenden Anlässe, bei denen du (mit-)kochen wirst. Klicke auf eine Karte, um direkt zum Anlass zu gelangen. Über den Link `Zeige vergangene Anlässe` kannst du dir alle Anlässe anzeigen lassen, die bereits stattgefunden haben. Wenn du einen neuen Anlass erstellen möchtest, erfährst du in der Anleitung [Anlass erstellen]({% link docs/event/event_create.md %}), wie das geht.
+{::comment}[[event_create]]{:/comment}
+## Die neusten Rezepte
 
-# Nächsten Anlässe
+Eine Auswahl der aktuellsten öffentlichen Rezepte — direkt auf der Startseite zum Stöbern und Inspirieren.
 
-Hier siehst du alle kommenden Veranstaltungen, bei denen du (mit-)kochen wirst. Wenn du einen neuen Anlass erstellen möchtest, erfährst du in der Anleitung [Anlass erstellen]({% link docs/event/event_create.md %}), wie du am besten vorgehst.
+## Statistik
 
-# Vergangene Anlässe
+Die Statistik zeigt dir interessante Kennzahlen rund um den chuchipirat — zum Beispiel die Anzahl Anlässe, Rezepte (öffentlich und privat), Anlassvarianten, Kommentare und Bewertungen.
 
-Ein Klick auf den Link `Vergangene Anlässe` zeigt dir alle Events an, an denen du teilgenommen hast, die jedoch bereits in der Vergangenheit liegen.
+## Feed
 
-# Die neusten Rezepte
-
-Entdecke eine Auswahl der aktuellsten öffentlichen Rezepte direkt auf der Startseite.
-
-# Feed
-
-Im Feed siehst du die aktuellen Geschehnisse auf dem chuchipirat. Jede Aktion erzeugt einen Eintrag im Feed, damit du stets über die neuesten Entwicklungen informiert bist.
-
-# Statistik
-
-Erhalte einen Überblick über interessante Kennzahlen rund um den chuchipirat direkt auf deiner Startseite.
+Im Feed siehst du die aktuellen Aktivitäten auf dem chuchipirat. Jede Aktion (z.B. neues Rezept, neuer Anlass, wer was Einkauft usw.) erzeugt einen Eintrag, damit du über die neuesten Geschehnisse informiert bist.

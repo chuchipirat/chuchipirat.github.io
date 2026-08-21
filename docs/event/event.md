@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Anlass
 nav_exclude: false
 has_children: true
@@ -8,32 +8,22 @@ nav_order: 3
 # Anlass
 {: .no_toc }
 
-<details markdown="block">
-  <summary>
-    Inhalt
-  </summary>
-  {: .text-delta }
-- TOC
-{:toc}
-</details>
-
 ---
-Der Anlass bildet das Herzstück deiner Planung und bietet verschiedene Funktionen:
 
- * **[Menüplan]({% link docs/event/menueplan.md %}):** Hier planst du, wann welches Rezept für wen zubereitet wird.
+Ein Anlass ist das Herzstück deiner Planung im chuchipirat. Das kann ein Lager, ein Kurs, ein Weekend oder ein einzelner Tag sein. Du bestimmst, wie er aussieht, wie viele Mahlzeiten geplant sind und wie viele Portionen zubereitet werden sollen.
 
-- **[Einstellungen Mengenberechnung]({% link docs/event/groupconfiguration.md %}):** Definiere hier die Gruppengrösse und -zusammenstellung deines Anlasses.
+Um zu einem bestehenden Anlass zu gelangen, gehe zum [Startbildschirm]({% link docs/home/home.md %}). Wenn du einen neuen Anlass erstellen möchtest, klicke auf dem Startbildschirm auf den Button `Anlass erstellen`.
+{::comment}[[home]]{:/comment}
 
-- **[Verwendete Rezepte]({% link docs/event/used_recipes.md %}):** Generiere hier alle Rezepte in der richtigen Skalierung, die du für deinen Anlass geplant hast.
+## Weiterführende Seiten
 
-- **[Einkaufsliste]({% link docs/event/shoppinglist.md %}):** Erst hier die Einkaufsliste auf Knopfdruck basierend auf den geplanten Rezepten.
-
-- **[Materialliste]({% link docs/event/materiallist.md %}):** Erhalte eine Liste aller Materialien, die du für die Zubereitung der Rezepte benötigst.
-
-- **[Einstellungen zum Anlass]({% link docs/event/event_settings.md %}):** Hier kannst du den Namen, die Personen, die mit dir kochen, und die Daten hinterlegen.
-  {::comment}[[menueplan]] [[groupconfiguration]] [[used_recipes]] [[shoppinglist]] [[materiallist]][[event_settings]]{:/comment}
-
-Ein Anlass kann ein Lager, ein Kurs, ein Weekend oder ein einzelner Tag sein. Du bestimmst, wie er aussieht, wie viele Mahlzeiten geplant sind und wie viele Portionen zubereitet werden sollen.
-
-Um zu einem bereits angelegten Anlass zu gelangen, gehe zum [Startbildschirm]({% link docs/home/home.md %}). Wenn du einen neuen Anlass erstellen möchtest, klicke auf dem Startbildschirm auf den Button `Anlass erstellen`.
-{::comment}[[home]] [[event_create]]{:/comment}
+- [Anlassübersicht]({% link docs/event/overview.md %}) — alle deine Anlässe auf einen Blick
+- [Anlass erstellen]({% link docs/event/event_create.md %}) — einen neuen Anlass anlegen
+- [Einstellungen zum Anlass]({% link docs/event/event_settings.md %}) — Name, Daten und Küchenteam verwalten
+- [Einstellungen Mengenberechnung]({% link docs/event/groupconfiguration.md %}) — Gruppengrösse und -zusammenstellung definieren
+- [Menüplan]({% link docs/event/menueplan.md %}) — planen, wann welches Rezept für wen zubereitet wird
+- [Verwendete Rezepte]({% link docs/event/used_recipes.md %}) — alle geplanten Rezepte in der richtigen Skalierung generieren
+- [Einkaufsliste]({% link docs/event/shoppinglist.md %}) — die Einkaufsliste auf Knopfdruck erstellen
+- [Materialliste]({% link docs/event/materiallist.md %}) — alle benötigten Materialien auf einen Blick
+- [Spenden]({% link docs/event/donations.md %}) — Spendemöglichkeit für den Anlass
+{::comment}[[event_create]][[event_settings]][[groupconfiguration]][[menueplan]][[used_recipes]][[shoppinglist]][[materiallist]][[donations]]{:/comment}

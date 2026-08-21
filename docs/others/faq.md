@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: FAQ
 permalink: /faq
 nav_exclude: false
@@ -32,9 +32,8 @@ Hier findest du Antworten auf die am häufigsten gestellten Fragen rund um den c
   </summary>
   
 Das ist gar nicht so einfach. Es gibt jedoch diverse Hilfsmittel, auf die wir hier gerne verweisen:
-* [J+S Merkblatt kochen im Lager](https://www.jugendundsport.ch/content/jus-internet/de/sportarten/lagersport-trekking-uebersicht/_jcr_content/contentPar/accordion_1622153027/accordionItems/19_1698135403873/accordionPar/downloadlist_2028361_1146006507/downloadItems/1229_1460466353407.download/merkblatt_kochen_im_lager_DE.pdf){:target="_blank"}
-* [Mengentabelle Betty Bossi](https://www.bettybossi.ch/static/customers/WEB_Listen_Koch_Center_2012/Kulinarische_Beratung/Online_Kulinarische_Beratung/Dienstleistungen/Mengentabelle___Glossar/Mengentabellen_Mengenberechnungen_2012.pdf){:target="_blank"}
-
+  * [J+S Merkblatt kochen im Lager](/docs/others/assets/merkblatt_kochen_im_lager_DE.pdf){:target="_blank"}  
+  * [Mengentabelle Betty Bossi](/docs/others/assets/Mengentabellen_Mengenberechnungen_2012.pdf){:target="_blank"} 
 
 
 Wir empfehlen, die angegebenen Mengen pro Rezept nicht anzupassen, sondern allenfalls ein paar Portionen mehr zuzubereiten.
@@ -48,7 +47,7 @@ Wir empfehlen, die angegebenen Mengen pro Rezept nicht anzupassen, sondern allen
     Wieso wird die Zeit nicht angepasst, wenn das Rezept skaliert wird?
   </summary>
   
-Wir haben viel darüber nachgedacht, wie wir Zubereitungszeiten skalieren können, aber bisher keine passende Lösung gefunden. Die Zeit, die für das Kochen benötigt wird, hängt von verschiedenen Faktoren ab, wie der Art der Zubereitung, der Anzahl der Personen, die kochen, und der verfügbaren Ausrüstung. Die Kochzeit ist nicht überall gleich. Während die Zubereitungszeit für Pasta in etwa 11 Minuten beträgt, ist die Zubereitung von Gerichten wie Omeletten, die pro Portion gekocht werden, unterschiedlich. Auch die Zubereitungsdauer variiert. Zum Beispiel dauert es genauso lange, einen Teig mit einer Teigmaschine für 20 Personen herzustellen wie für 4 Personen (vorausgesetzt, die Maschine kann das bewältigen). Das Schälen von Rüebli hingegen dauert proportional zur Menge. Es ist also nicht möglich, die Zubereitungszeiten global zu skalieren. Anstatt ungenaue Informationen anzuzeigen, zeigen wir lieber die Zeit an, die für die Originalmengen im Rezept benötigt wird.
+Die benötigte Zeit hängt von vielen Faktoren ab — Art der Zubereitung, Ausrüstung, Anzahl Köch\*innen — und lässt sich nicht zuverlässig skalieren. Beispiel: Einen Teig mit der Maschine für 20 Personen herzustellen dauert gleich lang wie für 4, aber Rüebli schälen dauert proportional zur Menge. Anstatt ungenaue Werte anzuzeigen, zeigt der chuchipirat die Zeitangaben für die Originalportionen an.
 
 </details>
   
@@ -64,6 +63,57 @@ Die Einheit Stück bringt im Rezept oder auf der Einkaufsliste keinen Mehrwert. 
 
 **Dose**  
 Eine Dose ist je nach Hersteller/Verkäufer*in nicht gleich gross. Dies birgt ein gewisses Risiko, dass das Rezept mit zu wenig oder zu viel dieses Lebensmittel zubereitet wird. 
+
+</details>
+
+<details  markdown="block">
+  <summary style="color:#006064">
+    Kann ich ein Rezept aus einem anderen Anlass wiederverwenden?
+  </summary>
+
+Ja. Alle öffentlichen und deine privaten Rezepte stehen dir in jedem Anlass zur Verfügung. Du kannst sie direkt im Menüplan einplanen. Falls du ein Rezept für einen bestimmten Anlass anpassen möchtest, erstelle eine [Rezeptvariante]({% link docs/recipe/recipe_create_variant.md %}).
+{::comment}[[recipe_create_variant]]{:/comment}
+
+</details>
+
+<details  markdown="block">
+  <summary style="color:#006064">
+    Wie lösche ich einen Anlass?
+  </summary>
+
+Du kannst einen Anlass in den [Anlass-Einstellungen]({% link docs/event/event_settings.md %}) löschen.
+{::comment}[[event_settings]]{:/comment}
+
+{: .warning }
+> Gelöschte Anlässe können nicht wiederhergestellt werden.
+
+</details>
+
+<details  markdown="block">
+  <summary style="color:#006064">
+    Wie kopiere ich einen Anlass?
+  </summary>
+
+Du kannst einen Anlass in der [Anlass-Übersicht]({% link docs/event/overview.md %}) kopieren.
+{::comment}[[overview]]{:/comment}
+</details>
+
+<details  markdown="block">
+  <summary style="color:#006064">
+    Warum stimmen die Mengen auf meiner Einkaufsliste nicht?
+  </summary>
+
+Falls sich die Mengenberechnung oder die Rezepte geändert haben, muss die [Einkaufsliste]({% link docs/event/shoppinglist.md %}) neu generiert werden. Du siehst eine Warnung, wenn die Einkaufsliste nicht mehr aktuell ist.
+{::comment}[[shoppinglist]]{:/comment}
+
+</details>
+
+<details  markdown="block">
+  <summary style="color:#006064">
+    Kann ich den chuchipirat auch auf dem Handy nutzen?
+  </summary>
+
+Ja. Der chuchipirat ist eine Web-App und funktioniert im Browser auf jedem Gerät — Smartphone, Tablet und Computer.
 
 </details>
 

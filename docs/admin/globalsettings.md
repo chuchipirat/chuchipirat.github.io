@@ -1,46 +1,42 @@
 ---
-layout: home
+layout: default
 title: Globale Einstellungen
-nav_exclude: 
+nav_exclude: true
 parent: System
 search_exclude: true
 ---
 # Globale Einstellungen
 {: .no_toc }
 
-<details markdown="block">
-  <summary>
-    Inhalt
-  </summary>
-  {: .text-delta }
-- TOC
-{:toc}
-</details>
-
 ---
 
 {: .intern-title }
-
 > ☠️ Admin-Bereich ☠️
 >
->Diese Seite ist für die  System-Admins.
+> Diese Seite ist für die System-Admins.
 
-In den globalen Einstellungen kannst du verschiedene systemweite Funktionen konfigurieren.
+In den globalen Einstellungen kannst du systemweite Funktionen konfigurieren. Um Änderungen vorzunehmen, klicke zuerst auf `Anpassen` und nach der Anpassung auf `Speichern`.
 
-![Globale Einstellungen](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/admin/_images/globalsettings.png?raw=true)
+![Globale Einstellungen](/docs/admin/images/global_settings.png)
+## Neu-Anmeldung ermöglichen
 
-## Neu-Anmeldungen ermöglichen
-
-Mit dieser Option kannst du steuern, ob Personen neue Konten im chuchipirat erstellen können. Bestehende Benutzer können sich unabhängig von dieser Einstellung weiterhin anmelden.
+Steuert, ob neue Konten im chuchipirat erstellt werden können (Neuanmeldung/Registrierung). Bestehende Benutzer\*innen können sich unabhängig von dieser Einstellung weiterhin anmelden.
 
 ## Wartungsmodus
 
-Wenn der Wartungsmodus aktiviert ist, können sich Benutzer nicht anmelden. Auch die Erstellung neuer Konten ist in diesem Modus nicht möglich.
+Im Wartungsmodus ist weder eine Anmeldung noch eine Neuregistrierung möglich.
 
-## Alle Benutzer*innen abmelden
+## E-Mail-Suche Rate-Limit
 
-Durch diese Einstellung werden alle angemeldeten Benutzer automatisch vom chuchipirat abgemeldet, ausser solche mit der Admin-Rolle.
+Legt die maximale Anzahl E-Mail-Suchen pro Benutzer\*in pro Stunde fest.
 
-{: .important } 
+## E-Mails an MailPit umleiten
 
-> Bitte beachte, dass es möglicherweise bis zu einer Stunde dauern kann, bis alle Benutzersitzungen beendet sind.
+Wenn aktiviert, werden alle App-E-Mails (Cron-Jobs, Benachrichtigungen) an MailPit gesendet statt an echte Empfänger\*innen. Nützlich für Tests. Davon ausgenommen sind alle E-Mails rund um Authentifizierung (E-Mailadresse bestätigen, E-Mailadresse wechseln, Passwort vergessen).
+
+## Alle Benutzer\*innen abmelden
+
+Über `Alle abmelden` werden alle angemeldeten Benutzer\*innen vom chuchipirat abgemeldet — ausser solche mit der Admin-Rolle.
+
+{: .important }
+Es kann bis zu einer Stunde dauern, bis alle Benutzersitzungen beendet sind.

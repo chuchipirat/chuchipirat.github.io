@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Rezeptaufbau
 permalink: docs/recipe/structure
 parent: Rezepte
@@ -20,85 +20,101 @@ nav_order: 2
 
 ---
 
-Die folgende Seite zeigt dir, wie das Rezept im chuchipirat aufgebaut ist und welche Möglichkeiten du von hast.
+Diese Seite zeigt dir, wie ein Rezept im chuchipirat aufgebaut ist und welche Funktionen dir zur Verfügung stehen.
 
 ## Aufbau
 
-Das Rezept ist in fünf Abschnitten gegliedert.
+### Rezeptname und Bewertung
 
-### Rating
+Zuoberst siehst du den Namen des Rezeptes. Bei öffentlichen Rezepten wird zusätzlich eine Sternebewertung angezeigt. Du kannst mit einem Klick auf die Sterne eine eigene Bewertung abgeben.
 
-Im Abschnitt mit dem Namen siehst du bei öffentlichen Rezepten ein Rating. Du kannst mit einem Klick auf die Sterne eine eigene Bewertung abgeben.
+Direkt darunter findest du die Aktions-Buttons: `Skalieren`, `Druckversion` und — bei öffentlichen Rezepten — `Fehler melden`.
 
 ### Informationen
 
-Im Abschnitt Informationen siehst du grundlegende Information wie die Zeit für die Zubereitung, die Quelle sowie die Diät-Infos. Die Diät-Infos werden automatisch ermittelt anhand der benötigten Zutaten.
-Im Abschnitt _Tipps & Tags_ siehst du Hinweise/Tipps. Die Tags werden bei der Suche in der [Rezeptübersicht]({% link docs/recipe/recipes_overview.md %}) berücksichtigt.
-{::comment}[[recipes_overview]]{:/comment}
+Hier findest du die wichtigsten Eckdaten zum Rezept:
+
+- **Quelle** — woher das Rezept stammt
+- **Portionen** — für wie viele Personen das Rezept ausgelegt ist
+- **Zubereitungszeit / Kochzeit / Ruhezeit** — die jeweiligen Zeitangaben
+- **Diätinfo** — ob das Rezept vegetarisch, vegan etc. ist (wird automatisch anhand der Zutaten ermittelt)
 
 {: .highlight-title }
-
 > Wieso wird die Zeit nicht angepasst, wenn das Rezept skaliert wird?
-> 
-> Wir haben viel darüber nachgedacht, wie wir Zubereitungszeiten skalieren können, aber bisher keine passende Lösung gefunden. Die Zeit, die für das Kochen benötigt wird, hängt von verschiedenen Faktoren ab, wie der Art der Zubereitung, der Anzahl der Personen, die kochen, und der verfügbaren Ausrüstung. Die Kochzeit ist nicht überall gleich. Während die Zubereitungszeit für Pasta in etwa 11 Minuten beträgt, ist die Zubereitung von Gerichten wie Omeletten, die pro Portion gekocht werden, unterschiedlich. Auch die Zubereitungsdauer variiert. Zum Beispiel dauert es genauso lange, einen Teig mit einer Teigmaschine für 20 Personen herzustellen wie für 4 Personen (vorausgesetzt, die Maschine kann das bewältigen). Das Schälen von Rüebli hingegen dauert proportional zur Menge. Es ist also nicht möglich, die Zubereitungszeiten global zu skalieren. Anstatt ungenaue Informationen anzuzeigen, zeigen wir lieber die Zeit an, die für die Originalmengen im Rezept benötigt wird.
+>
+> Die benötigte Zeit hängt von vielen Faktoren ab (Art der Zubereitung, Ausrüstung, Anzahl Köch\*innen) und lässt sich nicht zuverlässig skalieren. Deshalb zeigt chuchipirat immer die Zeitangaben für die Originalportionen an.
 
+### Tipps & Tags
+
+Hier siehst du Hinweise und Tipps zum Rezept. Die Tags werden bei der Suche in der [Rezeptübersicht]({% link docs/recipe/recipes_overview.md %}) berücksichtigt.
+{::comment}[[recipes_overview]]{:/comment}
 
 ### Zutaten
 
-Im Zutatenabschnitt siehst du alle benötigten Zutaten sowie deren Mengen (und Einheiten). Wurde das Rezept, skaliert siehst du die original- sowie die skalierten Mengen.
+Hier siehst du alle benötigten Zutaten mit Mengen und Einheiten. Wurde das Rezept skaliert, werden sowohl die Original- als auch die skalierten Mengen angezeigt.
 
-**Unlogische skalierte Werte?**  
-Werden die Werte skaliert und scheinen diese nicht linear zu sein? Dann wurde bei der entsprechenden Zutat ein abweichender Skalierungsfaktor hinterlegt.
+**Unlogische skalierte Werte?**
+Wenn skalierte Werte nicht linear erscheinen, wurde bei der entsprechenden Zutat ein abweichender Skalierungsfaktor hinterlegt.
 
 {: .note-title }
-
 > Was ist ein Skalierungsfaktor?
-> 
+>
 > {% include_relative _includes/scalingfactor.md %}
 
 ### Zubereitung
 
-Der Abschnitt Zubereitung beschreibt die nötigen Schritte, welche für das Gelingen des Rezeptes nötig sind.
+Die Schritt-für-Schritt-Anleitung für die Zubereitung des Rezeptes.
 
 ### Material
 
-In diesem Block siehst du, ob du spezielles Material benötigst, um das Rezept zuzubereiten.
+Hier siehst du, ob spezielles Material benötigt wird (z.B. Spätzlisieb, Backform).
+
+### Kommentare
+
+Bei öffentlichen Rezepten können Nutzer\*innen Kommentare hinterlassen — zum Beispiel Tipps, Erfahrungen oder Anpassungsvorschläge.
 
 ## Funktionen
 
-### Zu Anlass hinzufügen
-Rufst du die [Rezeptübersicht]({% link docs/recipe/recipes_overview.md %}) aus dem Menüplan heraus aus, kannst du das angezeigte Menü auch gleich einer bestimmten Mahlzeit deines Anlasses hinzufügen. Wie das geht, ist [hier]({% link docs/event/menueplan.md %}) beschrieben. 
-{::comment}[[recipes_overview]][[menueplan]]{:/comment}
 ### Skalieren
 
-Die meisten Rezepte sind für 4 Portionen. Du kannst im Rezept über den entsprechenden Button (oder Menüeintrag) das Rezept skalieren. Damit hast du die Möglichkeit, die benötigten Mengen hochzurechnen.
+Die meisten Rezepte sind für 4 Portionen ausgelegt. Mit `Skalieren` kannst du die Mengen auf eine beliebige Portionenzahl hochrechnen.
 
-Beim Skalieren hast du die Möglichkeit, Einheiten umrechnen zu lassen. So wird zum Beispiel versucht, die Menge in Ess- und Teelöffeln in das metrische System umzurechnen. Dies ist vor allem dann praktisch, wenn du nicht 45 Esslöffel Öl abmessen, sondern einfach 675 ml in einen Messbecher abfüllen möchtest.
+Dabei können Einheiten automatisch umgerechnet werden — zum Beispiel von Esslöffeln in Milliliter. So musst du nicht 45 Esslöffel Öl abmessen, sondern kannst einfach 675 ml in einen Messbecher abfüllen.
 
 {: .note-title }
-
-> Wie funktioniert das?
-> 
->  Mit Lebensmittel ist eine Einkaufseinheit hinterlegt. Der chuchipirat versucht nun Anhand der Mengenumrechnung die Menge in die Einkaufseinheit umzurechnen. Dafür bedient er sich der hinterlegten [Mengenumrechnungen]({% link docs/masterdata/unitconversion.md %}).
+> Wie funktioniert die Umrechnung?
+>
+> Zu jedem Lebensmittel ist eine Einkaufseinheit hinterlegt. Der chuchipirat versucht, die Menge anhand der [Mengenumrechnungen]({% link docs/masterdata/unitconversion.md %}) in diese Einheit umzurechnen.
 {::comment}[[unitconversion]]{:/comment}
 
 {: .important-title }
-
-> 🧐 skalieren ist nicht immer linear
-> 
-> Beachte, dass eine Skalierung einige Tücken mit sich bringt. So können die Zubereitungstexte allenfalls nicht mehr stimmen (enthaltene Mengen) und auch die Koch-/Backzeit kann allenfalls variieren.
-
-### Eigene Variante erstellen
-Du kannst von einem Rezept eine Anlass-spezifische Variante erstellen. Das kann hilfreich sein, wenn du ein bestehendes Rezept (geringfügig) anpassen willst. Mehr Informationen findest du [hier]({% link docs/recipe/recipe_create_variant.md %}){::comment}[[recipe_create_variant]]{:/comment}
+> Skalieren ist nicht immer linear
+>
+> Beachte, dass beim Skalieren die Zubereitungstexte (enthaltene Mengen) und die Koch-/Backzeit allenfalls nicht mehr stimmen.
 
 ### Druckversion
 
-Über diese Funktion kannst du das Rezept als PDF herunterladen. Möchtest du alle Rezepte, welche du in deinem Menüplan hast als PDF herunterladen? Im Abschnitt [Verwendete Rezepte]({% link docs/event/used_recipes.md %}) ist beschrieben, wie das geht.
+Über `Druckversion` kannst du das Rezept als PDF herunterladen. Möchtest du alle Rezepte deines Menüplans auf einmal herunterladen? Im Abschnitt [Verwendete Rezepte]({% link docs/event/used_recipes.md %}) ist beschrieben, wie das geht.
 {::comment}[[used_recipes]]{:/comment}
+
+### Fehler melden
+
+Bei öffentlichen Rezepten kannst du über `Fehler melden` einen Fehler an die Community-Leader melden. Mehr dazu auf der Seite [Rezept Fehler melden]({% link docs/recipe/recipe_report_bug.md %}).
+{::comment}[[recipe_report_bug]]{:/comment}
+
+### Zu Anlass hinzufügen
+
+Rufst du die [Rezeptübersicht]({% link docs/recipe/recipes_overview.md %}) aus dem Menüplan heraus auf, kannst du ein Rezept direkt einer Mahlzeit hinzufügen. Wie das geht, ist im Abschnitt [Menüplan]({% link docs/event/menueplan.md %}) beschrieben.
+{::comment}[[recipes_overview]][[menueplan]]{:/comment}
+
+### Eigene Variante erstellen
+
+Du kannst von einem Rezept eine Anlass-spezifische Variante erstellen, um es geringfügig anzupassen. Mehr dazu unter [Variante erstellen]({% link docs/recipe/recipe_create_variant.md %}).
+{::comment}[[recipe_create_variant]]{:/comment}
 
 ### Rezept löschen
 
-Du hast die Möglichkeit, private Rezept zu löschen. Um die Löschung durchzuführen, musst du den Namen des Rezeptes eingeben und die Löschung bestätigen.
+Du kannst private Rezepte löschen. Dafür musst du den Namen des Rezeptes eingeben und die Löschung bestätigen.
 
 {: .warning }
-Gelöschte Rezepte können nicht wiederhergestellt werden und sind für immer verloren. Löschst du ein Rezept, welches in einem Menüplan eingeplant wurde, wird bei der entsprechenden Mahlzeit ein Hinweis hinterlassen, dass das dazugehörige Rezept gelöscht wurde.
+Gelöschte Rezepte können nicht wiederhergestellt werden. Löschst du ein Rezept, das in einem Menüplan eingeplant ist, wird bei der entsprechenden Mahlzeit ein Hinweis hinterlassen, dass das Rezept gelöscht wurde.

@@ -1,3 +1,29 @@
 {%- if site.footer_content -%}
-<p class="text-small text-grey-dk-100 mb-0">{{ site.footer_content }}</p>
+  <p class="text-small mb-0">{{ site.footer_content }}</p>
 {%- endif -%}
+
+{% unless page.nav_exclude %}
+<div class="page-feedback" id="page-feedback">
+  War diese Seite hilfreich?
+  <span class="page-feedback-buttons" id="feedback-buttons">
+    <button class="page-feedback-btn" aria-label="Ja, hilfreich" onclick="sendFeedback(this, 'yes')">👍</button>
+    <button class="page-feedback-btn" aria-label="Nein, nicht hilfreich" onclick="sendFeedback(this, 'no')">👎</button>
+  </span>
+</div>
+
+<script>
+  var feedbackSent = false;
+  function sendFeedback(btn, value) {
+    if (typeof umami !== 'undefined') {
+      umami.track('page-feedback', { helpful: value, page: window.location.pathname });
+    }
+    var buttons = btn.parentElement.querySelectorAll('.page-feedback-btn');
+    for (var i = 0; i < buttons.length; i++) { buttons[i].classList.remove('selected'); }
+    btn.classList.add('selected');
+    if (!feedbackSent) {
+      btn.parentElement.insertAdjacentHTML('afterend', '<span class="text-small" style="margin-left:8px;">Danke!</span>');
+      feedbackSent = true;
+    }
+  }
+</script>
+{% endunless %}

@@ -1,0 +1,21 @@
+<button class="js-toggle-dark-mode jtd-theme-toggle" type="button" aria-label="Farbschema wechseln">🌙</button>
+
+<script>
+  var toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+
+  if (jtd.getTheme() === 'dark') {
+    toggleDarkMode.textContent = '☀️';
+  }
+
+  jtd.addEvent(toggleDarkMode, 'click', function(){
+    if (jtd.getTheme() === 'dark') {
+      jtd.setTheme('light');
+      toggleDarkMode.textContent = '🌙';
+      localStorage.setItem('jtd-theme', 'light');
+    } else {
+      jtd.setTheme('dark');
+      toggleDarkMode.textContent = '☀️';
+      localStorage.setItem('jtd-theme', 'dark');
+    }
+  });
+</script>

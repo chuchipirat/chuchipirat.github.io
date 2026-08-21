@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Rezeptübersicht
 permalink: docs/recipe/overview
 nav_exclude: false
@@ -20,50 +20,52 @@ nav_order: 1
 
 ---
 
+In der Rezeptübersicht findest du alle öffentlichen und deine privaten Rezepte. Die Anzahl der verfügbaren Rezepte wird dir oberhalb der Ergebnisse angezeigt. Über den Button `Neues Rezept anlegen` kannst du direkt ein neues Rezept erstellen.
 
-In der Rezeptübersicht werden dir alle öffentliche und deine privaten Rezepte angezeigt.
+![Rezeptübersicht](/docs/recipe/images/recipes_overview.png)
 
-![Rezeptübersicht](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/recipe/_images/recipes_overview.png?raw=true)
+## Suche
 
-# Suche
+Gib im Suchfeld einen Begriff ein, um das gewünschte Rezept zu finden. Neben dem Rezeptnamen werden auch die Tags durchsucht.
 
-Mit der Suche kannst du aus allen vorhanden Rezepten schnell das gewünschte finden. Gibt im Textfeld dein Suchbegriff ein und das Resultat wird entsprechend angepasst. Bei der Textsuche werden neben dem Namen des Rezeptes auch die Tags durchsucht.
+### Erweiterte Suche
 
-## Erweiterte Suche
+Über die Schaltfläche `Erweiterte Suche` öffnest du ein Panel mit zusätzlichen Filtermöglichkeiten. Die Ergebnisse passen sich sofort an, wenn du einen Filter aktivierst. Mit `Zurücksetzen` setzt du alle Filter auf die Standardwerte zurück.
 
-Mit der _Erweiterten Suche_ kannst du Rezepte nach weiteren Merkmalen durchsuchen. Sobald du die Schaltfläche anklickst, öffnet sich ein Panel mit diversen Schaltflächen. Je nachdem, welche du anklickst, wird das Suchresultat angepasst.
+![erweiterte Suche](/docs/recipe/images/recipes_advanced_search.png)
 
-![erweiterte Suche](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/recipe/_images/recipes_advanced_search.png?raw=true)
+#### Einschränkungen
 
-### Einschränkungen
+Filtere Rezepte nach Ernährungsweise: vegetarisch oder vegan.
 
-Hiermit kannst du dir Rezepte anzeigen lassen, die vegetarisch oder vegan sind.
+#### Unverträglichkeiten berücksichtigen
 
-### Unverträglichkeiten berücksichtigen
+Zeigt nur Rezepte an, die für bestimmte Unverträglichkeiten geeignet sind (z.B. laktosefrei oder glutenfrei).
 
-Klickst du auf eine der Schaltflächen, werden nur Rezepte angezeigt, welche für die entsprechende Unverträglichkeit geeignet sind.
+#### Menütyp
 
-### Menütyp
+Suchst du nach einer passenden Beilage oder nach einem Zvieri? Mit diesem Filter kannst du nach Menütyp filtern und dich inspirieren lassen.
 
-Suchst du nach einer passenden Beilage oder nach einem Zvieri? Mit der Einschränkung nach Menütyp kannst du dich inspirieren lassen.
+#### Designed für Outdoor Küche
 
-### Geeignet für Outdoor-Küche
+Zeigt Rezepte an, die sich auch draussen zubereiten lassen — zum Beispiel ohne Ofen.
 
-Mit diesem Schalter kannst du dir Rezepte anzeigen lassen, die sich auch draussen zubereiten lassen (zum Beispiel wird hier kein Ofen benötigt).
+#### Rezepttyp
 
-### Rezepttyp
+Bestimme, welche Art von Rezepten angezeigt wird: alle, nur öffentliche oder nur deine privaten.
 
-Hier kannst du bestimmen, welche Art von Rezepten angezeigt werden. Willst du nur die öffentlichen oder bloss deine Privaten? Beachte, dass die Schaltfläche `Variante` nur im Menüplan angezeigt wird.
+{: .note }
+Die Schaltfläche `Variante` wird nur im Menüplan angezeigt, nicht in der Rezeptübersicht.
 
-### Nur meine Rezepte anzeigen
+#### Nur meine Rezepte anzeigen
 
-Aktivierst du diesen Schalter, werden dir nur Rezepte angezeigt, die von dir erfasst wurden.
+Zeigt nur Rezepte an, die du selbst erfasst hast.
 
 ## Aufbau Karte
 
-Auf der Karte siehst du folgende Informationen:
+Jede Rezeptkarte zeigt dir auf einen Blick die wichtigsten Informationen:
 
-![Rezeptübersicht](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/recipe/_images/recipecard_layout.png?raw=true)
+![Rezeptkarte](/docs/recipe/images/recipecard_layout.png)
 
 1. Name des Rezeptes
 2. Bild (falls vorhanden)

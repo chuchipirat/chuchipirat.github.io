@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Materialliste
 nav_exclude: false
 has_children: false
@@ -19,56 +19,61 @@ parent: Anlass
 </details>
 
 ---
-Mit der Funktion Materialliste kannst du dir eine Liste aller Materialien zusammenstellen, die du für deinen Anlass benötigst. Dies kann nützlich sein, wenn du spezielles Material von zu Hause mitnehmen möchtest, um sicherzustellen, dass du alle benötigten Materialien für deine Rezepte hast.
-Wenn du dir eine Liste generieren lässt, werden alle Materialien vom Typ [«Gebrauchsmaterial»]({% link docs/masterdata/materials.md %}#gebrauchsmaterial) in die Liste aufgenommen für die Rezepte, die du eingeplant hast (einzeln hinzugefügte Produkte im Menüplan werden ebenfalls berücksichtigt). Dazu hast du die Möglichkeit, weitere Materialien von Hand hinzuzufügen.
-Du kannst so viele Materiallisten erstellen, wie du magst.
-{::comment}[[materials]][[materiallist]]{:/comment}
-## Materialliste erstellen
-Um eine neue Materialliste zu erstellen, klicke auf den Button `neue Liste`. Im nächsten Dialogfenster wählst du die Menüs, die du für die Generierung der Liste berücksichtigen möchtest.
 
+Die Materialliste zeigt dir alle Materialien, die du für deinen Anlass benötigst — z.B. Cakeformen, Spritzbeutel oder Stabmixer, die du allenfalls von zu Hause mitnehmen musst. Du kannst beliebig viele Listen erstellen.
 
-![Menüauswahl für die Erstellung einer Materialliste](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/event/_images/materialList_choose_menue.png?raw=true)
-_Auswahl der Menüs._
+Beim Generieren werden alle Materialien vom Typ [«Gebrauchsmaterial»]({% link docs/masterdata/materials.md %}#gebrauchsmaterial) aus den gewählten Rezepten übernommen. Materialien vom Typ [«Verbrauchsmaterial»]({% link docs/masterdata/materials.md %}#verbrauchsmaterial) landen standardmässig in der [Einkaufsliste]({% link docs/event/shoppinglist.md %}).
+{::comment}[[materials]][[shoppinglist]]{:/comment}
 
-{: .highlight-title }
-> 💡Tipp
-> 
-> Du kannst mit den Buttons `Tag auswählen` oder `Alle auswählen` gleich alle Menüs des Anlasses oder alle Menüs eines Tages auswählen. 
+{: .note-title }
+> Mengenberechnung: Maximum statt Summe
+>
+> Anders als bei der Einkaufsliste werden Materialmengen **nicht summiert**, sondern es wird jeweils die grösste benötigte Menge übernommen. Grund: Gebrauchsmaterial kann wiederverwendet werden — wenn zwei Rezepte je 2 Cakeformen brauchen, reichen 2 Stück (nicht 4).
 
-Sobald du die Auswahl bestätigt hast, kannst du der Liste einen Namen geben.
-## Wie wird die Materialliste generiert
+## Liste erstellen
 
-Für die Generierung der Liste werden alle Rezepte der gewählten Menüs berücksichtigt. Die Rezepte werden auf die hinterlegten Anzahl-Portionen skaliert. Die skalierten Mengen werden dann in der Liste aufgenommen. Dabei werden nur Materialien vom Typ «Gebrauchsmaterial» berücksichtigt. Wenn ein Material in mehreren Rezepten vorkommt, wird jeweils verglichen, welches Rezept wie viele Stücke von diesem Material benötigt. Es wird jeweils die Maximal-Anzahl übernommen. Anders als in der Einkaufsliste werden die Mengen nicht summiert, sondern der Eintrag mit der grösseren Menge wird in die Liste übernommen. Die Überlegung dahinter ist, dass Materialien wiederverwendet werden können und daher nur für die Zubereitung eines bestimmten Rezepts in der angegebenen Anzahl erforderlich sind. 
+1. Klicke auf `Neue Liste`.
+2. Wähle die Menüs aus, die für die Generierung berücksichtigt werden sollen.
+3. Gib der Liste einen Namen und bestätige.
 
-Die Materialien vom Typ [«Verbrauchsmaterial»]({% link docs/masterdata/materials.md %}#verbrauchsmaterial) landen standardmässig in der [Einkaufsliste]({% link docs/event/shoppinglist.md %}). Du hast die Möglichkeit, weitere Materialien (unabhängig vom Typ) manuell zur Liste hinzuzufügen. 
-  {::comment}[[shoppinglist]][[materials]]{:/comment}
-## Material zur Liste hinzufügen
+{: .highlight }
+Mit den Buttons `Tag auswählen` oder `Alle auswählen` kannst du schnell alle Menüs eines Tages oder des gesamten Anlasses markieren.
 
-Um einzelne Materialien hinzuzufügen, klicke auf die Schaltfläche `Material hinzufügen`. Im nächsten Fenster kannst du das benötigte Material auswählen. Falls es das gewünschte Material bisher nicht gibt, kannst du auch ein neues anlegen.
+## Aufbau einer Zeile
 
-## Liste ändern
-Du kannst den Namen der Liste und die ausgewählten Menüs ändern, indem du neben dem Listeneintrag auf den Bleistift klickst und den Namen und/oder die ausgwählten Menüs nach Belieben änderst.
-## Liste löschen
-Um eine generierte Liste zu löschen, klicke auf das Abfalleimer-Symbol. Beachte, dass gelöschte Listen nicht wiederhergestellt werden können. Falls du eine Liste versehentlich löschst, musst du sie neu erstellen.
+Jede Zeile in der Materialliste enthält:
 
-## Liste aktualisieren  
+- **Checkbox** — zum Abhaken erledigter Positionen
+- **Menge** — benötigte Stückzahl
+- **Material** — Dropdown mit allen bekannten Materialien. Akzeptiert auch Freitext, falls das Material nicht im Dropdown vorhanden ist.
+- **Verantwortlich** — hier kannst du festhalten, welches Teammitglied für dieses Material zuständig ist
+- **⋮** — Kontextmenü (ändern, löschen, Nachverfolgung)
 
-Wenn du nach der Erstellung der Liste etwas am Menüplan änderst, kann es sein, dass die Mengen und Materialien in der Materialliste nicht mehr stimmen. Der chuchipirat warnt dich mit einer Meldung, dass eine Aktualisierung notwendig ist.
+{: .note }
+Über das Materialfeld werden keine neuen Materialien in der Datenbank angelegt. Wenn du ein Material dauerhaft erfassen möchtest, nutze die [Material-Verwaltung]({% link docs/masterdata/materials.md %}).
+{::comment}[[materials]]{:/comment}
 
+## Material manuell hinzufügen
 
-![Warnung, dass Materialliste aktualisiert werden muss. ](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/event/_images/materialList_refresh_needed.png?raw=true)
-_Warnung, dass die Einkaufsliste aktualisiert werden muss._
+Du kannst jederzeit weitere Materialien von Hand zur Liste hinzufügen — unabhängig vom Materialtyp.
 
-Klicke dazu auf den Button `Aktualisieren`. Wenn du in der zu aktualisierenden Liste manuell hinzugefügte Materialien hast, fragt dich der chuchipirat, ob du diese Einträge behalten möchtest oder ob diese mit der Aktualisierung gelöscht werden sollen. Wähle hierfür den entsprechenden Button. Das System berechnet danach die Materialliste anhand des Menüplans neu.
+## Liste bearbeiten
 
-## Positionen löschen/ändern  
+- **Name/Menüs ändern:** Klicke auf das Stift-Symbol neben dem Listeneintrag.
+- **Löschen:** Klicke auf das Mülleimer-Symbol. Gelöschte Listen können nicht wiederhergestellt werden.
 
-Um eine Position zu löschen oder die Menge anzupassen, klicke bei der entsprechenden Position auf die 3 vertikalen Punkte und wähle im Kontextmenü den gewünschten Eintrag `Ändern` oder `Löschen` aus.
+## Liste aktualisieren
 
-## Produktnachverfolgung
+Wenn du nach der Erstellung etwas am Menüplan änderst, warnt dich der chuchipirat, dass die Materialliste nicht mehr aktuell ist. Klicke auf `Aktualisieren`, um die Liste neu zu berechnen. Falls du manuell hinzugefügte Materialien hast, wirst du gefragt, ob diese behalten oder entfernt werden sollen.
 
-Wenn du dich fragst, warum ein bestimmtes Material auf der Materialliste steht, kannst du mit der Produktnachverfolgung auf einfache Weise herausfinden, wie es den Weg auf die Materialliste geschafft hat. Klicke auf die 3 vertikalen Punkte und wähle im Kontextmenü den Eintrag `Woher stammt dieses Material?` aus. aus. Der chuchipirat listet dir nun jedes Rezept und Menü aus, das dieses Material verwendet.
+## Positionen ändern / löschen
 
-## Materialliste drucken
+Über die drei vertikalen Punkte ⋮ am Ende einer Zeile kannst du eine Position ändern, löschen oder die Nachverfolgung öffnen.
 
-Um die Materialliste als PDF zu exportieren, wähle die Liste und klicke auf den Button `Druckversion`.
+### Produktnachverfolgung
+
+Über `Woher stammt dieses Material?` im Kontextmenü zeigt dir der chuchipirat, aus welchen Rezepten und Menüs dieses Material stammt.
+
+## Druckversion
+
+Klicke auf `Druckversion`, um die Materialliste als PDF zu exportieren.

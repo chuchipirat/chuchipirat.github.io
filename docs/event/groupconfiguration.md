@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Mengenberechnung
 nav_exclude: false
 has_children: false
@@ -19,32 +19,52 @@ parent: Anlass
 </details>
 
 ---
-In der Mengenberechnung definierst du die Grösse und Zusammenstellung deiner Gruppe. So kannst du Rezepte einer solchen Gruppe zuordnen und musst dir ab sofort keine Sorgen mehr machen, sollte sich die Gruppengrösse noch ändern. 
-Du hast dabei die Möglichkeit Essensgewohnheiten (Vegetarisch, Allesessend usw.) und Unverträglichkeiten zu kombinieren. So kann zum Beispiel jede Essensgewohnheitsgruppe  weiter unterteilt werden in Personen, die Laktose ertragen und solche, die eine Laktoseunverträglichkeit haben. 
 
+Die Mengenberechnung ist das Herzstück der Portionenplanung im chuchipirat. Hier definierst du, wie sich deine Gruppe zusammensetzt — welche Essensvorlieben (Fleisch, Vegetarisch, Vegan usw.) und Unverträglichkeiten (Laktose, Gluten usw.) es gibt und wie viele Personen zu welcher Kombination gehören.
 
-![Beispiel Mengenberechnung](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/event/_images/groupconfiguration_change_settings.png?raw=true)
-_Beispiel einer Mengenberechnung. Bei diesem Anlass gibt es eine Gruppe, die Fleisch isst. Von den 14 Personen haben 2 eine Laktoseintoleranz. Zudem sind noch 6 Personen dabei, die sich vegetarisch ernähren. 2 davon wiederum mit einer Laktoseintoleranz. Total wird für 20 Personen geplant._
-## Anzahl Portionen anpassen
-Sollte sich die Gruppengrösse und/oder -zusammenstellung für deinen Anlass ändern, kannst du die neue Portionenanzahl hier eintragen. Sobald der chuchipirat eine Änderung an der Mengenberechnung feststellt, siehst du einen Button `Speichern und Portionen neu berechnen`. Dieser Button sorgt dafür, dass alle geplante Rezepte (und Produkte/Materialien) anhand der neuen Anzahl Portionen berechnet werden. Mit dem Button `Änderungen verwerfen` werden die gespeicherten Werte wieder geladen und angezeigt.
+## Wie funktioniert das?
 
-## Weitere Gruppen hinzufügen
-Du kannst weitere Gruppen und Unverträglichkeiten hinzufügen. Klicke dafür auf den `+`-Button oder auf den Button `+ Unverträglichkeit` und gib der Gruppe den gewünschten Namen.
+Der Ablauf ist folgender:
 
-## Gruppen umbenennen
-Bei einem Tippfehler, kannst du die Gruppe oder Unverträglichkeit umbenennen, indem du auf die 3 vertikalen Punkte klickst (bei den Gruppen gleich neben der Überschrift, bei den Unverträglichkeiten ganz rechts neben der Totalzelle auf derselben Reihe). Die Änderung wird erst nach dem Speichern aktiv.
+1. **Hier:** Du definierst die Gruppen und trägst die Anzahl Portionen pro Kombination ein.
+2. **Im Menüplan:** Wenn du ein Rezept einem Menü hinzufügst, wählst du aus, für welche Gruppen und Unverträglichkeiten das Rezept bestimmt ist. Anhand dieser Auswahl berechnet der chuchipirat die Gesamtportionen und skaliert das Rezept entsprechend.
+3. **Bei Änderungen:** Ändert sich die Gruppengrösse (z.B. weil kurzfristig mehr Vegetarier\*innen dabei sind), passt du hier die Zahlen an — und alle verknüpften Rezepte werden automatisch neu skaliert.
+
+{: .highlight }
+Der grosse Vorteil gegenüber fixen Portionen: Du änderst die Gruppengrösse an **einem** Ort, und alle Rezepte passen sich automatisch an.
+
+## Beispiel
+
+![Beispiel Mengenberechnung](/docs/event/images/groupconfiguration_change_settings.png)
+
+In diesem Beispiel gibt es zwei Essensgruppen (Fleisch und Vegetarisch) und drei Unverträglichkeits-Zeilen. Von den 14 Fleischesser\*innen haben 2 eine Laktoseintoleranz. Dazu kommen 6 Vegetarier\*innen, davon ebenfalls 2 mit Laktoseintoleranz. Total wird für 20 Personen geplant.
+
+{: .note }
+Wenn dir das mit den Gruppen zu kompliziert erscheint, trage einfach die Gesamtanzahl Portionen im ersten Feld ein und lass die anderen leer. Du kannst auch im Menüplan die Option «Fixe Portionen» pro Rezept verwenden.
+
+## Portionen anpassen
+
+Ändert sich die Gruppenzusammensetzung, trägst du die neuen Zahlen ein. Sobald der chuchipirat eine Änderung erkennt, erscheinen zwei Buttons:
+
+- `Speichern und Portionen neu berechnen` — übernimmt die neuen Werte und berechnet alle geplanten Rezepte neu
+- `Änderungen verwerfen` — lädt die zuletzt gespeicherten Werte
+
+## Gruppen und Unverträglichkeiten verwalten
+
+### Hinzufügen
+
+Klicke auf `+` in den Spaltenüberschriften (für eine neue Essensgruppe) oder auf `+ Unverträglichkeit` (für eine neue Zeile). Gib der Gruppe den gewünschten Namen.
+
+### Umbenennen
+
+Klicke auf die drei vertikalen Punkte ⋮ neben der Gruppe und wähle «Umbenennen». Die Änderung wird erst nach dem Speichern aktiv.
 
 {: .important }
+Bereits geplante Rezepte bleiben mit der Gruppe verknüpft — auch wenn der Name nun etwas anderes aussagt. Benennst du z.B. «Fleisch» in «Vegan» um, sind die Fleischrezepte weiterhin mit dieser Gruppe verknüpft.
 
-> Achtung bei der Umbenennung. Die bereits geplanten Rezepte sind mit einer Gruppe verknüpft. Änderst du den Namen der Gruppe von Fleisch auf Vegan, sind die Rezepte immer noch mit derselben Gruppe verknüpft, auch wenn sie inhaltlich nach der Umbenennung für etwas anderes steht.
+### Löschen
 
-## Gruppe löschen
-Um eine Gruppe zu löschen, klickst du wie bei der [Umbennenung](#gruppen-umbenennen) auf die 3 vertikalen Punkte. Die Änderung wird erst nach dem Speichern aktiv.
+Klicke auf die drei vertikalen Punkte ⋮ und wähle «Löschen». Die Änderung wird erst nach dem Speichern aktiv.
 
 {: .warning }
-
-> Löschst du eine Gruppe, wird auch die Verknüpfung der Planung zu den Rezepten gelöscht. Es kann daher sein, dass du Rezepte hast, die nur noch für wenige (Teil-)Gruppen oder gar niemanden mehr geplant sind.
-
-
-
-  
+Löschst du eine Gruppe, wird auch die Verknüpfung der geplanten Rezepte zu dieser Gruppe gelöscht. Es kann sein, dass Rezepte danach nur noch für wenige Teilgruppen oder gar niemanden geplant sind.

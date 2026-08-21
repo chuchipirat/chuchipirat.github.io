@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Verwendete Rezepte
 permalink: docs/event/used_recipes
 nav_exclude: false
@@ -10,43 +10,38 @@ parent: Anlass
 # Verwendete Rezepte
 {: .no_toc }
 
-<details markdown="block">
-  <summary>
-    Inhalt
-  </summary>
-  {: .text-delta }
-- TOC
-{:toc}
-</details>
-
 ---
-# Verwendete Rezepte
-Die Liste _Verwendete Rezepte_ ermöglicht es dir, alle benötigten Rezepte in der richtigen Skalierung zu generieren. Dadurch hast du während der Zubereitung der Mahlzeiten einfachen Zugriff auf die Rezepte. Du kannst sie online anzeigen oder als PDF herunterladen und beispielsweise ausdrucken. 
-## Rezeptliste erstellen
-Um eine neue Rezeptliste zu erstellen, klicke auf den Button `Neue Liste`. Im nächsten Dialogfenster wählst du die Menüs aus, die bei der Generierung der Einkaufsliste berücksichtigt werden sollen. 
 
-![Menüauswahl für die Erstellung der Liste der verwendeten Rezepte](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/event/_images/usedRecipes_choose_menue.png?raw=true)
-_Auswahl der Menüs._
+Die Funktion «Verwendete Rezepte» generiert dir alle Rezepte deines Anlasses in der richtigen Skalierung. So hast du während der Zubereitung einfachen Zugriff auf die Rezepte — online oder als PDF zum Ausdrucken. Du kannst beliebig viele Listen erstellen.
 
-{: .highlight-title }
-> 💡Tipp
-> 
->Du kannst mit den Buttons `Tag auswählen` oder `Alle auswählen` alle Menüs des Anlasses oder alle Menüs eines Tages gleichzeitig auswählen. 
+## Liste erstellen
 
-Nach der Bestätigung deiner Auswahl kannst du der Liste einen Namen geben.
-## Wie wird die Rezeptliste generiert?
-Anhand der ausgewählten Menüs werden die den Menüs zugeordneten Rezepte auf die hinterlegte Anzahl Portionen skaliert und aufbereitet. Die Liste ordnet dann alle Rezepte in der korrekten zeitlichen Reihenfolge an. 
-## Liste ändern
-Du kannst den Namen der Liste und die ausgewählten Menüs ändern, indem du neben dem Listeneintrag auf den Bleistift klickst und den Namen und/oder die ausgwählten Menüs nach Belieben änderst.
-## Rezeptliste löschen
-Um eine generierte Liste zu löschen, klicke auf das Abfalleimer-Symbol. Beachte, dass gelöschte Listen nicht wiederhergestellt werden können. Falls du eine Liste versehentlich löschst, musst du sie neu erstellen.
-## Rezeptliste aktualisieren
-Nach der Erstellung der Liste kann es vorkommen, dass Änderungen am Menüplan die Mengen und angezeigten Rezepte in der Rezeptliste beeinflussen. Der chuchipirat warnt dich in einer Meldung über die Notwendigkeit einer Aktualisierung.
+1. Klicke auf `Neue Liste`.
+2. Wähle die Menüs aus, die berücksichtigt werden sollen.
 
+![Menüauswahl](/docs/event/images/usedRecipes_choose_menue.png)
 
-![Warnung, dass Rezeptliste aktualisiert werden muss. ](https://github.com/chuchipirat/chuchipirat.github.io/blob/main/docs/event/_images/usedRecipes_refresh_needed.png?raw=true)
-_Warnung, dass die Einkaufsliste aktualisiert werden muss._
+{: .highlight }
+Mit den Buttons `Tag auswählen` oder `Alle auswählen` kannst du schnell alle Menüs eines Tages oder des gesamten Anlasses markieren.
 
-Klicke auf den Button `Aktualisieren` und das System berechnet die Rezeptliste neu gemäss dem aktualisierten Menüplan.
-## Rezepte drucken
-Um die Rezeptliste als PDF zu exportieren, wähle die Liste aus und klicke auf den Button `Druckversion`.
+{:start="3"}
+3. Gib der Liste einen Namen und bestätige.
+
+Die Rezepte werden anhand der zugeordneten Portionen skaliert und in chronologischer Reihenfolge angezeigt.
+
+## Liste bearbeiten
+
+- **Name/Menüs ändern:** Klicke auf das Stift-Symbol neben dem Listeneintrag.
+- **Löschen:** Klicke auf das Mülleimer-Symbol. Gelöschte Listen können nicht wiederhergestellt werden.
+
+## Liste aktualisieren
+
+Wenn du nach der Erstellung etwas am Menüplan änderst, warnt dich der chuchipirat, dass die Rezeptliste nicht mehr aktuell ist.
+
+![Warnung Aktualisierung nötig](/docs/event/images/usedRecipes_refresh_needed.png)
+
+Klicke auf `Aktualisieren`, um die Liste anhand des aktuellen Menüplans neu zu berechnen.
+
+## Druckversion
+
+Klicke auf `Druckversion`, um alle Rezepte der Liste als PDF zu exportieren.

@@ -1,1 +1,62 @@
 // custom SCSS (or CSS) goes here
+
+.jtd-theme-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  padding: 6px;
+  margin-left: 12px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 22px;
+  line-height: 1;
+
+  &:hover {
+    background-color: $btn-primary-color;
+  }
+}
+
+// Search: German "no results" hint
+.search-no-result::after {
+  content: " — Versuche es mit einem anderen Begriff oder schau in den FAQ nach.";
+}
+
+// Feedback widget
+.page-feedback {
+  margin-top: $sp-6;
+  padding-top: $sp-4;
+  border-top: $border $border-color;
+  text-align: center;
+  font-size: 0.85em;
+  color: $grey-dk-000;
+}
+
+.page-feedback-buttons {
+  display: inline-flex;
+  gap: $sp-3;
+  margin-left: $sp-2;
+}
+
+.page-feedback-btn {
+  background: none;
+  border: $border $border-color;
+  border-radius: 4px;
+  padding: 2px 10px;
+  cursor: pointer;
+  font-size: 1.1em;
+
+  &:hover {
+    background-color: $btn-primary-color;
+  }
+
+  &.selected {
+    background-color: $btn-primary-color;
+    border-color: $btn-primary-color;
+  }
+}
