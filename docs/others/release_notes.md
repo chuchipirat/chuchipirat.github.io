@@ -34,7 +34,9 @@ Chuchipirat läuft neu auf einer komplett neuen Infrastruktur. Die Datenbank wur
 * Spenden-System: Komplett neues Spenden-Management mit Payrexx-Integration, Spendenquittung als PDF, Spendenziel-Widget und Spendenmöglichkeit nach Anlass-Abschluss.
 * Koch-Zuweisung in der Materialliste: Materialien können nun einzelnen Köch*innen zugewiesen werden.           
 *  Statistiken auf Startseite und Profil: Plattform-KPIs auf der Startseite und persönliche Statistiken (Anlassvarianten, Kommentare, Bewertungen) im Profil.                                                           
-* Feed-System: Aktivitäts-Feed mit automatischen Einträgen für Rezeptveröffentlichungen, Anlass-Erstellung, neue Produkte/Materialien, Bewertungen und mehr.                                                                    
+* Feed-System: Aktivitäts-Feed mit automatischen Einträgen für Rezeptveröffentlichungen, Anlass-Erstellung, neue Produkte/Materialien, Bewertungen und mehr.  
+* Bei öffentliche Rezepten können Kommentare hinterlassen werden. 
+* Rezepte können im Menüplan mit mehreren Gruppen verknüpft werden. 
 * Anfragen-System: Neues Anfragen-System für Rezeptveröffentlichungen und Fehlermeldungen mit Status-Stepper, Kommentaren und Changelog.                                                                                      
 * Impressum-Seite: Neue rechtliche Informationsseite.     
 * Rezept-Kommentare im Tages-Digest: Die tägliche Zusammenfassung enthält neu auch Rezeptkommentare. (Community Leader / Admin)                                                                                                 
