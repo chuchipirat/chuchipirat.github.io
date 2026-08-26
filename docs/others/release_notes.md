@@ -24,6 +24,23 @@ Hier findest du alle Änderungen am chuchipirat. Die neueste Version steht zuobe
 
 ---
 
+## 2.0.2 — 26.08.2026
+Behebung diverser kleinerer Fehler und wenige kleine neue Feature.
+
+### Neue Funktionen
+* Möglichkeit für Opt-Out von Newsletter über da Profil und über Fusszeilenlink im Mail
+* Sauberes Tracking von den Unterseiten im Menüplan über Umami
+
+### Bugs
+* Automatisches Re-Subscribe von Realtimelistener, bei Verlust der Verbindung.
+* Fehlerbehebung, wenn mit veraltetem Cache versucht wird auf die Datenbank zuzugreifen.
+* Bei hinzufügen von bestehenden Produkten in der Einkaufsliste wird nun gefragt ob der neue Eintrag hinzugefügt (Addition) oder Ersetzt werden soll.
+* Fehler beim Speichern im Menüplan, falls mit halben Portionen gerechnet wurde.
+* Fehler bei hinzufügen von Materialien, wenn keine Menge gewählt.
+* Fehlerhafte Anzeige von PDF-Einkaufslisten, wenn nur ein Artikel in der Liste ist.
+
+---
+
 ## 2.0.0 — 21.08.2026
 
 Chuchipirat läuft neu auf einer komplett neuen Infrastruktur. Die Datenbank wurde von Firebase auf Supabase/PostgreSQL migriert — schneller, sicherer und zukunftsfähig. Neben dem technischen Umbau gibt es zahlreiche neue Funktionen und Verbesserungen.
@@ -33,24 +50,29 @@ Chuchipirat läuft neu auf einer komplett neuen Infrastruktur. Die Datenbank wur
 * Anlass kopieren: Anlässe lassen sich neu kopieren. So kannst du die Planung eines vergangenens Jahres kopieren und erneut verwenden. Siehe auch [Anlass-Übersicht]({% link docs/event/overview.md %}) {::comment}[[overview]]{:/comment}
 * Spenden-System: Komplett neues Spenden-Management mit Payrexx-Integration, Spendenquittung als PDF, Spendenziel-Widget und Spendenmöglichkeit nach Anlass-Abschluss.
 * Koch-Zuweisung in der Materialliste: Materialien können nun einzelnen Köch*innen zugewiesen werden.           
-*  Statistiken auf Startseite und Profil: Plattform-KPIs auf der Startseite und persönliche Statistiken (Anlassvarianten, Kommentare, Bewertungen) im Profil.                                                           
+*  Statistiken auf Startseite und Profil: Plattform-KPIs auf der Startseite und persönliche Statistiken (Anlassvarianten, Kommentare, Bewertungen) im Profil.
 * Feed-System: Aktivitäts-Feed mit automatischen Einträgen für Rezeptveröffentlichungen, Anlass-Erstellung, neue Produkte/Materialien, Bewertungen und mehr.  
 * Bei öffentliche Rezepten können Kommentare hinterlassen werden. 
 * Rezepte können im Menüplan mit mehreren Gruppen verknüpft werden. 
-* Anfragen-System: Neues Anfragen-System für Rezeptveröffentlichungen und Fehlermeldungen mit Status-Stepper, Kommentaren und Changelog.                                                                                      
+* Anfragen-System: Neues Anfragen-System für Rezeptveröffentlichungen und Fehlermeldungen mit Status-Stepper, Kommentaren und Changelog.                                           
 * Impressum-Seite: Neue rechtliche Informationsseite.     
-* Rezept-Kommentare im Tages-Digest: Die tägliche Zusammenfassung enthält neu auch Rezeptkommentare. (Community Leader / Admin)                                                                                                 
-* Rezept privat setzen: Veröffentlichte Rezepte können aus der Admin-Übersicht direkt wieder auf privat gesetzt werden. (Community Leader / Admin)                                                                              
+* Rezept-Kommentare im Tages-Digest: Die tägliche Zusammenfassung enthält neu auch Rezeptkommentare. (Community Leader / Admin)                                                                            
+* Rezept privat setzen: Veröffentlichte Rezepte können aus der Admin-Übersicht direkt wieder auf privat gesetzt werden. (Community Leader / Admin)                                                                 
 * Qualitätssicherung für Produkte und Materialien: Neue QA-Seiten mit automatischer Erkennung von Duplikaten, verdächtigen Namen, fehlenden Typen und Plural/Singular-Varianten. Inklusive Zusammenführen, Konvertieren und Synonym-Verwaltung. (Community Leader / Admin)            
 * Cron-Jobs: Automatische E-Mails für Tages-Digest, Anlass-Rückblick und Support-User-Bereinigung. (Admin)   
 * Während eines Anlasses, werden auf dem Home-Bildschirm, die nächsten zu kochenden Rezepte angezeigt (Quicklink).   
+* Einkaufsliste: Bei der Generierung können nun bestimmte Abteilungen ausgewählt werden. [#176](https://github.com/gcettuzz/chuchipirat/issues/176)
+* Menüplan: Die Tagesüberschriften bleiben beim Scrollen sichtbar. [#180](https://github.com/gcettuzz/chuchipirat/issues/180)
+* Einkaufsliste: Bei der Aktualisierung einer bestehenden Einkaufsliste werden die Markierungen der Checkboxen beibehalten. Abgeänderte Mengen werden angezeigt. [#171](https://github.com/gcettuzz/chuchipirat/issues/171)
+* Einkaufs- und Materialliste: Freitextfelder können erfasst werden, ohne dass dafür ein neues Produkt/Material angelegt werden muss. [#174](https://github.com/gcettuzz/chuchipirat/issues/174)
+* Menüplan: Unter gewissen Umständen kann der Menüplan inkonsistent werden. Mit einem Klick auf [Konsistenzcheck]({% link docs/event/event_settings.md%}#men%C3%BCplan-konsistenzcheck) können gewisse Fehler nun selbstständig behoben werden. [#193](https://github.com/gcettuzz/chuchipirat/issues/193) {::comment}[[event_settings#Menüplan-Konsistenzcheck]]{:/comment}
 
 ### Verbesserungen
-                                                                                                                  
+
 * PDF-Exporte: Alle PDFs (Rezept, Menuplan, Materialliste, Einkaufsliste, Verwendete Rezepte) haben ein neues, einheitliches Design mit Theme-Akzentfarbe.
 * Spenden-UI: Dynamische Kostenaufschlüsselung, FAQ-Link und TWINT-Empfehlungsdialog vor der Zahlung.           
 * Startseite: 2-Spalten-Layout mit Rezeptkarten-Grid, Stats-Sidebar und Leer-Zuständen für alle Sektionen.      
-* Passwort-Sicherheit: Stärkere Validierung bei Registrierung und Passwort-Änderung.                            
+* Passwort-Sicherheit: Stärkere Validierung bei Registrierung und Passwort-Änderung.               
 * Hilfe-Links: Alle Seiten haben nun einen direkten Link zum Helpcenter.                                        
 * SEO: Open-Graph-Tags, Twitter-Cards, JSON-LD-Strukturdaten und Sitemap für öffentliche Seiten.                
 * Mail-Konsole: Bestätigungsdialog vor Massenversand, Empfänger-Chips, Editor/Vorschau nebeneinander, Entwurf-Speicherung und Template-Auswahl. (Community Leader / Admin)
@@ -89,17 +111,7 @@ Diverse technische Aktualisierungen für mehr Stabilität und Sicherheit.
 
 ---
 
-## 1.1.0 — XX.XX.2025
-
-Die Einkaufsliste wurde deutlich verbessert: Abteilungsfilter, Beibehalten von Markierungen und Freitextfelder. Zudem bleibt der Menüplan nun beim Scrollen übersichtlich.
-
-### Neue Funktionen
-
-* Einkaufsliste: Bei der Generierung können nun bestimmte Abteilungen ausgewählt werden. [#176](https://github.com/gcettuzz/chuchipirat/issues/176)
-* Menüplan: Die Tagesüberschriften bleiben beim Scrollen sichtbar. [#180](https://github.com/gcettuzz/chuchipirat/issues/180)
-* Einkaufsliste: Bei der Aktualisierung einer bestehenden Einkaufsliste werden die Markierungen der Checkboxen beibehalten. Abgeänderte Mengen werden angezeigt. [#171](https://github.com/gcettuzz/chuchipirat/issues/171)
-* Einkaufs- und Materialliste: Freitextfelder können erfasst werden, ohne dass dafür ein neues Produkt/Material angelegt werden muss. [#174](https://github.com/gcettuzz/chuchipirat/issues/174)
-* Menüplan: Unter gewissen Umständen kann der Menüplan inkonsistent werden. Mit einem Klick auf [Konsistenzcheck]({% link docs/event/event_settings.md%}#men%C3%BCplan-konsistenzcheck) können gewisse Fehler nun selbstständig behoben werden. [#193](https://github.com/gcettuzz/chuchipirat/issues/193) {::comment}[[event_settings#Menüplan-Konsistenzcheck]]{:/comment}
+## 1.1.0 — 30.03.2026
 
 ### Fehlerbehebungen
 
