@@ -24,6 +24,35 @@ Hier findest du alle Änderungen am chuchipirat. Die neueste Version steht zuobe
 
 ---
 
+## 2.0.3 — 30.08.2026
+Dieser Release behebt einige Fehler, die mit der V.2.0.0 entstanden sind. Zudem wurden alle Referenzen zu Firebase entfernt. 
+### Bugs
+
+**Einkaufsliste**
+* Einen Artikel per Auswahlliste einer anderen Abteilung zuordnen führte zu einem Absturz – behoben.
+* Listen mit einer angefangenen, aber noch nicht fertig ausgefüllten Position (z.B. nur eine Menge eingetippt) liessen sich nicht speichern – behoben.
+* Das Kontextmenü («⋮») und das Löschen eines Artikels konnten abstürzen, wenn die Liste sich gleichzeitig durch eine andere Person änderte – behoben.
+
+**Menüplan**
+* Ein Menüplan liess sich in seltenen Fällen nicht speichern, wenn durch einen Doppelklick ein Mahlzeitentyp doppelt angelegt wurde – behoben, betroffene Pläne speichern jetzt wieder.
+
+**Rezepte**
+* Der Rezept-Editor konnte mit einer weissen Seite abstürzen – behoben.
+* Klarere Hinweise beim Speichern eines Rezepts, wenn Pflichtangaben fehlen (Portionen, Variantenname), statt einer allgemeinen Fehlermeldung.
+
+**Anlässe & Profil**
+* Einige Personen konnten ihre Anlässe, die Anlassübersicht oder ihr Profil nicht laden – behoben.
+* Beim Einladen einer Köchin/eines Kochs über eine unbekannte E-Mail-Adresse erscheint jetzt der konkrete Hinweis statt einer allgemeinen Fehlermeldung.
+* Läuft die Anmeldung während des mehrschrittigen «Neuer Anlass»-Assistenten ab, erscheint jetzt ein klarer Hinweis, sich neu anzumelden.
+
+**Passwort & E-Mail ändern**
+* Hinweise wie «Das neue Passwort muss sich vom alten unterscheiden» werden jetzt sauber angezeigt.
+
+**Stabilität**
+* Verbesserte Echtzeit-Aktualisierung bei schwankender Internetverbindung (Anlass, Menüplan, Einkaufs- und Materiallisten verbinden sich nach einem Unterbruch selbstständig neu).
+
+---
+
 ## 2.0.2 — 26.08.2026
 Behebung diverser kleinerer Fehler und wenige kleine neue Feature.
 
