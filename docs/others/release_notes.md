@@ -23,7 +23,40 @@ permalink: release_notes
 Hier findest du alle Änderungen am chuchipirat. Die neueste Version steht zuoberst.
 
 ---
+## 2.0.4 — 06.09.2026
+Dieser Release behebt weitere Fehler, die mit der V.2.0.0 entstanden sind. 
+### Neue Funktion
+- Gestaffelte Spenden-Meldungen im Feed: Spenden werden im Feed jetzt je nach Betrag mit einem passenden Text gefeiert — von der Schatztruhe bis zur Legende der sieben Meere. 🏴‍
+- Klarer Hinweis bei Verbindungsproblemen: Bricht die Live-Verbindung ab (z.B. schwacher Empfang im Lager), zeigt die App neu einen Hinweis „Verbindung wird wiederhergestellt …". Gelingt die automatische Wiederverbindung nicht, erscheint „Live-Aktualisierung nicht möglich" mit einem Button „Erneut versuchen".
 
+### Bugs     
+**Einkaufsliste**
+* Ein neu hinzugefügter Artikel konnte sofort wieder verschwinden und war danach auf keinem Gerät sichtbar. Ursache war eine Kollision der internen Zeilen-Kennungen zwischen  verschiedenen Listen – behoben. 
+* Beim Eintippen einer Menge und anschliessendem Tab (Wechsel ins nächste Feld) sprang der Cursor aus dem Feld – behoben, der Fokus bleibt jetzt erhalten.
+* Nach der Meldung «Artikel wurde automatisch in den Abschnitt … verschoben» erschien der Artikel kurzzeitig in zwei Abschnitten – behoben.
+* Positionen liessen sich nicht zuverlässig bearbeiten oder löschen und derselbe Artikel tauchte teils mehrfach auf, wenn zwei Personen dieselbe Liste offen hatten – behoben. Änderungen werden jetzt sofort und konfliktfrei gespeichert.
+* Eine laufende Eingabe wird nicht mehr überschrieben, wenn gleichzeitig jemand anderes die
+  Liste ändert.
+* Darstellung im Bearbeitungsmodus auf dem Smartphone verbessert (Mengen- und Einheitenfeld waren zu schmal).
+
+**Materialliste**
+* Änderungen anderer Köch\*innen (Menge, Koch-Zuweisung) werden jetzt live angezeigt – bisher erst nach einem Neuladen. 
+* Editieren und Löschen von Positionen funktioniert jetzt zuverlässig (gleiche Verbesserung wie bei der Einkaufsliste).
+
+**Rezepte**
+* Der Rezept-Editor stürzte in seltenen Fällen ab, wenn Zutaten oder Zubereitungsschritte inkonsistent gespeichert waren – behoben. 
+
+**Menüplan**
+* Der automatische Sprung zum heutigen Tag im Menüplan konnte in Einzelfällen zu einem Absturz führen – behoben.
+
+**Produkte & Materialien**
+* Wird versucht, ein Produkt oder Material zu löschen, das noch in einem Menüplan verwendet wird, zeigt die App jetzt eine verständliche Fehlermeldung statt einer kryptischen Meldung.
+* Ein Material in ein Produkt umzuwandeln schlug komplett fehl, wenn das Material noch in einer Materialliste verwendet wurde – behoben. (Admin / Community Leader)
+
+**Allgemein**
+* Der Feedback-Knopf (rundes Symbol unten rechts) öffnete das Feedback-Formular nicht mehr – behoben.
+
+---
 ## 2.0.3 — 30.08.2026
 Dieser Release behebt einige Fehler, die mit der V.2.0.0 entstanden sind. Zudem wurden alle Referenzen zu Firebase entfernt. 
 ### Bugs
