@@ -22,6 +22,22 @@ permalink: release_notes
 
 Hier findest du alle Änderungen am chuchipirat. Die neueste Version steht zuoberst.
 
+## 2.0.5 — xx.09.2026
+Dieser Release behebt weitere Fehler, die mit der V.2.0.0 entstanden sind.
+### Bugs
+**Rezepte**
+* Der Rezept-Editor konnte in seltenen Fällen mit einer weissen Seite abstürzen – beim Speichern oder während des Bearbeitens einer Zutat, wenn die Zutatenliste intern inkonsistent geworden war (auch beim Anlegen einer Variante). Behoben; die Liste wird
+  jetzt beim Laden und Speichern automatisch bereinigt.
+
+**Einkaufsliste**
+* Im PDF-Export waren die Artikel innerhalb einer Abteilung nicht alphabetisch sortiert wie in der App – behoben.
+
+**Produkte & Materialien** 
+* Beim Umwandeln eines Materials in ein Produkt wurden die im Dialog gewählten Eigenschaften (Fleisch / Vegetarisch / Vegan sowie Laktose / Gluten) nicht übernommen – alle so erstellten Produkte waren «Fleisch» ohne Unverträglichkeiten. Behoben.
+
+**Anlässe**
+* Administrator:innen können jetzt – z.B. für Support – die Einkaufsliste, die Materialliste und die «Verwendeten Rezepte» eines Anlasses einsehen und bearbeiten, auch ohne selbst als Koch/Köchin des Anlasses eingetragen zu sein (wie beim übrigen Anlass-Inhalt bereits der Fall).
+
 ---
 ## 2.0.4 — 06.09.2026
 Dieser Release behebt weitere Fehler, die mit der V.2.0.0 entstanden sind. 
