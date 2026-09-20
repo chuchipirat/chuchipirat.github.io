@@ -22,7 +22,61 @@ permalink: release_notes
 
 Hier findest du alle Änderungen am chuchipirat. Die neueste Version steht zuoberst.
 
-## 2.0.5 — xx.09.2026
+## 2.0.6 — 20.09.2026
+
+In diesem Update haben wir einige Fehler behoben, die in seltenen Fällen zu Abstürzen oder unklaren Fehlermeldungen geführt haben. Vor allem laden die Rezeptübersicht und die Rezeptsuche im Menüplan jetzt viel schneller, auch bei schlechter Verbindung. Ausserdem ist die Startseite etwas schneller geworden und die App verbindet sich nach einer Unterbrechung jetzt selbst wieder. Für System-Admins gibt es neue Hilfsmittel.
+
+### Neue Funktion
+
+**Deploy-Check für System-Admins**
+Unter System gibt es neu den Deploy-Check. Er zeigt, ob gerade ein Lager läuft und wer in den letzten Minuten etwas geändert hat, damit neue Versionen nicht mitten in der Arbeit veröffentlicht werden. Mehr dazu findest du im [Deploy-Check]({% link docs/admin/deploy_readiness.md %}).
+
+### Bugs
+
+**Rezept- und Menüplan-Ansicht konnte abstürzen**
+Wenn eine Diät oder Intoleranz nachträglich aus der Gruppenkonfiguration eines Anlasses gelöscht wurde, konnte die Anzeige des Menüplans (z.B. in der Rezeptansicht) abstürzen, falls noch ein Menüplan-Eintrag auf diese gelöschte Diät/Intoleranz verwies. Die Stelle zeigt jetzt stattdessen "Diät gelöscht" bzw. "Intoleranz gelöscht" an.
+
+**Einkaufs-, Material- oder Verwendete-Rezepte-Liste aktualisieren konnte abstürzen**
+Wurde eine Mahlzeit aus dem Menüplan gelöscht, auf die eine bestehende Liste noch verwies, konnte das erneute Generieren dieser Liste abstürzen. Die gelöschte Mahlzeit wird jetzt einfach übersprungen.
+
+**Menüplan speichern schlug selten fehl**
+Wenn zwei Personen (oder zwei geöffnete Tabs) den Menüplan fast gleichzeitig speicherten, konnte das Speichern in seltenen Fällen mit einem Fehler abbrechen. Gleichzeitige Speicherungen werden jetzt korrekt nacheinander verarbeitet.
+
+**Veralteter Anlass-Link zeigte eine technische Fehlermeldung**
+Ein sehr alter, nicht mehr gültiger Link zu einem Anlass führte zu einer kryptischen Fehlermeldung statt der erwarteten "Anlass nicht gefunden"-Meldung. Behoben.
+
+**Rezeptsuche fand Varianten nicht immer**
+Eine Rezeptvariante ohne Tags liess sich in der Suche nicht über ihren Variantennamen finden. Jetzt wird der Variantenname immer mitgesucht.
+
+### Verbesserungen
+
+**Rezeptübersicht und Rezeptsuche laden schneller**
+Die Rezepte erscheinen jetzt sofort und laden beim Scrollen nach, statt dass du warten musst, bis alle geladen sind. Das merkst du vor allem bei schlechter Verbindung, zum Beispiel im Lager. Das gilt für die Rezeptübersicht und für die Rezeptsuche im Menüplan (dort wird erst geladen, wenn du die Suche öffnest). Auch die Suche selbst ist besser geworden:
+
+* Sie findet Rezepte auch, wenn du Akzente weglässt («hornli» findet «Hörnli»).
+* Du kannst mehrere Wörter eingeben, die Reihenfolge spielt keine Rolle.
+* Suche und Filter gelten für alle Rezepte, nicht nur für die, die schon angezeigt werden.
+* Öffnest du ein Rezept und gehst zurück, sind Suche, Filter und deine Position in der Liste wieder da.
+
+Mehr dazu unter [Rezeptübersicht]({% link docs/recipe/recipes_overview.md %}).
+
+**Startseite lädt schneller**
+Die Vorschaubilder der heutigen Rezepte auf der Startseite werden jetzt in einer einzigen Abfrage statt einzeln nacheinander geladen.
+
+**Automatische Wiederverbindung nach Unterbrechung**
+Wenn du die App länger im Hintergrund hattest (z.B. Tab gewechselt, Laptop im Standby) oder die Internetverbindung kurz weg war, verbindet sich die Live-Synchronisation (Menüplan, Gruppenkonfiguration usw.) jetzt automatisch wieder. Bisher musste man dafür manuell auf "Erneut versuchen" klicken.
+
+**Klarere Meldung bei abgelaufener Sitzung**
+Läuft deine Anmeldung während der Nutzung ab (z.B. nach längerer Inaktivität), zeigt dir die App jetzt eine verständliche Meldung ("Deine Sitzung ist möglicherweise abgelaufen...") mit einem Button zum direkten Neuladen der Seite — statt einer unklaren technischen Fehlermeldung ohne Hinweis, was zu tun ist.
+
+**Mail-Konsole**
+Der Abmelde-Footer lässt sich für Nachrichten an einzelne Personen ausschalten, zum Beispiel für eine persönliche Antwort. Bei einem Versand an eine Rolle bleibt er immer aktiv. Ausserdem ist der Titel der Mail neu optional. Mehr dazu in der [Mail-Konsole]({% link docs/admin/mailconsole.md %}).
+
+**Datenintegrität**
+Anlässe ohne Zeitscheibe lassen sich auf der Seite Datenintegrität jetzt löschen. Neu gibt es dort auch die Prüfung «Events ohne Köch:innen». Zu jedem Anlass siehst du vorher, was darin steckt, und «Alle löschen» erfasst nur leere Anlässe. Ausserdem zeigen die neuen Prüfungen «Rezept-Zutaten ohne Produkt» und «Rezept-Materialien ohne Material», welche Rezepte nachgebessert werden sollten. Mehr dazu unter [Datenintegrität]({% link docs/admin/data_integrity.md %}).
+
+---
+## 2.0.5 — 07.09.2026
 Dieser Release behebt weitere Fehler, die mit der V.2.0.0 entstanden sind.
 ### Bugs
 **Rezepte**

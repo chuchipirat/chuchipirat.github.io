@@ -46,6 +46,7 @@ search_exclude: true
 | User-Überblick             |        ❌         |      ✅       |
 | Mailbox-Übersicht          |        ❌         |      ✅       |
 | Cron-Jobs Übersicht        |        ❌         |      ✅       |
+| Deploy-Check               |        ❌         |      ✅       |
 
 ## Einstellungen
 
@@ -74,7 +75,8 @@ search_exclude: true
 - [Spendenübersicht]({% link docs/admin/donation_overview.md %}) — Übersicht aller eingegangenen Spenden
 - [User-Überblick]({% link docs/admin/users.md %}) — Übersicht aller Benutzer\*innen
 - [Mailbox-Übersicht]({% link docs/admin/mailbox_monitor.md %}) — Übersicht über alle versendeten E-Mails
-{::comment}[[recipe_overview]][[event_overview]][[feed_overview]][[donation_overview]][[users]][[mailbox_monitor]]{:/comment}
+- [Deploy-Check]({% link docs/admin/deploy_readiness.md %}) — prüfen, ob gerade ein Lager läuft oder jemand arbeitet, bevor eine neue Version veröffentlicht wird
+{::comment}[[recipe_overview]][[event_overview]][[feed_overview]][[donation_overview]][[users]][[mailbox_monitor]][[deploy_readiness]]{:/comment}
 
 ## Cron Jobs
 

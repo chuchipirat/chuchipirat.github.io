@@ -22,15 +22,24 @@ nav_order: 1
 
 In der Rezeptübersicht findest du alle öffentlichen und deine privaten Rezepte. Die Anzahl der verfügbaren Rezepte wird dir oberhalb der Ergebnisse angezeigt. Über den Button `Neues Rezept anlegen` kannst du direkt ein neues Rezept erstellen.
 
+Die ersten Rezepte erscheinen sofort, weitere werden nachgeladen, während du nach unten scrollst. So ist die Seite auch bei schlechter Verbindung schnell da. Schlägt das Nachladen fehl (z.B. im Funkloch), erscheint der Button `Mehr Rezepte laden`. Damit versuchst du es erneut.
+
 ![Rezeptübersicht](/docs/recipe/images/recipes_overview.png)
+
+{: .note }
+Öffnest du ein Rezept und gehst zurück, sind deine Suche, die Filter und die Position in der Liste noch da.
 
 ## Suche
 
-Gib im Suchfeld einen Begriff ein, um das gewünschte Rezept zu finden. Neben dem Rezeptnamen werden auch die Tags durchsucht.
+Gib im Suchfeld einen Begriff ein, um das gewünschte Rezept zu finden. Neben dem Rezeptnamen werden auch die Tags und der Name einer Variante durchsucht.
+
+- Grossschreibung und Akzente spielen keine Rolle: «hornli» findet auch «Hörnli».
+- Du kannst mehrere Wörter eingeben. Es werden Rezepte gefunden, die alle Wörter enthalten, in beliebiger Reihenfolge.
+- Beim Tippen siehst du sofort die passenden Rezepte, die schon geladen sind. Gleich danach ergänzt die Suche die übrigen Treffer aus allen Rezepten. Bis dahin steht bei der Anzahl ein `+` (z.B. «3+ Rezepte»).
 
 ### Erweiterte Suche
 
-Über die Schaltfläche `Erweiterte Suche` öffnest du ein Panel mit zusätzlichen Filtermöglichkeiten. Die Ergebnisse passen sich sofort an, wenn du einen Filter aktivierst. Mit `Zurücksetzen` setzt du alle Filter auf die Standardwerte zurück.
+Über die Schaltfläche `Erweiterte Suche` öffnest du ein Panel mit zusätzlichen Filtermöglichkeiten. Die Ergebnisse passen sich an, wenn du einen Filter aktivierst. Filter gelten für alle Rezepte, nicht nur für die schon angezeigten. Mit `Zurücksetzen` setzt du alle Filter auf die Standardwerte zurück.
 
 ![erweiterte Suche](/docs/recipe/images/recipes_advanced_search.png)
 

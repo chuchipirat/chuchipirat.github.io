@@ -1,15 +1,24 @@
-:**
+---
 layout: default
 title: Mail-Konsole
 permalink: docs/admin/mailconsole
 nav_exclude: true
 parent: System
 search_exclude: true
-:**
+---
 # Mail-Konsole
 {: .no_toc }
 
-:**
+<details markdown="block">
+  <summary>
+    Inhalt
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
+---
 
 {: .intern-title }
 > ☠️ Admin-Bereich ☠️
@@ -35,11 +44,27 @@ Mehrere Werte trennst du mit einem Semikolon `;`.
 Wähle zuerst ein **Mail Template** aus dem Dropdown (oder «Leere Vorlage» für eine freie Nachricht). Fülle dann die folgenden Felder aus:
 
 - **Betreff:** Betreffzeile der E-Mail
-- **Titel:** grosse Überschrift im Newsletter
+- **Titel:** grosse Überschrift im Newsletter (optional). Lässt du das Feld leer, beginnt die Mail direkt mit dem Text.
 - **Untertitel:** kurzer Untertitel (optional)
 - **E-Mail Nachricht:** der Haupttext mit Rich-Text-Editor (fett, kursiv, Listen, Links etc.)
 - **Button-Beschriftung:** Text des Buttons (optional)
 - **Link für Button (Ziel):** URL, auf die der Button verlinkt (optional)
+- **Abmelde-Footer anhängen:** Abmeldelink am Ende der Mail, siehe unten. Standardmässig aktiv.
+
+## Abmelde-Footer
+
+Newsletter enthalten am Ende einen Link, über den sich Nutzer\*innen abmelden können. Wer sich abgemeldet hat, bekommt keine Mails mehr aus der Mail-Konsole.
+
+Für eine persönliche Nachricht an eine einzelne Person passt dieser Hinweis nicht. Deshalb kannst du den Footer mit der Checkbox **Abmelde-Footer anhängen** ausschalten. Die Vorschau rechts zeigt dir sofort, ob der Hinweis in der Mail steht.
+
+- **Empfänger E-Mail-Adresse oder User-UID:** Du kannst den Footer ausschalten.
+- **Empfänger Rolle:** Der Footer ist immer aktiv, die Checkbox ist gesperrt. So geht ein Newsletter nie ohne Abmeldelink an viele Personen.
+
+{: .important }
+Ohne Footer wird die Mail auch an Personen gesendet, die sich vom Newsletter abgemeldet haben. Das ist für Direktnachrichten gewollt (z.B. eine Antwort auf eine Anfrage), aber schalte den Footer nur aus, wenn die Mail wirklich eine persönliche Nachricht ist.
+
+{: .highlight }
+Wechselst du die Einstellung, musst du danach erneut eine Test Mail senden. Erst dann wird der Button zum Versenden wieder aktiv.
 
 ## Versenden
 
