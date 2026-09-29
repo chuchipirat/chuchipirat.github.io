@@ -22,6 +22,40 @@ permalink: release_notes
 
 Hier findest du alle Änderungen am chuchipirat. Die neueste Version steht zuoberst.
 
+## 2.0.7 — xx.09.2026
+
+In diesem Update haben wir vor allem Fehler behoben, die zu Abstürzen, unklaren Meldungen oder stillen Fehlschlägen geführt haben. Wenn die Internetverbindung kurz weg ist, sagt dir die App jetzt an mehr Stellen, was los ist, statt einfach nichts zu tun.
+
+### Bugs
+
+**Neue Einkaufsliste erstellen konnte abstürzen**
+Enthielt ein Rezept im Menüplan ein Produkt, das inzwischen nicht mehr verfügbar ist, stürzte das Erstellen einer neuen Einkaufsliste ab. Solche Zutaten werden jetzt übersprungen, die Liste wird trotzdem erstellt.
+
+**Rezept mit nicht mehr verfügbarem Produkt liess sich nicht speichern**
+Beim Speichern eines solchen Rezepts erschien nur die Meldung "Produkt … ist unbekannt.", ohne Hinweis, was zu tun ist. Jetzt steht da, dass das Produkt nicht mehr verfügbar ist und du die Zutat durch ein anderes Produkt ersetzen sollst.
+
+**Rezept bearbeiten konnte abstürzen**
+Hat der Browser das Feld "Menütyp" automatisch ausgefüllt, stürzte die Rezeptbearbeitung ab. Dasselbe konnte beim Menütyp-Filter in der Rezeptübersicht passieren. Beides ist behoben.
+
+**Seiten stürzten ab, wenn chuchipirat ohne "https" geöffnet wurde**
+Wer die Adresse von Hand ohne "https://" eingab, landete auf einer unsicheren Verbindung, auf der manche Seiten (z.B. Rezepte) abstürzten. chuchipirat leitet jetzt immer automatisch auf die sichere Verbindung um.
+
+**Unverständliche Fehlermeldung in der Rezeptliste**
+Konnte die Rezeptliste nicht geladen werden, stand dort nur "[object Object]". Jetzt siehst du eine lesbare Meldung.
+
+### Verbesserungen
+
+**Klare Rückmeldung bei Verbindungsproblemen**
+An einigen Stellen passierte bisher einfach nichts, wenn die Verbindung kurz weg war. Jetzt zeigt dir die App eine Meldung:
+
+* **Herkunft anzeigen** in der Einkaufs- und Materialliste: Konnten die Rezepte nicht geladen werden, öffnete sich der Dialog einfach nicht.
+
+* **Gruppenkonfiguration speichern:** Schlug das Speichern fehl, merkte man nichts davon. Jetzt erscheint eine Meldung, und deine Eingaben bleiben erhalten, damit du es nochmals versuchen kannst.
+
+* **Abmelden:** Ohne Verbindung klappt das Abmelden nicht. Bisher passierte dann einfach nichts, jetzt bekommst du einen Hinweis, dass du es mit Verbindung nochmals versuchen sollst.
+
+* **Produkt in Material umwandeln** (System-Admins): Ein Fehler wird jetzt angezeigt.
+
 ## 2.0.6 — 20.09.2026
 
 In diesem Update haben wir einige Fehler behoben, die in seltenen Fällen zu Abstürzen oder unklaren Fehlermeldungen geführt haben. Vor allem laden die Rezeptübersicht und die Rezeptsuche im Menüplan jetzt viel schneller, auch bei schlechter Verbindung. Ausserdem ist die Startseite etwas schneller geworden und die App verbindet sich nach einer Unterbrechung jetzt selbst wieder. Für System-Admins gibt es neue Hilfsmittel.
