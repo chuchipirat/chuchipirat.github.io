@@ -22,7 +22,29 @@ permalink: release_notes
 
 Hier findest du alle Änderungen am chuchipirat. Die neueste Version steht zuoberst.
 
-## 2.0.7 — xx.09.2026
+## 2.0.8 — 04.11.2026
+
+Dieses Release behebt einige Fehler, die ihr uns gemeldet habt, unter anderem beim Erfassen mehrerer Rezepte hintereinander.
+
+### Bugs
+
+**Rezepte**
+
+- Wenn du mehrere Rezepte nacheinander erstellt hast, waren beim neuen Rezept noch die Zutaten, Zubereitungsschritte und Materialien vom vorherigen eingetragen. Jedes neue Rezept startet jetzt leer.
+- Ein veralteter oder falsch kopierter Link auf ein Rezept zeigt jetzt einen verständlichen Hinweis statt einer Fehlermeldung.
+
+**Registrierung**
+
+- Ein Tipp auf «Nutzungsbedingungen», «Datenschutzerklärung» oder «Passwort vergessen?» hat das Registrierungsformular abgeschickt und eine Fehlermeldung angezeigt. Die Links öffnen jetzt einfach die entsprechende Seite.
+
+### Verbesserungen
+
+**Allgemein**
+
+- Kehrst du auf dem Handy nach längerer Zeit in den chuchipirat zurück, verbindet er sich jetzt automatisch neu. Änderungen der anderen Köch\*innen erscheinen wieder sofort, ohne dass du die Seite neu laden musst.
+- Erschien beim Öffnen der App vereinzelt eine englische Fehlermeldung, siehst du jetzt stattdessen den Hinweis, die Seite neu zu laden.
+
+## 2.0.7 — 28.09.2026
 
 In diesem Update haben wir vor allem Fehler behoben, die zu Abstürzen, unklaren Meldungen oder stillen Fehlschlägen geführt haben. Wenn die Internetverbindung kurz weg ist, sagt dir die App jetzt an mehr Stellen, was los ist, statt einfach nichts zu tun.
 
